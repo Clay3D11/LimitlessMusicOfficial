@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <link rel="shortcut icon" href="./assets/img/eyelooping.gif" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LimitlessMusic Final Project</title>
+  <title>LimitlessMusic.app</title>
+  
   <link rel="stylesheet" href="style.css">
 
   <link rel="stylesheet" href="css/subscribe.css">
@@ -16,8 +17,184 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
+  <!-- Pop up -->
+  <!-- Pop up -->
+  <!-- Pop up -->
+
+  <style>
+    .popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+}
+
+.popup-content {
+    background-color: #fff;
+
+    /* background-image: url(./assets/img/clinclingif-ezgif.com.gif);
+    background-position: center; */
+
+
+
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px; /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+  </style>
+
+
+  <!-- Pre Loader  -->
+  <!-- Pre Loader  -->
+  <!-- Pre Loader  -->
+
+  <style>
+    .loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* background-color: rgba(255, 255, 255, 0.8); */
+
+    background-image: url(./assets/img/lucy.jpg);
+    background-size: contain;
+    background-position: center;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Make sure it covers all content */
+}
+
+.spinner {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.content {
+    display: none; /* Hide content initially */
+    /* padding: 20px; */
+}
+
+
+</style>
+
+
+
 </head>
 <body>
+
+
+
+  <!-- Pop up for visiting user -->
+  <!-- Pop up for visiting user -->
+  <!-- Pop up for visiting user -->
+
+  <div class="popup" id="popup">
+    <div class="popup-content">
+        <span class="close" id="close">&times;</span>
+        <h2>Welcome!</h2>
+        <h2>To</h2>
+        <h7>Limitless Music</h7>
+        
+
+        <p>Thank you for visiting!</p>
+        
+        <br>
+        
+        <p>for subscription:</p>
+        <p>Upload your Music Video and Music(Songs, Complete Albums ETCs)</p>
+        <button data-modal-target="#modalsubscribe" style="font-size: 20px; display: block; color: #0400ff;"  >Subscribe!</button>
+
+
+        <br>
+        <br>
+
+        <h1>Music Video Edditing</h1>
+        <br>
+
+
+        <h1 style="
+                    
+        display: flex; 
+        justify-content: space-around; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #ff0000;
+        text-shadow: 0 0 20px #ff0000, 0 0 40px #bc0000;
+
+        font-size: 20px;
+
+
+        ">30% OFF Music Videos Edits (Expire 2025)</h1>
+
+        <h2 style="color: #51ff00;
+        font-size: 50px;
+        
+        ">●$525.00●</h2>
+
+
+
+
+
+    </div>
+  </div>
+
+
+    <!-- Pre Loader  -->
+    <!-- Pre Loader  -->
+    <!-- Pre Loader  -->
+
+    <div class="loader" id="loader">
+      <div class="spinner"></div>
+    </div>
+
+    <div class="content" id="content">
+        <!-- Your website content goes here -->
+
+        <!-- <h1>Welcome to My Website</h1>
+        <p>This is the main content of your website.</p> -->
+
+
+
+
+<!-- Closing Div is at the end on the code -->
+<!-- Closing Div is at the end on the code -->
+<!-- Closing Div is at the end on the code -->
+    
+
 
 
 
@@ -186,28 +363,34 @@
 
 
 
-      <a href="#playlistLM" style="position: fixed; top: 59%; right: 25px;
 
 
 
-          /* background-image: url(./img/clinclingif-ezgif.com.gif);
+
+
+
+      <!-- <a href="#playlistLM" style="position: fixed; top: 59%; right: 25px;
+
+
+
+          background-image: url(./img/clinclingif-ezgif.com.gif);
           background-position: center;
           background-clip: text;
           -webkit-background-clip: text;
           color: transparent;
-          background-size: contain; */
+          background-size: contain;
 
 
           /* text-shadow: 0 0 20px #ff060600, 0 0 40px #1100ff00; */
 
       
-      "><i class="fa fa-play-circle" aria-hidden="true"></i></a>
+      "><i class="fa fa-play-circle" aria-hidden="true"></i></a> -->
 
 
 
 
 
-      <a href="#topvideo" style="position: fixed; top: 66%; right: 25px;
+      <a href="#topvideo" style="position: fixed; top: 59%; right: 25px;
 
       /* background-image: url(./img/eyelooping.gif);
       background-position: center;
@@ -260,7 +443,7 @@
 
 
 
-      <a href="#contact" style="position: fixed; top: 80%; right: 20px; ">
+      <a href="#contact" style="position: fixed; top: 73%; right: 20px; ">
         <i class="fa fa-handshake-o" aria-hidden="true"></i> </a>
 
 
@@ -306,21 +489,6 @@
     font-size: 50px;
     
     " >Limitless Music</h7>
-
-
-
-
-
-    
-
-
-
-
-
-
-    
-
-    
 
 
 
@@ -467,34 +635,6 @@
         }).render('#paypal-button-container-P-8M693440KJ312780VM4GDVGA'); // Renders the PayPal button
       </script>
     </fieldset>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1613,188 +1753,6 @@
   </section>
 
 
-  <!-- Music PLayer -->
-  <!-- Music PLayer -->
-  <Section style="" >
-
-    
-
-
-
-
-    <!-- Music PLayer MArquee -->
-    <!-- Music PLayer MArquee -->
-    <!-- Music PLayer MArquee -->
-
-
-   
-    <div class="backcard">
-      <div class="videovid">
-        <!-- <h1 style="text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;" >PLay list</h1> -->
-        
-
-
-
-        <div id="playert">
-          <audio id="audio" src=""></audio>
-
-
-          <div id="controls">
-
-
-            <!-- <button id="prev">Prev</button>
-            <button id="play">Play</button>
-            <button id="next">Next</button> -->
-            
-            
-            
-            <!-- <h1 id="prev">Prev</h1>
-            <h1 id="play">Play</h1>
-            <h1 id="next">Next</h1> -->
-
-
-            <h7 id="playlistLM" >Limitless</h7>
-
-            <h1 id="" class="titles" style="
-    
-            display: flex; 
-            justify-content: space-around; 
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            font-weight: 800;
-            
-            text-shadow: 0 0 20px #ffffff00, 0 0 60px #1100ff00;
-
-
-            left: auto;
-          
-            z-index: 0;
-            margin-top: 0;
-            /* color: rgb(255, 255, 255); */
-            font-size: 145px;
-            text-align: center;
-            background-position: center;
-            
-            background-image: url(./assets/img/codigosvid.gif);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            background-size: cover;
-
-
-           letter-spacing: 0;">Music</h1>
-
-
-
-
-
-            <hr style="
-            height: 200px; 
-            background-image: url(./assets/img/codigosvid.gif);
-            background-position: center;
-            
-            
-            
-            " > 
-            
-
-          </div>
-
-
-          <br>
-          <br>
-          <br>
-          <br>
-
-          
-          <h7>Playlist</h7>
-          <br>
-          <h7>Top 10</h7>
-          <br>
-
-
-
-
-          <button id="prev">Prev</button>
-          <button id="play">Play</button>
-          <button id="next">Next</button>
-
-
-            <br>
-            <br>
-            <br>
-
-
-
-
-
-          <div id="playlist">
-            <ol>
-
-              <li><a href="./assets/music/Cirujano4.mp3">Cirujano - mix4</a></li>
-
-              <li><a href="./assets/music/Gunna-Fumean.mp3">Gunna - Fuck U Mean</a></li>
-              
-              <li><a href="./assets/music/UnFlowZaza.mp3">Famelz - Un Flow Zaza</a></li>
-
-              <li><a href="./assets/music/EseTatoo.mp3">Famelz - Tatoo </a></li>
-
-              <li><a href="./assets/music/Cirujano2.mp3">Cirujano-Mix1</a></li>
-
-              <li><a href="./assets/music/Drake-familymatter.mp3">Drake - Family Matter</a></li>
-
-              <li><a href="./assets/music/Euforia.mp3">Euforia - Kendrick Lamar</a></li>
-
-              <li><a href="./assets/music/NotLikeUs.mp3">Kendrick Lamar - Not Like us!</a></li>
-
-              <li><a href="./assets/music/Cirujano3.mp3">Cirujano - Rap Puro</a></li>
-
-
-              <li><a href="./assets/music/Nory-Codigos.mp3">Nory - Codigos</a></li>
-
-              
-            </ol>
-          </div>
-        
-          <!-- add a range input for progress bar -->
-        
-          <input type="range" id="progress" min="0" max="100" value="0">
-
-          <br>
-        
-          <!-- add two span tags for displaying time -->
-        
-          <!-- <span id="current-time">00:00:00</span> /
-          <span id="duration">00:00:00</span> -->
-        
-        </div>
-        
-
-
-
-
-      </div>
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-    
-
-  </Section>
-
-
   <!-- Videos -->
   <!-- Videos -->
   <section class="">
@@ -1819,6 +1777,51 @@
     
     ">ΞΞΞTop VideosΞΞΞ</h2> -->
 
+
+
+
+
+
+            <h1 id="" class="titles" style="
+    
+            display: flex; 
+            justify-content: space-around; 
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: 800;
+            
+            text-shadow: 0 0 20px #ffffff00, 0 0 60px #1100ff00;
+
+
+            left: auto;
+          
+            z-index: 0;
+            margin-top: 0;
+            /* color: rgb(255, 255, 255); */
+            font-size: 100px;
+            text-align: center;
+            background-position: center;
+            
+            background-image: url(./assets/img/codigosvid.gif);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-size: contain;
+
+
+           letter-spacing: 0;">Limitless Music</h1>
+
+
+
+
+
+            <hr style="
+            height: 200px; 
+            background-image: url(./assets/img/codigosvid.gif);
+            background-position: center;
+            
+            
+            
+            " > 
     <br>
     <br>
     <br>
@@ -2060,26 +2063,7 @@
 
 
 
-          <div class="backcard">
-            <div class="cardflow">
-              <!-- <h1 style="text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;" >Un Flow zaza</h1> -->
-              <video class="video" src="./assets/video/UnFlowZaza.mp4" controls muted loop style="z-index: 100;
-        max-width: 100%;
-        margin: 30px auto;
-        margin-left: 30px  auto;
-        
-        padding: 0px;
-        /* border: 1px solid #ddd; */
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        display: flex;
-        justify-content: center;
-        align-items: center;">
-
-              </video>
-            </div>
-
-          </div>
+          
 
 
 
@@ -2513,15 +2497,14 @@
 
 
 
-
+</div>
   
 
 
 
-
-
+  <script src="./js/popup.js"></script>
+ <script src="./js/loader.js"></script>
  <script src="./js/subscribe.js"></script>
- <script src="./js/playlist1.js"></script>
  <script src="./js/textslider.js"></script>
  <script src="./js/modal.js"></script>
  <script src="./js/logos.js"></script>
