@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="style.css">
 
   <link rel="stylesheet" href="css/subscribe.css">
+  <link rel="stylesheet" href="css/popup.css">
 
 
   <link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans:400,600" rel="stylesheet">
@@ -16,60 +17,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-  <!-- Pop up -->
-  <!-- Pop up -->
-  <!-- Pop up -->
-
-  <style>
-    .popup {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1000; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
-}
-
-.popup-content {
-    background-color: #fff;
-
-    /* background-image: url(./assets/img/clinclingif-ezgif.com.gif);
-    background-position: center; */
-
-
-
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 300px; /* Could be more or less, depending on screen size */
-    border-radius: 10px;
-    text-align: center;
-}
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-  </style>
+  
 
 
   <!-- Pre Loader  -->
   <!-- Pre Loader  -->
   <!-- Pre Loader  -->
 
-  <style>
+<style>
     .loader {
     position: fixed;
     top: 0;
@@ -80,7 +35,7 @@
     /* background-color: rgba(255, 255, 255, 0.8); */
 
     background-image: url(./assets/img/lucy.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     
     
@@ -132,11 +87,12 @@
         
 
         <p>Thank you for visiting!</p>
+        <p>This is a marketing and Streaming Platform!</p>
         
         <br>
         
         <p>for subscription:</p>
-        <p>Upload your Music Video and Music(Songs, Complete Albums ETCs)</p>
+        <p>Upload your Music Video and Music(Songs, Complete Albums & more!)</p>
         <button data-modal-target="#modalsubscribe" style="font-size: 20px; display: block; color: #0400ff;"  >Subscribe!</button>
 
 
@@ -160,13 +116,10 @@
 
         ">30% OFF Music Videos Edits (Expire 2025)</h1>
 
-        <h2 style="color: #51ff00;
+        <!-- <h2 style="color: #51ff00;
         font-size: 50px;
         
-        ">●$525.00●</h2>
-
-
-
+        ">●$525.00●</h2> -->
 
 
     </div>
@@ -178,8 +131,33 @@
     <!-- Pre Loader  -->
 
     <div class="loader" id="loader">
-      <div class="spinner"></div>
+      <!-- <div class="spinner"></div> -->
+
+        <!-- lETTERS MARQUEE -->
+        <!-- lETTERS MARQUEE -->
+        <!-- lETTERS MARQUEE -->
+        <div class="marquee">
+          <div class="marquee__group">
+            <span>Urban ➺ Style ➺</span>
+            <span>Rap ➺ HipHop ➺</span>
+            <span>Dembow ➺ Bachata ➺</span>
+
+          </div>
+
+
+
+          <div class="marquee__group" aria-hidden="true">
+            <span>Urban ➺ Style ➺</span>
+            <span>Rap ➺ HipHop ➺</span>
+            <span>Dembow ➺ Bachata ➺</span>
+
+          </div>
+
+
+        </div>
+
     </div>
+    
 
     <div class="content" id="content">
         <!-- Your website content goes here -->
@@ -508,9 +486,7 @@
 
     
     
-    <br>
-    <br>
-    <br>
+    
     <br>
     <br>
     <br>
@@ -545,8 +521,8 @@
 
 
      <!-- Subscribe Button -->
-    <!-- Subscribe Button -->
-    <!-- Subscribe Button -->
+     <!-- Subscribe Button -->
+     <!-- Subscribe Button -->
 
     <button data-modal-target="#modalsubscribe" style="font-size: 20px; display: block;"  >Subscribe!</button>
 
@@ -644,6 +620,8 @@
   </div>
   <div id="overlay"></div>
 
+  <br>
+
 
 
 
@@ -664,6 +642,32 @@
 
 
       </div>
+    </div>
+
+
+
+
+    <!-- lETTERS MARQUEE -->
+    <!-- lETTERS MARQUEE -->
+    <!-- lETTERS MARQUEE -->
+    <div class="marquee">
+      <div class="marquee__group">
+        <span>Urban ➺ Style ➺</span>
+        <span>Rap ➺ HipHop ➺</span>
+        <span>Dembow ➺ Bachata ➺</span>
+
+      </div>
+
+
+
+      <div class="marquee__group" aria-hidden="true">
+        <span>Urban ➺ Style ➺</span>
+        <span>Rap ➺ HipHop ➺</span>
+        <span>Dembow ➺ Bachata ➺</span>
+
+      </div>
+
+
     </div>
 
 
@@ -2412,6 +2416,13 @@
   ">
 
 
+
+
+
+
+
+
+
 <footer class="footer-distributed">
 
   <div class="footer-left">
@@ -2497,12 +2508,12 @@
 
 
 
-</div>
+    </div>
   
 
 
 
-  <script src="./js/popup.js"></script>
+ <script src="./js/popup.js"></script>
  <script src="./js/loader.js"></script>
  <script src="./js/subscribe.js"></script>
  <script src="./js/textslider.js"></script>
