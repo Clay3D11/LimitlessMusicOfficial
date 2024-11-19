@@ -28,20 +28,14 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
-  transition: ease-in-out all 1.5s;
+  transition: ease-in-out all 2s;
   /*height: 100%;
-  */ /*background-color: #111;
-  */
-  -webkit-transition: all 2s;
-  -moz-transition: ease-in-out all 1.5s;
-  -ms-transition: ease-in-out all 1.5s;
-  -o-transition: ease-in-out all 1.5s;
-  -webkit-transition: ease-in-out all 1.5s;
-  
-
-
-
-
+  *//*background-color: #111;
+  */-webkit-transition: all 2s;
+  -moz-transition: ease-in-out all 2s;
+  -ms-transition: ease-in-out all 2s;
+  -o-transition: ease-in-out all 2s;
+  -webkit-transition: ease-in-out all 2s;
 }
 
 
@@ -365,77 +359,7 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* Hero Section */
- /* Hero Section */
- /* Hero Section */
-
-
-
-
+/** SLIDESHOW **/
 /** SLIDESHOW **/
 .slideshow,
 .slideshow:after {
@@ -1276,9 +1200,9 @@ section {
 
 
 
-/* 3rd section */
-/* 3rd section */
-/* 3rd section */
+/* 4th section */
+/* 4th section */
+/* 4th section */
 /* Modal Video Rate */
 /* Modal Video Rate */
 /* Modal Video Rate */
@@ -1525,24 +1449,7 @@ border-radius: 10px;
 position: relative;
 }
 
-.cardflow {
-color: white;
-margin: 0 auto;
-padding: 1em;
-width: 400px;
-/* background: #1c1f2b; */
-background-image: url(./assets/img/UnFlowZaza.gif);
-background-position: center;
-background-size: cover;
 
-text-align: center;
-border-radius: 10px;
--webkit-border-radius: 20px;
--moz-border-radius: 10px;
--ms-border-radius: 10px;
--o-border-radius: 10px;
-position: relative;
-}
 
 .cardwow {
 color: white;
