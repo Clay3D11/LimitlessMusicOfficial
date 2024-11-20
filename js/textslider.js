@@ -1,11 +1,9 @@
 var sliderIndex = 0;
 var sliderItems = [
-    "LimitlessMusic",
-    "Music Artists",
+    "Limitless",
+    "Music",
     "Subscribe",
     "Urban Style",
-    "Brand Owners",
-    "Hottest Merch",
     "Visit Store",
 
 ];
