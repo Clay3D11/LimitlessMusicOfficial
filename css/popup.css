@@ -13,6 +13,10 @@
 
 .popup-content {
   background-color: #fff;
+  background-image: url(/LimitlessMusic.app/LimitlessMusic.app/assets/img/eyelooping.gif);
+  background-position: center;
+  background-size: cover;
+  
 
   /* background-image: url(./assets/img/clinclingif-ezgif.com.gif);
   background-position: center; */
@@ -28,9 +32,9 @@
 }
 
 .close {
-  color: #aaa;
+  color: #ff0000;
   float: right;
-  font-size: 28px;
+  font-size: 38px;
   font-weight: bold;
 }
 
