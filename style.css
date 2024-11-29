@@ -556,3 +556,46 @@ animation: 3s;
   -o-transition: all 2s ease;
 }
 }
+
+
+
+
+
+
+
+
+/* Animation spinner */
+/* Animation spinner */
+/* Animation spinner */
+
+
+
+.spinner {
+  animation-name: spinner;
+  -webkit-animation-name: spinner;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.spinner {
+  animation-timing-function: linear;
+  animation-duration: 10s;
+}
+@-webkit-keyframes spinner {
+  from {
+    -webkit-transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spinner {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
