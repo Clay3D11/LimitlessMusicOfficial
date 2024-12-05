@@ -23,6 +23,38 @@ html {
   -webkit-transition: ease-in-out all 2s;
 }
 
+/* Fade in when scroll into view */
+/* Fade in when scroll into view */
+/* Fade in when scroll into view */
+
+section > h2 {
+  animation: fade-in linear;
+  -webkit-animation: fade-in linear;
+  animation-timeline: view();
+  animation-range-start: cover;
+  animation-range-end: 500px;
+}
+section > h1 {
+  animation: fade-in linear;
+  -webkit-animation: fade-in linear;
+  animation-timeline: view();
+  animation-range-start: cover;
+  animation-range-end: 500px;
+}
+
+section > button {
+  animation: fade-in linear;
+  -webkit-animation: fade-in linear;
+  animation-timeline: view();
+  animation-range-start: cover;
+  animation-range-end: 700px;
+}
+
+@keyframes fade-in {
+  from {scale: .10; opacity: 0;}
+  to {scale: 1; opacity: 1;}
+}
+
 
 
 
