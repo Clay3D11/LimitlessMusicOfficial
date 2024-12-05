@@ -6,11 +6,11 @@
 
 body{
   font-family: 'outfit';
-  /* background: linear-gradient(#ffdad5, #fff7f9); */
-  background-image: repeating-conic-gradient(#ffffff 0% 25%, #000000 0% 50%);
+  background: linear-gradient(#000000, #505050);
+  /* background-image: repeating-conic-gradient(#ffffff 0% 25%, #000000 0% 50%);
   background-position: 0 0, 32px 32px;
   background-size: 64px 64px;
-  background-color: #000000;
+  background-color: #000000; */
 
 
 
@@ -104,7 +104,7 @@ body{
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
-  background: linear-gradient(270deg, #ff994f, #fa6d86);
+  background: linear-gradient(100deg, #ff0000, #2f00ff);
   cursor: pointer;
 }
 
