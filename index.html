@@ -22,6 +22,8 @@
   <link rel="stylesheet" href="css/flippingartistcard.css">
 
   <link rel="stylesheet" href="css/musicplayer.css">
+
+  <link rel="stylesheet" href="css/musicplayermodal.css">
   
   
 
@@ -34,6 +36,58 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
+
+
+
+
+
+  <!-- Pre Loader  -->
+  <!-- Pre Loader  -->
+  <!-- Pre Loader  -->
+
+
+<style>
+    .loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* background-color: rgba(255, 255, 255, 0.8); */
+
+    background-image: url(./assets/img/lucy.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Make sure it covers all content */
+}
+
+.spinner1 {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.content {
+    display: none; /* Hide content initially */
+    /* padding: 20px; */
+}
+
+
+</style>
 
 
 
@@ -191,9 +245,9 @@
           <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
 
 
-          <!-- <li><a href=""><i class="fa fa-users" aria-hidden="true" ></i></a></li> -->
+          <!-- <li><a href="#subscribe"><i class="fa fa-users" aria-hidden="true" ></i></a></li> -->
 
-          <li><a href="#contact"><i class="fa fa-cc-paypal" aria-hidden="true"></i></a></li>
+          <!-- <li><a href="#contact"><i class="fa fa-cc-paypal" aria-hidden="true"></i></a></li> -->
 
 
           <li><a href="#getintouch"><i class="fa fa-handshake-o" aria-hidden="true"></i></a></li>
@@ -221,6 +275,9 @@
       
       
       "><i class="fa fa-music" aria-hidden="true"></i></a>
+
+
+
 
       <a href="#topvideo" style="position: fixed; top: 59%; right: 25px;
 
@@ -355,7 +412,7 @@
   <!-- Subscribe Marquee -->
   <div>
 
-    <marquee behavior="ease-in-out" direction="right" style="width: 100%;
+    <marquee id="#subscribe" behavior="ease-in-out" direction="right" style="width: 100%;
     font-size: 40px;
     color: #ffffff;
     text-shadow: 0 0 2px #00fffb, 0 0 20px #0400ff;
@@ -476,6 +533,8 @@
 
     <button data-modal-target="#modalsubscribe" style="font-size: 20px; display: block;"  >Subscribe!</button>
 
+
+
     <div class="modalsubscribe" id="modalsubscribe">
         <div class="modalsubscribe-header">
           <div class="title" style=" color: #fff; text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff, 0 0 35px #228dff, 0 0 40px #228dff;" >Limitless Music</div>
@@ -562,6 +621,8 @@
 
 
   </div>
+
+
 
 
  
@@ -1503,440 +1564,176 @@
 
 
 
-    <!-- Track artist Flipping Card -->
-    <!-- Track artist Flipping Card -->
-
-    <div class="contentartist">
-
-
-      <h1 class="heading">Card Flip</h1>
-
-
-      <!-- <p class="description">Hover over a card to flip it.</p>
-      <p class="description">Get to know up coming artist.</p> -->
-      
-      <a class="card" href="#!">
-
-
-      <div class="front" style="background-image: url(./assets/img/god.png)">
-        <!-- <p>Fa Melz</p> -->
-      </div>
-
-      <div class="back" style="background-image: url(./assets/img/eyelooping.gif); background-position: center; background-size: contain;" >
-        <div>
-          <!-- <p>Lattest Album</p> -->
-          <!-- <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p> -->
-          <!-- <button class="buttonartistcard">Click Here</button> -->
-        </div>
-
-      </div></a><a class="card" href="#!">
-
-
-
-
-
-
-
-      <div class="front" style="background-image: url(./assets/img/heaven.png)">
-        <!-- <p>Nory Money</p> -->
-      </div>
-
-      <div class="back" style="background-image: url(./assets/img/sky.png); background-position: center; background-size: cover; ">
-        <div>
-          <!-- <p>Lattest Album</p> -->
-          <!-- <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p> -->
-          <!-- <button class="buttonartistcard">Click Here</button> -->
-        </div>
-      </div></a><a class="card" href="#!">
-
-
-
-
-
-
-
-      <div class="front" style="background-image: url(./assets/img/metallic.png)">
-        <!-- <p>Clainer Ventura</p> -->
-      </div>
-      <div class="back" style="background-image: url(./assets/img/lucy.jpg); background-position: center; background-size: cover; " >
-        <div>
-          <!-- <p>Developer</p> -->
-          <!-- <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p> -->
-          <!-- <button class="button">Click Here</button> -->
-        </div>
-      </div></a>
-      
-      <!-- <a class="card" href="#!"> -->
-
-          
-        
-
-    </div></a>
-
     
 
-  </section>
 
-  <!-- Albums -->
-  <!-- Albums -->
-  <div>
-    <h2 class="titles" style="
-  
-            display: flex; 
-            justify-content: space-around; 
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            font-weight: 800;
-            
-            text-shadow: 0 0 20px #ffffff00, 0 0 60px #1100ff00;
+    <button class="show-modal-btn"  style="font-size: 20px; display: block;">Hottest Albums</button>
 
 
-            left: auto;
-          
-            z-index: 0;
-            margin-top: 0;
-            /* color: rgb(255, 255, 255); */
-            font-size: 135px;
-            text-align: center;
-            background-position: center;
-            
-            background-image: url(./assets/img/Concert1.gif);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            background-size: contain;
-
-            letter-spacing: 0;">Albums</h2>
-  </div>
-
-
-  <!-- Albums Covers -->
-  <!-- Albums Covers -->
-  <section>
-
-    <!-- Albums Covers -->
-    <!-- Albums Covers -->
-    <div class="cover-score-wrapper ">
-
-
-      <div class="containeralbums">
-    
-    
-        <div class="cover-score" style="opacity: 1;">
-            
-          <!-- Jay Z -->
-          <div class="cover" style="width: 120px;">
-
-            
-
-            <div class="shelf"></div>
-            <div class="shelf-shadow"></div>
-            <div class="cover-img cover-img-active" data-shadow-color="16,26,64" style="height: 120px; transform: perspective(730px) rotateX(14deg) rotateY(-1deg); box-shadow: rgba(16, 26, 64, 0) 0px 0px 1px, rgba(16, 26, 64, 0.1) -4px 1px 3px, rgba(16, 26, 64, 0.1) -11px 4px 6px, rgba(16, 26, 64, 0.1) -22px 8px 10px, rgba(16, 26, 64, 0.1) -37px 14px 15px, rgba(16, 26, 64, 0.1) -57px 21px 21px;">
-              <div class="plastic" style="transform: translate(-1px, 0px);"></div>
+    <!-- <button class="show-modal-btn">Music PLayer</button> -->
+    <div class="bottom-sheet-container">
       
-              
-              <!-- <div class="image-card" style="background-image:url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/jayz.gif); background-size: cover;"></div> -->
-      
-              <!-- <div style="background-image: url(https://i.scdn.co/image/ab67616d0000b2732a0e1044519b4da374703952);" class="img-fake"></div> -->
+      <div class="sheet-overlay"></div>
 
-              
+        <div class="sheet-content">
 
-
-              
-
-              
-              
-              
-              
-      
-              <div class="cd" style="z-index: -2;"><audio src=""></audio></div>
-            </div>
-            
+          <div class="sheet-header">
+            <div class="drag-icon"><span></span></div>
           </div>
-      
-          
-          <!-- Metro Boomin -->
-          <div class="cover" style="width: 120px;">
-            <div class="shelf"></div>
-            <div class="shelf-shadow"></div>
-            <div class="cover-img cover-img-active" data-shadow-color="16,26,64" style="height: 120px; transform: perspective(730px) rotateX(14deg) rotateY(-1deg); box-shadow: rgba(16, 26, 64, 0) 0px 0px 1px, rgba(16, 26, 64, 0.1) -4px 1px 3px, rgba(16, 26, 64, 0.1) -11px 4px 6px, rgba(16, 26, 64, 0.1) -22px 8px 10px, rgba(16, 26, 64, 0.1) -37px 14px 15px, rgba(16, 26, 64, 0.1) -57px 21px 21px;">
-              <div class="plastic" style="transform: translate(-1px, 0px);"></div>
-      
-              
-              <!-- <div class="image-card" style="background-image:url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/metroboomin2.gif); background-size: cover;"></div> -->
-      
-              <!-- <div style="background-image: url(https://assets.codepen.io/4927073/316743021_465848998921282_3524130263655009747_n.jpg);" class="img-fake"></div> -->
-              
-              
-      
-              <div class="cd" style="z-index: -2;"></div>
-            </div>
-          </div>
-      
-          
-          <!-- Take Care Drake -->
-          <div class="cover" style="width: 120px;">
-            <div class="shelf"></div>
-            <div class="shelf-shadow"></div>
-            <div class="cover-img cover-img-active" data-shadow-color="16,26,64" style="height: 120px; transform: perspective(730px) rotateX(14deg) rotateY(-1deg); box-shadow: rgba(16, 26, 64, 0) 0px 0px 1px, rgba(16, 26, 64, 0.1) -4px 1px 3px, rgba(16, 26, 64, 0.1) -11px 4px 6px, rgba(16, 26, 64, 0.1) -22px 8px 10px, rgba(16, 26, 64, 0.1) -37px 14px 15px, rgba(16, 26, 64, 0.1) -57px 21px 21px;">
-              <div class="plastic" style="transform: translate(-1px, 0px);"></div>
-      
-              
-              <!-- <div class="image-card" style="background-image:url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/drake4.gif); background-size: cover;"></div> -->
-      
-              <!-- <div style="background-image: url();" class="img-fake"></div> -->
-              
-              
-              
-      
-              <div class="cd" style="z-index: -2;"></div>
-            </div>
-          </div>
-      
-          
-          <!-- Metro Boomin 2 -->
-          <div class="cover" style="width: 120px;">
-            <div class="shelf"></div>
-            <div class="shelf-shadow"></div>
-            <div class="cover-img cover-img-active" data-shadow-color="16,26,64" style="height: 120px; transform: perspective(730px) rotateX(14deg) rotateY(-1deg); box-shadow: rgba(16, 26, 64, 0) 0px 0px 1px, rgba(16, 26, 64, 0.1) -4px 1px 3px, rgba(16, 26, 64, 0.1) -11px 4px 6px, rgba(16, 26, 64, 0.1) -22px 8px 10px, rgba(16, 26, 64, 0.1) -37px 14px 15px, rgba(16, 26, 64, 0.1) -57px 21px 21px;">
-              <div class="plastic" style="transform: translate(-1px, 0px);"></div>
-      
-              <!-- <div class="image-card" style="background-image:url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/metroboomin4.gif); background-size: cover; filter: brightness(1.25) saturate(1.25); background-position: 50% 50%;"></div> -->
-      
-              <!-- <div style="background-image: url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/metroboomin4.gif);" class="img-fake"></div> -->
-      
-              <div class="cd"></div>
-            </div>
-          </div>
-      
-          <!-- Chris Brown New -->
-          <div class="cover" style="width: 120px;">
-            <div class="shelf"></div>
-            <div class="shelf-shadow"></div>
-            <div class="cover-img cover-img-active" data-shadow-color="16,26,64" style="height: 120px; transform: perspective(730px) rotateX(14deg) rotateY(-1deg); box-shadow: rgba(16, 26, 64, 0) 0px 0px 1px, rgba(16, 26, 64, 0.1) -4px 1px 3px, rgba(16, 26, 64, 0.1) -11px 4px 6px, rgba(16, 26, 64, 0.1) -22px 8px 10px, rgba(16, 26, 64, 0.1) -37px 14px 15px, rgba(16, 26, 64, 0.1) -57px 21px 21px;">
-              <div class="plastic" style="transform: translate(-1px, 0px);"></div>
-      
-              <!-- <div class="image-card" style="background-image:url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/travisscott.gif); background-size: cover; background-position: 50% 50%;"></div> -->
-      
-              <!-- <div style="background-image: url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/travisscott.gif);" class="img-fake"></div> -->
-      
-              <div class="cd" style="z-index: -2;"></div>
-            </div>
-          </div>
-      
-          
-          <!-- 21 Savage -->
-          <div class="cover" style="width: 120px;">
-            <div class="shelf"></div>
-            <div class="shelf-shadow"></div>
-            <div class="cover-img cover-img-active" data-shadow-color="16,26,64" style="height: 120px; transform: perspective(730px) rotateX(14deg) rotateY(-1deg); box-shadow: rgba(16, 26, 64, 0) 0px 0px 1px, rgba(16, 26, 64, 0.1) -4px 1px 3px, rgba(16, 26, 64, 0.1) -11px 4px 6px, rgba(16, 26, 64, 0.1) -22px 8px 10px, rgba(16, 26, 64, 0.1) -37px 14px 15px, rgba(16, 26, 64, 0.1) -57px 21px 21px;">
-              <div class="plastic" style="transform: translate(-1px, 0px);"></div>
-      
-              
-                <!-- <div class="image-card" style="background-image:url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/21sav_min.gif); background-size: cover;"></div> -->
-      
-              <!-- <div style="background-image: url(https://i.scdn.co/image/ab67616d0000b273bbdceba2bf1867d4966d0347);" class="img-fake"></div> -->
-              
-              
-      
-              <div class="cd" style="z-index: -2;"></div>
-            </div>
-          </div>
-      
-          
-        
-          <!-- Mac Miller -->
-          <div class="cover" style="width: 120px;">
-            <div class="shelf"></div>
-            <div class="shelf-shadow"></div>
-            <div class="cover-img cover-img-active" data-shadow-color="16,26,64" style="height: 120px; transform: perspective(730px) rotateX(14deg) rotateY(-1deg); box-shadow: rgba(16, 26, 64, 0) 0px 0px 1px, rgba(16, 26, 64, 0.1) -4px 1px 3px, rgba(16, 26, 64, 0.1) -11px 4px 6px, rgba(16, 26, 64, 0.1) -22px 8px 10px, rgba(16, 26, 64, 0.1) -37px 14px 15px, rgba(16, 26, 64, 0.1) -57px 21px 21px;">
-              <div class="plastic" style="transform: translate(-1px, 0px);"></div>
-      
-              
-                <!-- <div class="image-card" style="background-image:url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/gunna.gif); background-size: cover;"></div> -->
-      
-              <!-- <div style="background-image: url(https://i.scdn.co/image/ab67616d0000b273017d5e26552345c4b1575b6c);" class="img-fake"></div> -->
-              
-      
-              <div class="cd"></div>
-            </div>
-          </div>
-      
-          
-          <!--Erase your Social -->
-          <div class="cover" style="width: 120px;">
-            <div class="shelf"></div>
-            <div class="shelf-shadow"></div>
-            <div class="cover-img cover-img-active" data-shadow-color="16,26,64" style="height: 120px; transform: perspective(730px) rotateX(14deg) rotateY(-1deg); box-shadow: rgba(16, 26, 64, 0) 0px 0px 1px, rgba(16, 26, 64, 0.1) -4px 1px 3px, rgba(16, 26, 64, 0.1) -11px 4px 6px, rgba(16, 26, 64, 0.1) -22px 8px 10px, rgba(16, 26, 64, 0.1) -37px 14px 15px, rgba(16, 26, 64, 0.1) -57px 21px 21px;">
-              <div class="plastic" style="transform: translate(-1px, 0px);"></div>
-      
-              
-              <!-- <div class="image-card" style="background-image:url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/erasesocial.gif); background-size: cover;"></div> -->
-      
-              <!-- <div style="background-image: url(https://i.scdn.co/image/ab67616d0000b2732143db1c88358d70dd898aa3);" class="img-fake"></div> -->
-              
-              
-              
-              
-      
-              <div class="cd"></div>
-            </div>
-          </div>
-          
-          
-          <!-- Post Malone -->
-          <!-- <div class="cover" style="width: 120px;">
-            <div class="shelf"></div>
-            <div class="shelf-shadow"></div>
-            <div class="cover-img cover-img-active" data-shadow-color="16,26,64" style="height: 120px; transform: perspective(730px) rotateX(14deg) rotateY(-1deg); box-shadow: rgba(16, 26, 64, 0) 0px 0px 1px, rgba(16, 26, 64, 0.1) -4px 1px 3px, rgba(16, 26, 64, 0.1) -11px 4px 6px, rgba(16, 26, 64, 0.1) -22px 8px 10px, rgba(16, 26, 64, 0.1) -37px 14px 15px, rgba(16, 26, 64, 0.1) -57px 21px 21px;">
-              <div class="plastic" style="transform: translate(-1px, 0px);"></div>
-      
-              
-              <div class="image-card" style="background-image:url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/postmalone.gif); background-size: cover;"></div>
-      
-              <div style="background-image: url(https://i.scdn.co/image/ab67616d0000b273b1c4b76e23414c9f20242268);" class="img-fake"></div>
-              
-              
-      
-              <div class="cd"></div>
-            </div>
-          </div> -->
-      
-          <!-- Young Thug -->
-          <!-- <div class="cover" style="width: 120px;">
-            <div class="shelf"></div>
-            <div class="shelf-shadow"></div>
-            <div class="cover-img cover-img-active" data-shadow-color="16,26,64" style="height: 120px; transform: perspective(730px) rotateX(14deg) rotateY(-1deg); box-shadow: rgba(16, 26, 64, 0) 0px 0px 1px, rgba(16, 26, 64, 0.1) -4px 1px 3px, rgba(16, 26, 64, 0.1) -11px 4px 6px, rgba(16, 26, 64, 0.1) -22px 8px 10px, rgba(16, 26, 64, 0.1) -37px 14px 15px, rgba(16, 26, 64, 0.1) -57px 21px 21px;">
-              <div class="plastic" style="transform: translate(-1px, 0px);"></div>
-      
-              
-              <div class="image-card" style="background-image:url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/punk.gif); background-size: cover;"></div>
-      
-              <div style="background-image: url(https://i.scdn.co/image/ab67616d0000b273f8d415dab5ed7e3747bd38dd);" class="img-fake"></div>
-              
-      
-              <div class="cd"></div>
-            </div>
-          </div> -->
-      
-          
-          <!-- YG -->
-          <!-- <div class="cover" style="width: 120px;">
-            <div class="shelf"></div>
-            <div class="shelf-shadow"></div>
-            <div class="cover-img cover-img-active" data-shadow-color="16,26,64" style="height: 120px; transform: perspective(730px) rotateX(14deg) rotateY(-1deg); box-shadow: rgba(16, 26, 64, 0) 0px 0px 1px, rgba(16, 26, 64, 0.1) -4px 1px 3px, rgba(16, 26, 64, 0.1) -11px 4px 6px, rgba(16, 26, 64, 0.1) -22px 8px 10px, rgba(16, 26, 64, 0.1) -37px 14px 15px, rgba(16, 26, 64, 0.1) -57px 21px 21px;">
-              <div class="plastic" style="transform: translate(-1px, 0px);"></div>
-      
-              <div class="image-card" style="background-image:url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/yg.gif); background-size: cover;"></div>
-      
-              <div style="background-image: url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/yg.gif);" class="img-fake"></div>
-      
-              <div class="cd"></div>
-            </div>
-          </div> -->
-      
-        
-      
-          <!-- Metro x 21 Savage -->
-          <!-- <div class="cover" style="width: 120px;">
-            <div class="shelf"></div>
-            <div class="shelf-shadow"></div>
-            <div class="cover-img cover-img-active" data-shadow-color="16,26,64" style="
-            height: 120px; 
-            transform: perspective(730px) rotateX(14deg) rotateY(-1deg);
 
-            box-shadow: rgba(16, 26, 64, 0) 0px 0px 1px, rgba(16, 26, 64, 0.1) -4px 1px 3px, rgba(16, 26, 64, 0.1) -11px 4px 6px, rgba(16, 26, 64, 0.1) -22px 8px 10px, rgba(16, 26, 64, 0.1) -37px 14px 15px, rgba(16, 26, 64, 0.1) -57px 21px 21px;">
-              
-              <div class="plastic" style="transform: translate(-1px, 0px);"></div>
-      
-              <div class="image-card" style="background: url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/21xmetro.gif) no-repeat -9999px -9999px;background-size: cover;background-position: bottom left;"></div>
-      
-              <div style="background-image: url(https://i.scdn.co/image/ab67616d0000b2730a6f4e78a01fd779ebaace83);" class="img-fake"></div>
-              
-              
-              
-      
-              <div class="cd"></div>
-            </div>
-          </div> -->
-          
-          
-          <!-- Drake -->
-          <!-- <div class="cover" style="width: 120px;">
-            <div class="shelf"></div>
-            <div class="shelf-shadow"></div>
-            <div class="cover-img cover-img-active" data-shadow-color="16,26,64" style="height: 120px; transform: perspective(730px) rotateX(14deg) rotateY(-1deg); box-shadow: rgba(16, 26, 64, 0) 0px 0px 1px, rgba(16, 26, 64, 0.1) -4px 1px 3px, rgba(16, 26, 64, 0.1) -11px 4px 6px, rgba(16, 26, 64, 0.1) -22px 8px 10px, rgba(16, 26, 64, 0.1) -37px 14px 15px, rgba(16, 26, 64, 0.1) -57px 21px 21px;">
-              <div class="plastic" style="transform: translate(-1px, 0px);"></div>
-      
-              
-              
-              
-              <div class="image-card" style="background: url(https://assets.codepen.io/4927073/0_drakeir-ezgif.com-optimize.gif) no-repeat -9999px -9999px;background-size: cover;background-position: bottom left; filter: brightness(1.25) saturate(1.25);"></div>
-              
-              <div style="background-image: url(https://assets.codepen.io/4927073/0_drakeir-ezgif.com-optimize.gif);" class="img-fake"></div>
-              
-              
-              
-              
-              <div class="cd"></div>
-            </div>
-          </div> -->
-          
-          
-          <!-- Kanye Graduation -->
-          <!-- <div class="cover" style="width: 120px;">
-            <div class="shelf"></div>
-            <div class="shelf-shadow"></div>
-            <div class="cover-img cover-img-active" data-shadow-color="16,26,64" style="height: 120px; transform: perspective(730px) rotateX(14deg) rotateY(-1deg); box-shadow: rgba(16, 26, 64, 0) 0px 0px 1px, rgba(16, 26, 64, 0.1) -4px 1px 3px, rgba(16, 26, 64, 0.1) -11px 4px 6px, rgba(16, 26, 64, 0.1) -22px 8px 10px, rgba(16, 26, 64, 0.1) -37px 14px 15px, rgba(16, 26, 64, 0.1) -57px 21px 21px;">
-              
-              <div class="plastic" style="transform: translate(-1px, 0px);"></div>
-      
-              <div class="image-card" style="background-image:url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/graduation.gif); background-size: cover;"></div>
-      
-              <div style="background-image: url(https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a);" class="img-fake"></div>
-              
-              
-      
-              <div class="cd"></div>
-            </div>
-          </div> -->
-          
+          <div class="sheet-body">
 
-          <!-- ADD Artist -->
-          <!-- <div class="cover" style="width: 120px;">
-            <div class="shelf"></div>
-            <div class="shelf-shadow"></div>
-            <div class="cover-img cover-img-active" data-shadow-color="16,26,64" style="height: 120px; transform: perspective(730px) rotateX(14deg) rotateY(-1deg); box-shadow: rgba(16, 26, 64, 0) 0px 0px 1px, rgba(16, 26, 64, 0.1) -4px 1px 3px, rgba(16, 26, 64, 0.1) -11px 4px 6px, rgba(16, 26, 64, 0.1) -22px 8px 10px, rgba(16, 26, 64, 0.1) -37px 14px 15px, rgba(16, 26, 64, 0.1) -57px 21px 21px;">
-              <div class="plastic" style="transform: translate(-1px, 0px);"></div>
-      
-              <div class="image-card" style="background-image:url(https://raw.githubusercontent.com/hluebbering/web-design/main/assets/images/juicewrld.gif); background-size: cover;"></div>
-      
-              <div style="background-image: url(https://i.scdn.co/image/ab67616d0000b2733e0698e4ae5ffb82a005aeeb);" class="img-fake"></div>
+
+
+            <!-- <h2 class="" style="
+              display: flex; justify-content: space-around; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-shadow: 0 0 20px #ff0000, 0 0 40px #0081bc;
+
+
+              left: auto;
+              /* bottom: 32px; */
+              z-index: 0;
+              margin-top: 0;
+              color: rgb(255, 0, 0);
+
+
+              background-image: url(./img/transstars.gif);
+              background-position: center;
+
+
               
+              font-size: 6vw;
+              text-align: center;
+              letter-spacing: 0;">ΞΞΞPlaylistΞΞΞ</h2> -->
+
+
+            <!-- <h2 class="titles" style="
+                display: flex; 
+                justify-content: space-around; 
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+                
+                text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000f3;
+
+
+                left: auto;
               
+                z-index: 0;
+                margin-top: 0;
+                color: rgb(255, 255, 255);
+                font-size: 8vw;
+                text-align: center;
+                
+                
+                
+                /* background-position: center;
+                
+                background-image: url(./img/clinclingif-ezgif.com.gif);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                background-size: contain; */
+
+            letter-spacing: 0;">◆P♪aylist◆</h2> -->
+
+
+
+            <!-- Track artist Flipping Card -->
+            <!-- Track artist Flipping Card -->
+
+            <div class="contentartist">
+
+
+              <!-- <h1 class="heading">Card Flip</h1> -->
+
+
+              <!-- <p class="description">Hover over a card to flip it.</p>
+              <p class="description">Get to know up coming artist.</p> -->
               
-      
-              <div class="cd"></div>
-            </div>
-          </div> -->
-          
-            
-            
-        
+              <a class="card" href="#!">
+
+
+              <div class="front" style="background-image: url(./assets/img/fa-melz1.png)">
+                <!-- <p>Fa Melz</p> -->
+              </div>
+
+              <div class="back" style="background-image: url(./assets/img/eyelooping.gif); background-position: center; background-size: contain;" >
+                <div>
+                  <!-- <p>Lattest Album</p> -->
+                  <!-- <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p> -->
+                  <!-- <button class="buttonartistcard">Click Here</button> -->
+                </div>
+
+              </div></a><a class="card" href="#!">
+
+
+
+
+
+
+
+              <div class="front" style="background-image: url(./assets/img/heaven.png)">
+                <!-- <p>Nory Money</p> -->
+              </div>
+
+              <div class="back" style="background-image: url(./assets/img/sky.png); background-position: center; background-size: cover; ">
+                <div>
+                  <!-- <p>Lattest Album</p> -->
+                  <!-- <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p> -->
+                  <!-- <button class="buttonartistcard">Click Here</button> -->
+                </div>
+              </div></a><a class="card" href="#!">
+
+
+
+
+
+
+
+              <div class="front" style="background-image: url(./assets/img/metallic.png)">
+                <!-- <p>Clainer Ventura</p> -->
+              </div>
+              <div class="back" style="background-image: url(./assets/img/lucy.jpg); background-position: center; background-size: cover; " >
+                <div>
+                  <!-- <p>Developer</p> -->
+                  <!-- <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p> -->
+                  <!-- <button class="button">Click Here</button> -->
+                </div>
+              </div></a>
+              
+              <!-- <a class="card" href="#!"> -->
+
+                  
+                
+
+            </div></a>
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+
         </div>
-      
-      
-      </div>
-
     </div>
 
+    
 
   </section>
 
 
 
+
+
+
   <!-- Videos -->
   <!-- Videos -->
-  <section class="">
+  <section id="" class="">
     <!-- Top Videos -->
     <!-- Top Videos -->
     <!-- Top Videos -->
@@ -1998,7 +1795,7 @@
     
     " >  -->
     
-    <h2 class="titles" style="
+    <h2 id="#topvideo" class="titles" style="
     
     display: flex; 
     justify-content: space-around; 
@@ -2508,17 +2305,18 @@
 
 
 
-
-
+  
   <!-- Music Player -->
   <!-- Music Player -->
   <!-- Music Player -->
   <section id="playlist" style="
   
-  background-image: url(./img/); 
-  background-size: contain;
-  background-position: center;
-  border-radius: 50%;
+  /* background-image: url(./assets/img/eyelooping.gif);  */
+  /* background-size: contain; */
+  /* background-color: transparent; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* border-radius: 90%; */
   
   ">
 
@@ -2657,6 +2455,13 @@
 
 
 
+  
+
+
+
+
+
+
   <!-- Contact section -->
   <!-- Contact section -->
   <section>
@@ -2776,9 +2581,9 @@
 
 
 
-      <div>
+      <!-- <div>
         <img class="spinner" src="./assets/img/floting.gif" style="border-radius: 50%; width: 250px; height: 250px;" >
-    </div>
+    </div> -->
 
 
 
@@ -2828,6 +2633,8 @@
  <script src="./js/modal.js"></script>
  <script src="./js/logos.js"></script>
  <script src="./js/musicplayer.js"></script>
+
+ <script src="./js/musicplayermodal.js"></script>
 
 
 </body>
