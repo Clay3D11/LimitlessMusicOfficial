@@ -1,0 +1,102 @@
+/* navbar#1 */
+/* navbar#1 */
+/* navbar#1 */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #13333300;
+  overflow: hidden;
+  position: fixed;
+  width: calc(100%);
+
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
+  align-items: center;
+  /* left: 70%; */
+  /* z-index: 10; */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  /* float: left; */
+  color: #ffffff;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: 500;
+  text-shadow: 0 0 20px #00fffb, 0 0 40px #001aff;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  /* background-color: #ddd; */
+  /* background-color: #0081bc; */
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+
+  /* color: rgb(255, 255, 255); */
+  text-shadow: 0 0 20px #ff0606, 0 0 40px #0400ff;
+}
+
+/* Add a color to the active/current link */
+/* .topnav a.active {
+  background-color: #04AA6D;
+  background-color: #0081bc;
+  color: rgb(255, 255, 255);
+} */
+
+@media only screen and (max-width: 600px) {
+  .topnav {
+    padding-top: 0px;
+    /* left: 5%; */
+    width: calc(100%);
+  }
+  .topnav a {
+    font-size: 30px;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 10px 20px;
+}
+.navbar img {
+  height: 40px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  margin-left: 20px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+}
+.navbar a:hover {
+  color: #ff0800;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+}
+
+.navbar .social-icons {
+  display: flex;
+  align-items: center;
+}
+.navbar .social-icons a {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
