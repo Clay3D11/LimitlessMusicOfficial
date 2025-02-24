@@ -118,7 +118,7 @@
     .playpause-track,
     .prev-track,
     .next-track {
-      padding: 25px;
+      padding: 20px;
       opacity: 0.8;
       transition: opacity 0.2s;
     }
