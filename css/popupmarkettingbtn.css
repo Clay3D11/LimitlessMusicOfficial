@@ -1,7 +1,4 @@
-/* All Button */
-/* All Button */
-
-button {
+.popupmarkettingbtn {
   --border-radius: 15px;
   --border-width: 4px;
   appearance: none;
@@ -24,7 +21,7 @@ button {
 
  }
  
- button::after {
+ .popupmarkettingbtn::after {
   --m-i: linear-gradient(#000, #000);
   --m-o: content-box, padding-box;
   content: "";
@@ -55,8 +52,9 @@ button {
   animation: rotate-hue linear 500ms infinite;
   animation-play-state: paused;
  }
- 
- button:hover::after {
+
+
+ .popupmarkettingbtn:hover::after {
   animation-play-state: running;
   cursor: pointer;
  }
@@ -67,16 +65,11 @@ button {
   }
  }
  
- button,
- button::after {
+ .popupmarkettingbtn,
+ .popupmarkettingbtn::after {
   box-sizing: border-box;
  }
  
- button:active {
+ .popupmarkettingbtn:active {
   --border-width: 5px;
  }
-
-
-
-
- 

@@ -24,6 +24,8 @@ img {
   display: block;
   width: 100%;
 } */
+
+
 .cover-score {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,6 +37,8 @@ img {
   /* z-index: 100000; */
   pointer-events: none;
 }
+
+
 
 .cover-score {
   justify-content: flex-start;
@@ -53,12 +57,19 @@ img {
   gap: 30px;
 }
 
+
+
 .cover-score .cover {
   margin-right: 50px;
   -ms-flex-item-align: end;
   align-self: flex-end;
   /* margin-bottom: 26px; */
   position: relative;
+
+  
+
+
+
 }
 .cover-score .cover:after {
   background: url("https://pudding.cool/2020/12/judge-my-spotify/assets/images/shelf-2.png");
@@ -225,12 +236,24 @@ img {
   /* left: 50px; */
 }
 
+
+
+
+
+
 .image-card {
   height: 120px;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
+
+
+
+
+
+
 
 @media (max-width: 985px) {
   .cover-score {

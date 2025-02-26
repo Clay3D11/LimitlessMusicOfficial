@@ -56,6 +56,7 @@ body {
   margin-top: 0;
   margin-left: 1rem;
   margin-bottom: 3rem;
+  color: #e61a3c;
 }
 
 .card {
@@ -71,6 +72,7 @@ body {
 }
 @media screen and (max-width: 800px) {
   .card {
+    /* width: calc(50% - 2rem); */
     width: calc(50% - 2rem);
   }
 }
@@ -155,7 +157,7 @@ body {
   transform: rotateY(0deg);
 }
 
-.button {
+/* .buttonartistcard {
   transform: translateZ(40px);
   cursor: pointer;
   -webkit-backface-visibility: hidden;
@@ -170,7 +172,7 @@ body {
   transform-style: preserve-3d;
   transition: 300ms ease;
 }
-.button:before {
+.buttonartistcard:before {
   transition: 300ms ease;
   position: absolute;
   display: block;
@@ -184,16 +186,16 @@ body {
   left: 10px;
   top: 16px;
 }
-.button:hover {
+.buttonartistcard:hover {
   transform: translateZ(55px);
 }
-.button:hover:before {
+.buttonartistcard:hover:before {
   transform: translateZ(-55px);
 }
-.button:active {
+.buttonartistcard:active {
   transform: translateZ(20px);
 }
-.button:active:before {
+.buttonartistcard:active:before {
   transform: translateZ(-20px);
   top: 12px;
-}
+} */

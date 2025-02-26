@@ -16,6 +16,7 @@
       align-items: center;
       flex-direction: column;
       /* justify-content: center; */
+      background-image: url(./assets/img/okok13.gif);
     }
     
     .wrapper {
@@ -25,7 +26,7 @@
       /* background-color: #000000; */
       /* background-color: #cf1a1a; */
       /* background-color: #cf1a1a; */
-      background-image: url(./img/okok13.gif);
+      background-image: url(./assets/img/okok13.gif);
       background-position: center;
       background-repeat: repeat;
       background-size: cover;
