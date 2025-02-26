@@ -5,19 +5,33 @@
   <link rel="shortcut icon" href="./assets/img/eyelooping.gif" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LimitlessMusic.app</title>
+
+
+
   <link rel="stylesheet" href="style.css">
 
 
-  <!-- <link rel="stylesheet" href="css/Albumcovers.css"> -->
 
-  <link rel="stylesheet" href="css/allbutton.css">
+
+
+  <link rel="stylesheet" href="css/Albumcovers.css">
+
+  <!-- <link rel="stylesheet" href="css/allbutton.css"> -->
+
   <link rel="stylesheet" href="css/contact.css">
+
   <link rel="stylesheet" href="css/dynamictextslider.css">
+
   <link rel="stylesheet" href="css/footer.css">
+
   <link rel="stylesheet" href="css/lettermarquee.css">
+
   <link rel="stylesheet" href="css/modalvid.css">
+
   <link rel="stylesheet" href="css/popup.css">
-  <link rel="stylesheet" href="css/subscribe.css">
+
+  <link rel="stylesheet" href="css/modalsubscribe.css">
+
   <link rel="stylesheet" href="css/track&popularsongs.css">
 
   <link rel="stylesheet" href="css/flippingartistcard.css">
@@ -29,6 +43,23 @@
   <link rel="stylesheet" href="css/albummodal.css">
 
   <link rel="stylesheet" href="css/navbtn.css">
+  
+  <link rel="stylesheet" href="css/tooltip.css">
+  
+  <link rel="stylesheet" href="css/popupmarkettingbtn.css">
+ 
+  <link rel="stylesheet" href="css/subscribe.css">
+
+
+
+
+
+
+  <link rel="stylesheet" href="./css/player1.css">
+  <link rel="stylesheet" href="./css/player2.css">
+  <link rel="stylesheet" href="./css/player3.css">
+  <link rel="stylesheet" href="./css/player4.css">
+
   
   
 
@@ -51,48 +82,48 @@
   <!-- Pre Loader  -->
 
 
-<style>
-    .loader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    
-    /* background-color: rgba(255, 255, 255, 0.8); */
+  <style>
+      .loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      
+      /* background-color: rgba(255, 255, 255, 0.8); */
 
-    background-image: url(./assets/img/lucy.jpg);
-    background-size: cover;
-    background-position: center;
-    
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999; /* Make sure it covers all content */
-}
+      background-image: url(./assets/img/lucy.jpg);
+      background-size: cover;
+      background-position: center;
+      
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999; /* Make sure it covers all content */
+  }
 
-.spinner1 {
-    border: 8px solid #f3f3f3; /* Light grey */
-    border-top: 8px solid #3498db; /* Blue */
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    animation: spin 1s linear infinite;
-}
+  .spinner1 {
+      border: 8px solid #f3f3f3; /* Light grey */
+      border-top: 8px solid #3498db; /* Blue */
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+  }
 
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
+  @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+  }
 
-.content {
-    display: none; /* Hide content initially */
-    /* padding: 20px; */
-}
+  .content {
+      display: none; /* Hide content initially */
+      /* padding: 20px; */
+  }
 
 
-</style>
+  </style>
 
 
 
@@ -165,7 +196,7 @@
   <!-- Pop up for visiting user -->
 
   <div class="popup" id="popup">
-    <div class="popup-content" style="background-image: url(./assets/img/eyelooping.gif); background-position: center;
+    <div class="popup-content" style="background-image: url(./assets/img/lucy.jpg); background-position: center;
     background-size: cover;
     
     " >
@@ -177,7 +208,7 @@
         
         <br>
         
-        <button data-modal-target="#modalsubscribe" style="font-size: 10px; display: block;"  ><h7>Subscribe!</h7></button>
+        <button class="popupmarkettingbtn" data-modal-target="#modalsubscribe" style="font-size: 10px; display: block;"  ><h7>Subscribe!</h7></button>
         
         
         <p style="
@@ -187,7 +218,7 @@
         text-shadow: 0 0 20px #ff0000, 0 0 40px #bc0000;
         
         " ><ul style=" color: rgb(255, 255, 255); font-size: 10px; font-weight: 700;" >
-          <p style="font-size: 20px; font-weight: 800; color: #1900ff;" >Upload:</p>
+          <h7 style="font-size: 20px; font-weight: 800; color: #2f00ff;" >Upload:</h7>
           <h1>Songs</h1>
           <h1>Albums</h1>
           <h1>Music Videos</h1>
@@ -202,7 +233,7 @@
         <br>
         
         
-        <h1 style="
+        <!-- <h1 style="
           display: flex; 
           justify-content: space-around; 
           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -210,7 +241,7 @@
           text-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;
           font-size: 20px;
           ">30% OFF Music Videos Edits (Expire 2025)
-        </h1>
+        </h1> -->
 
         <br>
 
@@ -219,7 +250,7 @@
 
         ">●$525.00●</h2> -->
 
-          <p style="font-weight: 700;" >Thank you for visiting!</p>  
+          <p style="font-weight: 700; color: white;" >Thank you for visiting!</p>  
 
     </div>
   </div>
@@ -252,32 +283,34 @@
 
 
       <div class="navbar">
-        <!-- <a href="#"><img src="./img/LM.png" alt="Logo"></a> -->
+
+
+        <a class="tooltip" href="#"><abbr data-title="Limitless Music"><img src="./assets/img/eyelooping.gif" alt="Logo"></abbr></a>
+
+
+
         <ul>
-          <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+          
+          <li><abbr title="Home"><a href="#"><i class="fa fa-home" aria-hidden="true"></abbr></i></a></li>
 
 
-          <!-- <li><a href="#collabs"><i class="fa fa-users" aria-hidden="true" ></i></a></li> -->
+          <li><abbr title="Subscribe"><a><i class="fa fa-users" data-modal-target="#modalsubscribe" aria-hidden="true" ></abbr></i></a></li>
 
-          <li><a href="#streamrates"><i class="fa fa-cc-paypal" aria-hidden="true"></i></a></li>
-
-
-
-
+          <!-- <li><a href="#streamrates"><i class="fa fa-cc-paypal" aria-hidden="true"></i></a></li> -->
 
 
 
 
 
 
-          <li><a href="#merch"><i class="fab fa-shopify" style="background-image: url(./assets/img/eyelooping.gif);
+          <li><abbr title="Store"><a href="#merch"><i class="fab fa-shopify" style="background-image: url(./assets/img/eyelooping.gif);
             background-position: center;
             background-clip: text;
             -webkit-background-clip: text;
             color: transparent;
             background-size: contain;
     
-            text-shadow: 0 0 20px #1bff0600, 0 0 40px #2bff0000;"></i></a></li>
+            text-shadow: 0 0 20px #1bff0600, 0 0 40px #2bff0000;"></abbr></i></a></li>
 
 
 
@@ -304,13 +337,14 @@
 
 
 
-          <li><a href="#contact"><i class="fa fa-handshake-o" aria-hidden="true"></i></a></li>
+          <li><abbr title="Contact"><a href="#contact"><i class="fa fa-handshake-o" aria-hidden="true"></abbr></i></a></li>
 
 
 
 
 
         </ul>
+        
 
 
 
@@ -323,10 +357,6 @@
           <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div> -->
       </div>
-
-
-
-
 
 
       <!-- <a href="#" style="position: fixed; top: 50%; right: 10px; " >₸⌀ῥ</a>
@@ -342,7 +372,7 @@
 
 
 
-      <a href="#" style="position: fixed; top: 45%; right: 24px;  "><i class="fa fa-arrow-circle-up"
+      <a href="#" style="position: fixed; top: 38%; right: 24px;  "><i class="fa fa-arrow-circle-up"
           aria-hidden="true"></i></a>
 
 
@@ -353,19 +383,15 @@
 
 
 
-      <a href="#popularsongs" style=" position: fixed; top: 52%; right: 25px; 
+      <a href="#popularsongs" style=" position: fixed; top: 45%; right: 25px; 
       
-      /* background-image: url(./img/codigosvid.gif);
+       /* background-image: url(./img/codigosvid.gif);
           background-position: center;
           background-clip: text;
           -webkit-background-clip: text;
           color: transparent;
           background-size: contain;
-
-
           text-shadow: 0 0 20px #ff060600, 0 0 40px #1100ff00; */
-      
-      
       
       "><i class="fa fa-music" aria-hidden="true"></i></a>
 
@@ -377,12 +403,16 @@
 
 
 
-      <!-- <a href="#albums"  style="position: fixed; top: 62%; right: 20px;    
+      <a href="#albums"  style="position: fixed; top: 52%; right: 20px;    
       
-        text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000;
+        /* text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000; */
         
       
-      " ><i class="fab fa-teamspeak"></i></a> -->
+      " ><i class="fab fa-teamspeak"></i></a>
+
+
+
+
 
 
 
@@ -495,18 +525,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Main Title -->
 
     <br>
@@ -528,6 +546,7 @@
     <!-- Slide Show -->
     <!-- Slide Show -->
     <ul class="slideshow">
+      <li><span></span></li>
       <li><span></span></li>
       <li><span></span></li>
       <li><span></span></li>
@@ -572,15 +591,92 @@
       <div class="cardmarketing">
 
 
-        <a href="https://calendar.app.google/YhqvDd5F7H2QUsx16"><button style="font-size: 20px; display: block;">
-
-            Contact
-
-          </button></a>
+          <button class="popupmarkettingbtn" data-modal-target="#modalsubscribe" style="font-size: 20px; display: block;" >Subscribe-<i class="fa fa-users" aria-hidden="true" ></i></button>
 
 
       </div>
+
+
+      <!-- Pop up Subscribe ad -->
+      <!-- Pop up Subscribe ad -->
+      <!-- Pop up Subscribe ad -->
+
+
+
+      <div class="modalsubscribe" id="modalsubscribe">
+        <div class="modalsubscribe-header">
+          <div class="title" style=" color: #fff; text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff, 0 0 35px #228dff, 0 0 40px #228dff;" >Limitless Music</div>
+          <button data-close-button class="close-button" style="color: #ff0000;">&times;</button>
+        </div>
+
+      <div class="modalsubscribe-body">
+
+        
+
+
+
+
+
+        <div class="left">
+          <img src="./assets/img/LMpromo.gif" alt="" width="100%">
+        </div>
+
+
+        <fieldset style="
+          border-radius: 20px;
+          padding: 35px;
+          background-image: url(./assets/img/clinclingif-ezgif.com.gif);
+          background-position: center;
+          ">
+
+          <legend>
+              <h7>Music & Videos <br>$19.99/mon</h7>
+          </legend>
+          <br>
+
+          <div id="paypal-button-container-P-8M693440KJ312780VM4GDVGA"></div>
+
+
+          <script
+            src="https://www.paypal.com/sdk/js?client-id=AYVld8jz4ZpsIx5F-PsNjcx1ekj1xX6oV7tvVSbzdAbGhXqBZCOCKUcDqOMNP3Kr1M63xd1QirhsZ5x8&vault=true&intent=subscription"
+            data-sdk-integration-source="button-factory"></script>
+          <script>
+            paypal.Buttons({
+              style: {
+                shape: 'pill',
+                color: 'blue',
+                layout: 'vertical',
+                label: 'subscribe'
+              },
+              createSubscription: function (data, actions) {
+                return actions.subscription.create({
+                  /* Creates the subscription */
+                  plan_id: 'P-8M693440KJ312780VM4GDVGA'
+                });
+              },
+              onApprove: function (data, actions) {
+                alert(data.subscriptionID); // You can add optional success message for the subscriber here
+              }
+            }).render('#paypal-button-container-P-8M693440KJ312780VM4GDVGA'); // Renders the PayPal button
+          </script>
+        </fieldset>
+
+
+
+
+        
+      </div>
+
+      </div>
+
+      <div id="overlay"></div>
+
+
+
+
     </div>
+
+    
 
 
 
@@ -624,7 +720,6 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
     ">Subscribe!</marquee>
-
 
 
 
@@ -732,98 +827,6 @@
     ">Subscribe!</marquee>
 
 
-    <!-- Subscribe Button -->
-    <!-- Subscribe Button -->
-    <!-- Subscribe Button -->
-
-    <button data-modal-target="#modalsubscribe" style="font-size: 20px; display: block;"  >Subscribe!</button>
-
-
-
-    <div class="modalsubscribe" id="modalsubscribe">
-        <div class="modalsubscribe-header">
-          <div class="title" style=" color: #fff; text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff, 0 0 35px #228dff, 0 0 40px #228dff;" >Limitless Music</div>
-          <button data-close-button class="close-button">&times;</button>
-        </div>
-
-      <div class="modalsubscribe-body">
-
-        
-
-
-
-
-
-        <div class="left">
-          <img src="./assets/img/UnFlowZaza.gif" alt="" width="100%">
-        </div>
-
-
-        <fieldset style="
-          border-radius: 20px;
-          padding: 50px;
-          background-image: url(./assets/img/clinclingif-ezgif.com.gif);
-          background-position: center;
-          ">
-
-          <legend>
-              <h7>Music & Videos <br>$19.99/mon</h7>
-          </legend>
-          <br>
-
-          <div id="paypal-button-container-P-8M693440KJ312780VM4GDVGA"></div>
-
-
-          <script
-            src="https://www.paypal.com/sdk/js?client-id=AYVld8jz4ZpsIx5F-PsNjcx1ekj1xX6oV7tvVSbzdAbGhXqBZCOCKUcDqOMNP3Kr1M63xd1QirhsZ5x8&vault=true&intent=subscription"
-            data-sdk-integration-source="button-factory"></script>
-          <script>
-            paypal.Buttons({
-              style: {
-                shape: 'pill',
-                color: 'blue',
-                layout: 'vertical',
-                label: 'subscribe'
-              },
-              createSubscription: function (data, actions) {
-                return actions.subscription.create({
-                  /* Creates the subscription */
-                  plan_id: 'P-8M693440KJ312780VM4GDVGA'
-                });
-              },
-              onApprove: function (data, actions) {
-                alert(data.subscriptionID); // You can add optional success message for the subscriber here
-              }
-            }).render('#paypal-button-container-P-8M693440KJ312780VM4GDVGA'); // Renders the PayPal button
-          </script>
-        </fieldset>
-
-
-
-
-        
-      </div>
-
-    </div>
-
-    <div id="overlay"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   </div>
 
@@ -835,8 +838,10 @@
   <!-- Popular Song -->
   <section id="popularsongs" class="hitsection" style="
 
-  background-image: url(); 
+  background-image: url(./assets/img/UnFlowZaza.gif); 
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 
   ">
 
@@ -855,7 +860,7 @@
         z-index: 0;
         margin-top: 0;
         color: rgb(255, 255, 255);
-        font-size: 60px;
+        font-size: 50px;
         text-align: center;
         
         
@@ -1843,168 +1848,6 @@
         </div>
       </div>
     </div>
-
-
-
-
-    
-
-
-    <button class="show-modal-btn"  style="font-size: 20px; display: block;">Hottest Albums</button>
-
-
-    <!-- <button class="show-modal-btn">Music PLayer</button> -->
-    <div class="bottom-sheet-container">
-      
-      <div class="sheet-overlay"></div>
-
-        <div class="sheet-content">
-
-          <div class="sheet-header">
-            <div class="drag-icon"><span></span></div>
-          </div>
-
-          <div class="sheet-body">
-
-
-
-            <!-- <h2 class="" style="
-              display: flex; justify-content: space-around; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-shadow: 0 0 20px #ff0000, 0 0 40px #0081bc;
-
-
-              left: auto;
-              /* bottom: 32px; */
-              z-index: 0;
-              margin-top: 0;
-              color: rgb(255, 0, 0);
-
-
-              background-image: url(./img/transstars.gif);
-              background-position: center;
-
-
-              
-              font-size: 6vw;
-              text-align: center;
-              letter-spacing: 0;">ΞΞΞPlaylistΞΞΞ</h2> -->
-
-
-            <!-- <h2 class="titles" style="
-                display: flex; 
-                justify-content: space-around; 
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-                
-                text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000f3;
-
-
-                left: auto;
-              
-                z-index: 0;
-                margin-top: 0;
-                color: rgb(255, 255, 255);
-                font-size: 8vw;
-                text-align: center;
-                
-                
-                
-                /* background-position: center;
-                
-                background-image: url(./img/clinclingif-ezgif.com.gif);
-                background-clip: text;
-                -webkit-background-clip: text;
-                color: transparent;
-                background-size: contain; */
-
-            letter-spacing: 0;">◆P♪aylist◆</h2> -->
-
-
-
-            <!-- Track artist Flipping Card -->
-            <!-- Track artist Flipping Card -->
-
-            <div class="contentartist">
-
-
-              <!-- <h1 class="heading">Card Flip</h1> -->
-
-
-              <!-- <p class="description">Hover over a card to flip it.</p>
-              <p class="description">Get to know up coming artist.</p> -->
-              
-              <a class="card" href="#!">
-
-
-              <div class="front" style="background-image: url(./assets/img/fa-melz1.png)">
-                <!-- <p>Fa Melz</p> -->
-              </div>
-
-              <div class="back" style="background-image: url(./assets/img/eyelooping.gif); background-position: center; background-size: contain;" >
-                <div>
-                  <!-- <p>Lattest Album</p> -->
-                  <!-- <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p> -->
-                  <!-- <button class="buttonartistcard">Click Here</button> -->
-                </div>
-
-              </div></a><a class="card" href="#!">
-
-
-
-
-
-
-
-              <div class="front" style="background-image: url(./assets/img/heaven.png)">
-                <!-- <p>Nory Money</p> -->
-              </div>
-
-              <div class="back" style="background-image: url(./assets/img/sky.png); background-position: center; background-size: cover; ">
-                <div>
-                  <!-- <p>Lattest Album</p> -->
-                  <!-- <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p> -->
-                  <!-- <button class="buttonartistcard">Click Here</button> -->
-                </div>
-              </div></a><a class="card" href="#!">
-
-
-
-
-
-
-
-              <div class="front" style="background-image: url(./assets/img/metallic.png)">
-                <!-- <p>Clainer Ventura</p> -->
-              </div>
-              <div class="back" style="background-image: url(./assets/img/lucy.jpg); background-position: center; background-size: cover; " >
-                <div>
-                  <!-- <p>Developer</p> -->
-                  <!-- <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p> -->
-                  <!-- <button class="button">Click Here</button> -->
-                </div>
-              </div></a>
-              
-              <!-- <a class="card" href="#!"> -->
-
-                  
-                
-
-            </div></a>
-
-
-
-
-
-
-
-
-
-
-
-
-          </div>
-
-        </div>
-    </div>
-
     
 
   </section>
@@ -2016,6 +1859,316 @@
   <!-- Album Section -->
   <!-- Album Section -->
   <!-- Album Section -->
+
+  <section id="albums">
+    
+
+
+
+
+    <h8 style="
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ">Top Albums</h8>
+
+
+
+
+    <!-- Music Player Albums -->
+    <!-- Music Player Albums -->
+    <!-- Music Player Albums -->
+
+    <div class="contentartist">
+
+
+      <!-- <h1 class="heading">Card Flip</h1> -->
+
+
+      <!-- <p class="description">Hover over a card to flip it.</p>
+      <p class="description">Get to know up coming artist.</p> -->
+      
+      <a class="card" href="#!">
+
+
+        <!-- Musicplayer1 -->
+        <!-- Musicplayer1 -->
+        <!-- Musicplayer1 -->
+
+
+      <div class="front" style="background-image: url(./assets/images/Cirujano3.png)">
+
+        <h8 style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        ">Cirujano Nopturno</h8>
+
+      </div>
+
+      <div class="back" style="background-image: url(./assets/img/Cirujano2.png); background-position: center; background-size: contain;" >
+        <div>
+          <!-- Music Container1 -->
+          <!-- Music Container1 -->
+          <div class="music-container" id="music-container">
+            <div class="music-info">
+              <h4 id="title"></h4>
+              <div class="progress-container" id="progress-container">
+                <div class="progress" id="progress"></div>
+              </div>
+            </div>
+      
+            <audio src="assets/music/Cirujano2.mp3" id="audio"></audio>
+      
+            <div class="img-container">
+              <img src="assets/images/Cirujano2.png" alt="music-cover" id="cover" />
+            </div>
+            <div class="navigation">
+              <button id="prev" class="action-btn">
+                <i class="fas fa-backward"></i>
+              </button>
+              <button id="play" class="action-btn action-btn-big">
+                <i class="fas fa-play"></i>
+              </button>
+              <button id="next" class="action-btn">
+                <i class="fas fa-forward"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div></a>
+      
+      
+      
+      <a class="card" href="#!">
+
+
+
+        <!-- Musicplayer2 -->
+        <!-- Musicplayer2 -->
+        <!-- Musicplayer2 -->
+
+
+
+      <div class="front" style="background-image: url(./assets/images/Lapiz1.png)">
+        <h8 style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        ">Lapiz Conciente</h8>
+      </div>
+
+      <div class="back" style="background-image: url(./assets/images/Lapiz2.png); background-position: center; background-size: cover; ">
+        <div>
+
+          <!-- Music Container2 -->
+          <!-- Music Container2 -->
+
+
+          <div class="music-container2" data-src="assets/music/Lapiz1.mp3" data-title="Cirujano" data-cover="assets/images/Lapiz1.png">
+
+
+            <div class="music-info">
+              <h4 class="title">Cirujano</h4>
+              <div class="progress-container">
+                <div class="progress"></div>
+              </div>
+            </div>
+          
+            <audio class="audio"></audio>
+          
+            <div class="img-container">
+              <img src="assets/images/Cirujano2.png" alt="music-cover" class="cover" />
+            </div>
+            <div class="navigation">
+              <button class="prev action-btn">
+                <i class="fas fa-backward"></i>
+              </button>
+              <button class="play action-btn action-btn-big">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="next action-btn">
+                <i class="fas fa-forward"></i>
+              </button>
+            </div>
+          </div>
+
+
+        </div>
+      </div></a>
+
+
+
+      <a class="card" href="#!">
+
+
+
+        <!-- Musicplayer3 -->
+        <!-- Musicplayer3 -->
+        <!-- Musicplayer3 -->
+
+
+
+      <div class="front" style="background-image: url(./assets/img/fa-melz.png)">
+        <h8 style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        ">Fa Melz</h8>
+      </div>
+      <div class="back" style="background-image: url(./assets/img/UnFlowZaza.gif); background-position: center; background-size: cover; " >
+        <div>
+          <!-- Music Container3 -->
+          <!-- Music Container3 -->
+          
+
+
+          <div class="music-container3" data-src="assets/music/Song3.mp3" data-title="Song 3" data-cover="assets/images/Song3.png">
+            <div class="music-info">
+              <h4 class="title">Song 3</h4>
+              <div class="progress-container">
+                <div class="progress"></div>
+              </div>
+            </div>
+          
+            <audio class="audio"></audio>
+          
+            <div class="img-container">
+              <img src="assets/images/Song3.png" alt="music-cover" class="cover" />
+            </div>
+            <div class="navigation">
+              <button class="prev action-btn">
+                <i class="fas fa-backward"></i>
+              </button>
+              <button class="play action-btn action-btn-big">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="next action-btn">
+                <i class="fas fa-forward"></i>
+              </button>
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+        
+
+      <a class="card" href="#!">
+
+
+
+        <!-- Musicplayer4 -->
+        <!-- Musicplayer4 -->
+        <!-- Musicplayer4 -->
+
+
+
+      <div class="front" style="background-image: url(./assets/img/vs.png)">
+      <h8 style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        ">Drake <br>vs <br>Kendrick</h8>
+      </div>
+      <div class="back" style="background-image: url(./assets/img/vs3.png); background-position: bottom; background-size: contain; background-repeat: no-repeat;
+      background-color: black;
+      " >
+        <div>
+
+
+          <!-- Music Container4 -->
+          <!-- Music Container4 -->
+          
+
+
+          <div class="music-container4" data-src="assets/music/dior.mp3" data-title="Song 3" data-cover="assets/images/Song3.png">
+            <div class="music-info">
+              <h4 class="title">Song 3</h4>
+              <div class="progress-container">
+                <div class="progress"></div>
+              </div>
+            </div>
+          
+            <audio class="audio"></audio>
+          
+            <div class="img-container">
+              <img src="assets/images/Song3.png" alt="music-cover" class="cover" />
+            </div>
+            <div class="navigation">
+              <button class="prev action-btn">
+                <i class="fas fa-backward"></i>
+              </button>
+              <button class="play action-btn action-btn-big">
+                <i class="fas fa-play"></i>
+              </button>
+              <button class="next action-btn">
+                <i class="fas fa-forward"></i>
+              </button>
+            </div>
+          </div>
+
+
+
+          
+
+
+
+
+
+
+        </div>
+      </div>
+    
+
+
+
+
+
+        
+
+
+
+
+
+
+      
+      </a>
+      
+      <!-- 5th Music Pplayer -->
+      <!-- <a class="card" href="#!"> -->
+
+        <!-- 5th Music Pplayer -->
+
+          
+        
+
+    </div>
+
+
+
+  </section>
+  
+
+
+
   <h8 style="
   display: flex;
   justify-content: center;
@@ -2023,12 +2176,12 @@
   ">Albums</h8>
 
 
-  <section class="layout" style=" 
+  <section class="layout"  style=" 
     width: 100%;
   
     display: grid;
     grid-template-rows: repeat(5, 1fr);
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 8px;
   
     justify-content: center;
@@ -2066,49 +2219,55 @@
 
 
 
-    <div style="background-image: url(./assets/img/biggestfan.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/calm.png); background-position: center; background-size: cover;">1</div>
+    <!-- <div style="background-image: url(./assets/img/biggestfan.png); background-position: center; background-size: cover;">1</div> -->
+    <!-- <div style="background-image: url(./assets/img/calm.png); background-position: center; background-size: cover;">1</div>
     <div style="background-image: url(./assets/img/catchme.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/Cirujano2.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/compro.png); background-position: center; background-size: cover;">1</div>
+    <div style="background-image: url(./assets/img/Cirujano2.png); background-position: center; background-size: cover;">1</div> -->
+    <!-- <div style="background-image: url(./assets/img/compro.png); background-position: center; background-size: cover;">1</div> -->
     <div style="background-image: url(./assets/img/dior.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/Drake.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/essence.png); background-position: center; background-size: cover;">1</div>
+    <div style="background-image: url(./assets/img/UnFlowZaza.gif); background-position: center; background-size: cover;">1</div>
+    <!-- <div style="background-image: url(./assets/img/essence.png); background-position: center; background-size: cover;">1</div> -->
     <div style="background-image: url(./assets/img/ChoppaHate.png); background-position: center; background-size: cover;">1</div>
     <div style="background-image: url(./assets/img/clinclingif-ezgif.com.gif); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/compro.png); background-position: center; background-size: cover;">1</div>
+    <!-- <div style="background-image: url(./assets/img/compro.png); background-position: center; background-size: cover;">1</div> -->
     <div style="background-image: url(./assets/img/fa-melz.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/faded.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/fallingdown.jpg); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/freefromdesire.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/freemind.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/future.png); background-position: center; background-size: cover;">1</div>
+    
+    <!-- <div style="background-image: url(./assets/img/fallingdown.jpg); background-position: center; background-size: cover;">1</div>
+    <div style="background-image: url(./assets/img/freefromdesire.png); background-position: center; background-size: cover;">1</div> -->
+    <!-- <div style="background-image: url(./assets/img/freemind.png); background-position: center; background-size: cover;">1</div> -->
     <div style="background-image: url(./assets/img/Goddest.png); background-position: center; background-size: cover;">1</div>
     <div style="background-image: url(./assets/img/Gunna2.png); background-position: center; background-size: cover;">1</div>
     <div style="background-image: url(./assets/img/codigosvid.gif); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/kd.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/Kulosa.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/Lastlast.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/lilbaby2.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/LM.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/love.png); background-position: center; background-size: cover;">1</div>
     <div style="background-image: url(./assets/img/lucy.jpg); background-position: center; background-size: cover;">1</div>
+
+
+    <div style="background-image: url(./assets/img/LM-gif.gif); background-position: center; background-size: cover;">1</div>
+    <div style="background-image: url(./assets/img/LM-gif.gif); background-position: center; background-size: cover;">1</div>
+    <div style="background-image: url(./assets/img/LM-gif.gif); background-position: center; background-size: cover;">1</div>
+    <div style="background-image: url(./assets/img/LM-gif.gif); background-position: center; background-size: cover;">1</div>
+    <div style="background-image: url(./assets/img/LM-gif.gif); background-position: center; background-size: cover;">1</div>
+    <!-- <div style="background-image: url(./assets/img/kd.png); background-position: center; background-size: cover;">1</div> -->
+    <!-- <div style="background-image: url(./assets/img/Kulosa.png); background-position: center; background-size: cover;">1</div> -->
+    <!-- <div style="background-image: url(./assets/img/Lastlast.png); background-position: center; background-size: cover;">1</div> -->
+    <!-- <div style="background-image: url(./assets/img/lilbaby2.png); background-position: center; background-size: cover;">1</div> -->
+    <!-- <div style="background-image: url(./assets/img/LM.png); background-position: center; background-size: cover;">1</div> -->
+    
     <div style="background-image: url(./assets/img/metal.png); background-position: center; background-size: cover;">1</div>
     <div style="background-image: url(./assets/img/metallic.png); background-position: center; background-size: cover;">1</div>
     <div style="background-image: url(./assets/img/migos.png); background-position: center; background-size: cover;">1</div>
     <div style="background-image: url(./assets/img/Nory&Famelz-Wow.gif); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/Nory-Code.png); background-position: center; background-size: cover;">1</div>
+    
     <div style="background-image: url(./assets/img/nory1.png); background-position: center; background-size: cover;">1</div>
     <div style="background-image: url(./assets/img/norygif.gif); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/norymecanse.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/notlikeus.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/oneandonly.png); background-position: center; background-size: cover;">1</div>
+    <!-- <div style="background-image: url(./assets/img/norymecanse.png); background-position: center; background-size: cover;">1</div> -->
+    <!-- <div style="background-image: url(./assets/img/notlikeus.png); background-position: center; background-size: cover;">1</div> -->
+    
     <div style="background-image: url(./assets/img/panda.png); background-position: center; background-size: cover;">1</div>
     <div style="background-image: url(./assets/img/Quefue.gif); background-position: center; background-size: cover;">1</div>
     <div style="background-image: url(./assets/img/quefue.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/sky.png); background-position: center; background-size: cover;">1</div>
+    <!-- <div style="background-image: url(./assets/img/sky.png); background-position: center; background-size: cover;">1</div>
     <div style="background-image: url(./assets/img/Royal.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/soundgasm.png); background-position: center; background-size: cover;">1</div>
+    <div style="background-image: url(./assets/img/soundgasm.png); background-position: center; background-size: cover;">1</div> -->
     <div style="background-image: url(./assets/img/UnFlowZaza.gif); background-position: center; background-size: cover;">1</div>
   </section>
 
@@ -2119,7 +2278,12 @@
 
   <!-- Videos -->
   <!-- Videos -->
-  <section id="" class="">
+  <section  style="
+  /* background-image: url(./assets/img/LMpromo3squareslower-ezgif.com-optimize.gif);
+  background-size: contain;
+  background-position: center; */
+  
+  " id="topvideo" class="">
     <!-- Top Videos -->
     <!-- Top Videos -->
     <!-- Top Videos -->
@@ -2224,7 +2388,7 @@
           font-size: 20px;
           
           
-      ">30% OFF Music Videos Edits (Expire 2025)</h1>
+      ">◆ Music Videos Edits ◆</h1>
 
     <br>
     <br>
@@ -2688,6 +2852,7 @@
 
 
   </section>
+  
 
 
 
@@ -2697,7 +2862,7 @@
   <!-- Music Player -->
   <section id="playlist" style="
   
-  /* background-image: url(./assets/img/eyelooping.gif);  */
+  /* background-image: url(./assets/img/LM-promoad.gif);  */
   /* background-size: contain; */
   /* background-color: transparent; */
   /* background-position: center; */
@@ -2855,9 +3020,8 @@
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 50% 50%;
-  
-  
-  
+
+
 
   ">
 
@@ -2912,21 +3076,12 @@
         <!-- <p>Si te metite palla, tiene que compra obligao!</p> -->
         <!-- <a href="https://clay3d11.github.io/LimitlessMerch/"><button>Visit Store</button></a> -->
 
-        <a href="https://clay3d11.github.io/LimitlessMerch/"><button style="font-size: 20px;
+        <a  href="https://clay3d11.github.io/LimitlessMerch/"><button class="popupmarkettingbtn" style="font-size: 20px;
           margin: 0 auto;
           /* width: 50%; */
           display: block;
-          
-          
           ">
-    
             Visit Store
-    
-    
-    
-    
-    
-    
     
           </button></a>
 
@@ -3040,7 +3195,7 @@
 
 
 
-    <a href="https://calendar.app.google/YhqvDd5F7H2QUsx16"><button style="font-size: 20px;
+    <a href="https://calendar.app.google/YhqvDd5F7H2QUsx16"><button class="popupmarkettingbtn" style="font-size: 20px;
       margin: 0 auto;
       /* width: 50%; */
       display: block;
@@ -3181,7 +3336,25 @@
 
   <!-- Contact section -->
   <!-- Contact section -->
-  <section>
+  <section id="contact" style="
+  /* margin: 40px; */
+  /* padding: 20px; */
+
+
+  background-image: url(./assets/img/LMpromo3squareslower-ezgif.com-optimize.gif);
+  background-size: contain;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+
+
+
+  /* background-image: repeating-conic-gradient(#e6e6e6 0% 25%, #000000 0% 50%);
+  background-position: 0 0, 32px 32px;
+  background-size: 214px 214px;
+  background-color: #000000; */
+  
+  
+  ">
 
     <!-- <div class="wrapper"> -->
       <svg>
@@ -3225,7 +3398,7 @@
 
         <textarea name="message" placeholder="klk tu dice? hablame claro mmg.." class="contact-inputs" required></textarea>
 
-        <button type="submit">submit <img src="" alt=""> </button>
+        <button class="popupmarkettingbtn" type="submit">submit <img src="" alt=""> </button>
 
       </form>
       <div class="contact-right">
@@ -3233,14 +3406,17 @@
       </div>
     </div>
 
-  </section>  
+  </section> 
+  
+
+
 
 
 
 
   <!-- Footer -->
   <!-- Footer -->
-  <section id="contact" style="
+  <section  style="
   
   display: flex;
   justify-content: center;
@@ -3266,12 +3442,13 @@
 
     <div class="footer-left">
 
-      <!-- <IMG SRC="./assets/img/LM.png" ALT="" WIDTH=200 HEIGHT=100> -->
-        <div style="width: 200px; height: 100px; margin: auto;" ><h7>
-          Limitless <br> Music
+      <IMG SRC="./assets/img/LMpromo.gif" ALT="" WIDTH=200 HEIGHT=100>
 
-
-        </h7></div>
+        <!-- <div style="width: 200px; height: 100px; margin: auto;" >
+          <h7>
+           Limitless <br> Music
+          </h7>
+        </div> -->
 
 
 
@@ -3290,8 +3467,19 @@
     <div class="footer-center">
 
       <div>
-        <i class="fa fa-envelope"></i>
-        <p><a href="mailto:v.clainer11@gmail.com" style="color: rgb(255, 0, 0); font-size: 18px; font-weight: 800;" >v.clainer11@gmail.com</a></p>
+        <!-- <i class="fa fa-envelope"></i>
+        <p><a href="mailto:v.clainer11@gmail.com" style="color: rgb(255, 0, 0); font-size: 18px; font-weight: 800;" >v.clainer11@gmail.com</a></p> -->
+
+        <a href="https://calendar.app.google/YhqvDd5F7H2QUsx16">
+          <button class="popupmarkettingbtn" >
+
+            Contact Developer
+
+          </button>
+        </a>
+
+
+
       </div>
 
 
@@ -3303,30 +3491,24 @@
 
 
 
-        <a><span class="bUO-w8t bnetGame-ab9 bnetGame-nlz"><a
-          class="bnetGame-MuiButtonBase-vtj iij-5iq iCU-7mm"
-          href="https://ko-fi.com/devs_support">
-          
-          <span class="KMd-z91 iNv-zfq" style="font-weight: 800;color: #ffffff;" >Support Project.</span></a></span></a>
+           <a>
+           <span class="bUO-w8t bnetGame-ab9 bnetGame-nlz"><a
+            class="popupmarkettingbtn"
+            href="https://ko-fi.com/devs_support"><span class="KMd-z91 iNv-zfq" style="font-weight: 800;color: #ffffff;" >Support Project.</span></a></span></a>
+
+      <br>
+      <br>
+      <br>
+
+
+          <button class="popupmarkettingbtn" data-modal-target="#modalsubscribe">Subscribe</button>
 
 
 
 
-
-
-
-
-
-
-
-
-      
-
-
-
-      <!-- <div>
-        <img class="spinner" src="./assets/img/floting.gif" style="border-radius: 50%; width: 250px; height: 250px;" >
-    </div> -->
+          <!-- <div>
+              <img class="spinner" src="./assets/img/floting.gif" style="border-radius: 50%; width: 250px; height: 250px;" >
+          </div> -->
 
 
 
@@ -3354,6 +3536,10 @@
 
 
 
+    
+
+
+
   </footer>
   
 
@@ -3377,7 +3563,12 @@
  <script src="./js/logos.js"></script>
  <script src="./js/musicplayer.js"></script>
 
+ 
  <script src="./js/musicalbummodal.js"></script>
+ <script src="./js/player1.js"></script>
+ <script src="./js/player2.js"></script>
+ <script src="./js/player3.js"></script>
+ <script src="./js/player4.js"></script>
 
 
 
