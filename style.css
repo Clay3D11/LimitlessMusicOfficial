@@ -187,8 +187,8 @@ section {
 	display: grid;
 	place-items: center; */
 
-  background-color: #080808;
-  background-color: #000;
+  /* background-color: #080808; */
+  /* background-color: #000; */
 
   /* background-image: url(./img/clinclingif-ezgif.com.gif);
   background-position: center;
@@ -250,8 +250,8 @@ section {
   background-repeat: no-repeat;
   opacity: 0;
   z-index: 0;
-  animation: imageAnimation 36s linear infinite 0s;
-  -webkit-animation: imageAnimation 36s linear infinite 0s;
+  animation: imageAnimation 42s linear infinite 0s;
+  -webkit-animation: imageAnimation 42s linear infinite 0s;
 }
 
 .slideshow li {
@@ -263,35 +263,47 @@ section {
   /* background-position: center;
   background-size: contain; */
 }
+
 .slideshow li:nth-child(2) span {
-  background-image: url("./assets/img/clinclingif-ezgif.com.gif");
-  /* background-position: center;
-  background-size: contain; */
+  background-image: url("./assets/img/LM-gif.gif");
+  background-position: center;
+  background-size: contain;
   animation-delay: 6s;
 }
+
 .slideshow li:nth-child(3) span {
-  background-image: url("./assets/img/UnFlowZaza.gif");
+  background-image: url("./assets/img/clinclingif-ezgif.com.gif");
   /* background-position: center;
-  background-size: contain; */
-  /* background-repeat: repeat-x; */
+  background-size: contain;
+  background-repeat: repeat-x; */
   animation-delay: 12s;
 }
+
 .slideshow li:nth-child(4) span {
-  background-image: url("./assets/img/norygif.gif");
+  background-image: url("./assets/img/UnFlowZaza.gif");
   animation-delay: 18s;
 }
+
 .slideshow li:nth-child(5) span {
   background-image: url("./assets/img/codigosvid.gif");
   /* background-position: center;
   background-size: contain; */
   animation-delay: 24s;
 }
+
 .slideshow li:nth-child(6) span {
   background-image: url("./assets/img/eyelooping.gif");
-  /* background-position: center;
-  background-size: contain; */
+  background-position: center;
+  background-size: cover;
   animation-delay: 30s;
 }
+.slideshow li:nth-child(7) span {
+  background-image: url("./assets/img/okok13.gif");
+  background-position: center;
+  /* background-size: cover; */
+  animation-delay: 36s;
+}
+
 
 @keyframes imageAnimation {
   0% {
@@ -585,5 +597,3 @@ animation: 3s;
     transform: rotate(360deg);
   }
 }
-
-
