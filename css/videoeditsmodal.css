@@ -10,7 +10,7 @@
 .modal-button {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 28px;
-  color: #ff0303;
+  color: #1c03ff;
   padding: 14px 22px;
   border: none;
   background: #4070f400;
@@ -19,8 +19,8 @@
 }
 
 .modal-button:hover {
-  background-color: #265df2;
-  background-image: url(./assets/img/clinclingif-ezgif.com.gif);
+  /* background-color: #5a5b5e; */
+  background-image: url(/assets/img/clinclingif-ezgif.com.gif);
   background-position: center;
   background-size: cover;
 }
@@ -62,10 +62,12 @@
   width: 100%;
   padding: 20px 20px;
   border-radius: 24px;
-  background-color: #8d8d8d00;
+  background-color: #02020277;
 
-  background-image: url(./img/);
+  background-image: url(/assets/img/lucy.jpg);
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   opacity: 0;
   pointer-events: none;
@@ -110,7 +112,7 @@
   padding: 6px 12px;
   margin: 0 10px;
 
-  color: #ff0000;
+  color: #ffffff;
   font-weight: 800;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
