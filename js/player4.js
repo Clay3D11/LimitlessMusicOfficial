@@ -57,7 +57,7 @@ const songs4 = [
     title: 'Not.Like.Us',
     artist: 'Kendrick.L',
     src: 'assets/music/NotLikeUs.mp3',
-    cover: 'assets/img/NotLikeUs.png',
+    cover: 'assets/img/notlikeus.png',
   },
   {
     title: 'The.Heart.Part.6',
