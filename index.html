@@ -1,72 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <link rel="shortcut icon" href="./assets/img/eyelooping.gif" type="image/x-icon">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LimitlessMusic.app</title>
-
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Limitless Music</title>
 
   <link rel="stylesheet" href="style.css">
 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
 
 
 
 
-  <link rel="stylesheet" href="css/Albumcovers.css">
-
-  <!-- <link rel="stylesheet" href="css/allbutton.css"> -->
-
-  <link rel="stylesheet" href="css/contact.css">
-
-  <link rel="stylesheet" href="css/dynamictextslider.css">
-
-  <link rel="stylesheet" href="css/footer.css">
-
-  <link rel="stylesheet" href="css/lettermarquee.css">
-
-  <link rel="stylesheet" href="css/videoeditsmodal.css">
-
-  <link rel="stylesheet" href="css/popup.css">
-
-  <link rel="stylesheet" href="css/modalsubscribe.css">
-
-  <link rel="stylesheet" href="css/track&popularsongs.css">
-
-  <link rel="stylesheet" href="css/flippingartistcard.css">
-
-  <link rel="stylesheet" href="css/musicplayer.css">
-
-  <link rel="stylesheet" href="css/hottestalbummodal.css">
-
-  <link rel="stylesheet" href="css/albummodal.css">
-
-  <link rel="stylesheet" href="css/navbtn.css">
-  
-  <link rel="stylesheet" href="css/tooltip.css">
-  
-  <link rel="stylesheet" href="css/popupmarkettingbtn.css">
- 
-  <link rel="stylesheet" href="css/subscribe.css">
-
-  <link rel="stylesheet" href="css/textlefttoright.css">
-
-  <!-- <link rel="stylesheet" href="css/intersectmarquee.css"> -->
-
-
-
-
-
-
-
-  <link rel="stylesheet" href="./css/player1.css">
-  <link rel="stylesheet" href="./css/player2.css">
-  <link rel="stylesheet" href="./css/player3.css">
-  <link rel="stylesheet" href="./css/player4.css">
-
-  
-  
 
 
 
@@ -76,231 +22,114 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  
 
 
 
 
 
 
-  <!-- Pre Loader  -->
-  <!-- Pre Loader  -->
-  <!-- Pre Loader  -->
 
 
-  <style>
-      .loader {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      
-      /* background-color: rgba(255, 255, 255, 0.8); */
 
-      background-image: url(./assets/img/lucy.jpg);
-      background-size: cover;
-      background-position: center;
-      
-      
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 9999; /* Make sure it covers all content */
-  }
+  <!-- nav btn -->
+  <link rel="stylesheet" href="css/navbtn.css">
+  <!-- Cards -->
+  <link rel="stylesheet" href="css/cardeyelooping.css">
+  <link rel="stylesheet" href="css/cardfatmels.css">
 
-  .spinner1 {
-      border: 8px solid #f3f3f3; /* Light grey */
-      border-top: 8px solid #3498db; /* Blue */
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
-      animation: spin 1s linear infinite;
-  }
+  <!-- popup -->
+  <link rel="stylesheet" href="css/popup.css">
 
-  @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-  }
+  <!-- Text Slide Show -->
+  <link rel="stylesheet" href="css/dynamictextslider.css">
 
-  .content {
-      display: none; /* Hide content initially */
-      /* padding: 20px; */
-  }
+  <!-- bg slide show -->
+   <link rel="stylesheet" href="css/bgslideshow.css">
+
+  <!-- Letter Marquee -->
+   <link rel="stylesheet" href="css/lettermarquee.css">
+  
+  <!--Bright text  -->
+  <link rel="stylesheet" href="css/brighttext.css">
 
 
-  </style>
+  <!-- Track Marquee -->
+  <link rel="stylesheet" href="css/track&popularsongs.css">
+
+  <!-- Text left to right big header -->
+  <link rel="stylesheet" href="css/textlefttoright.css">
+  
+  <!-- All Buttoms -->
+  <link rel="stylesheet" href="css/allbutton.css">
+
+  <!-- pop up marketting btn -->
+  <link rel="stylesheet" href="css/popupmarkettingbtn.css">
+
+  <!-- Subscribe Modal -->
+  <link rel="stylesheet" href="css/subscribe.css">
+
+  <!-- Marketting Modal Btn -->
+   <link rel="stylesheet" href="css/markettingbtnmodal.css">
+
+  <!-- Contact -->
+  <link rel="stylesheet" href="css/contact.css">
+
+  <!-- Store Modal -->
+  <link rel="stylesheet" href="css/storemodal.css">
+
+
+  <!-- Tooltips -->
+   <link rel="stylesheet" href="css/tooltip.css">
+
+   <!-- Ipodmodal and Ipod Style -->
+    <link rel="stylesheet" href="css/ipodmodal.css">
+    <link rel="stylesheet" href="css/ipodstyle.css">
+
+    <!-- Ipod Icon -->
+    <link rel="stylesheet" href="css/ipodicon.css">
+
+    <!-- Ticket Store style -->
+    <link rel="stylesheet" href="css/ticketstoremodal.css">
+    <link rel="stylesheet" href="css/ticketstorestyle.css">
+
+    <!-- Side bar -->
+     <!-- <link rel="stylesheet" href="css/sidebar.css"> -->
 
 
 
 
 
 </head>
-
-  <!-- MailerLite Universal -->
+<!-- MailerLite Universal -->
 <script>
-    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
-    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
-    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
-    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-    ml('account', '1509434');
+  (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+  .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+  n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+  (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+  ml('account', '1509434');
 </script>
 <!-- End MailerLite Universal -->
 
 
+
 <body>
 
-  <!-- Pre Loader  -->
-  <!-- Pre Loader  -->
-  <!-- Pre Loader  -->
-
-  <div class="loader" id="loader">
-    <!-- <div class="spinner"></div> -->
-     
-
-      <!-- lETTERS MARQUEE -->
-      <!-- lETTERS MARQUEE -->
-      <!-- lETTERS MARQUEE -->
-      <div class="marquee">
-        <div class="marquee__group">
-          <span>Urban ➺ Style ➺</span>
-          <span>Rap ➺ HipHop ➺</span>
-          <span>Dembow ➺ Bachata ➺</span>
-
-        </div>
 
 
+  <header>
 
-        <div class="marquee__group" aria-hidden="true">
-          <span>Urban ➺ Style ➺</span>
-          <span>Rap ➺ HipHop ➺</span>
-          <span>Dembow ➺ Bachata ➺</span>
-
-        </div>
-
-
-      </div>
-
-  </div>
-    
-
-  <div class="content" id="content">
-  <!-- Your website content goes here -->
-
-  <!-- <h1>Welcome to My Website</h1>
-  <p>This is the main content of your website.</p> -->
-
-
-
-
-
-
-
-  <!-- Closing Div is at the end on the code -->
-  <!-- Closing Div is at the end on the code -->
-  <!-- Closing Div is at the end on the code -->
-
-
-
-
-
-
-
-
-
-
-  <!-- Pop up for visiting user -->
-  <!-- Pop up for visiting user -->
-  <!-- Pop up for visiting user -->
-
-  <div class="popup" id="popup">
-
-
-
-
-    <div class="popup-content" style="background-image: url(./assets/img/lucy.jpg); background-position: center;
-    background-size: cover;
-    
-    " >
-        <span class="close" id="close">&times;</span>
-        <h7>Limitless Music</h7>
-        
-
-        <h1 style="font-size: 16px;color: #ff0000; font-weight: 600;" >Marketing and Streaming platform</h1>
-        
-        <br>
-        
-        <button class="popupmarkettingbtn" data-modal-target="#modalsubscribe" style="font-size: 10px; display: block;"  ><h7>Music Video</h7></button>
-        
-        <br>
-        <br>
-
-          <div class="popupmarkettingbtn">
-        
-            <button class="popupmarkettingbtn"  style="font-size: 10px; display: block;"><h7>Upload</h7></button>
-
-          
-            <p style="
-            font-size: 20px;
-            font-family: fantasy;
-            color: #0011ff;
-            text-shadow: 0 0 20px #ff0000, 0 0 40px #bc0000;
-            
-            " >
-            
-              <ul style=" color: rgb(255, 255, 255); font-size: 10px; font-weight: 600;" >
-              
-                <!-- <h7 style="font-size: 20px; font-weight: 800; color: #2f00ff;" >Upload:</h7> -->
-
-                <h1>Songs</h1>
-                <h1>Albums</h1>
-                <h1>Music Videos</h1>
-                
-              </ul>
-
-            </p>
-
-          </div>
-        
-        <br>
-        <br>
-
-        <a href="https://ko-fi.com/devs_support"><button  class="popupmarkettingbtn" >Support Project</button></a>
-        
-        <!-- <h7>Music Video</h7> -->
-        <br>
-        <br>
-        
-        
-        <!-- <h1 style="
-          display: flex; 
-          justify-content: space-around; 
-          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-          color: #ff0000;
-          text-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;
-          font-size: 20px;
-          ">30% OFF Music Videos Edits (Expire 2025)
-        </h1> -->
-
-        <br>
-
-        <!-- <h2 style="color: #51ff00;
-        font-size: 50px;
-
-        ">●$525.00●</h2> -->
-
-          <p style="font-weight: 700; color: white;" >Thank you for visiting!</p>  
-
-    </div>
-  </div>
-
-
-  <!-- Hero Section -->
-  <!-- Nav#1 - Music Vidoe - Video Header Buttom -->
-  <section>
-
-
-    
-
+       
+      <!-- End MailerLite Universal -->
+    <!-- <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav> -->
 
 
     <!-- nav#1 -->
@@ -337,10 +166,6 @@
           <!-- <li><a href="#streamrates"><i class="fa fa-cc-paypal" aria-hidden="true"></i></a></li> -->
 
 
-
-
-
-
           <li><abbr title="Store"><a href="#merch"><i class="fab fa-shopify" style="background-image: url(./assets/img/eyelooping.gif);
             background-position: center;
             background-clip: text;
@@ -349,11 +174,6 @@
             background-size: contain;
     
             text-shadow: 0 0 20px #1bff0600, 0 0 40px #2bff0000;"></abbr></i></a></li>
-
-
-
-
-
 
 
           <!-- <li><a href="#merch">
@@ -365,14 +185,6 @@
             background-size: contain;
     
             text-shadow: 0 0 20px #1bff0600, 0 0 40px #2bff0000;"  ></i></a></li> -->
-
-
-
-
-
-
-
-
 
 
           <li><abbr title="Contact"><a href="#contact"><i class="fa fa-handshake-o" aria-hidden="true"></abbr></i></a></li>
@@ -387,13 +199,13 @@
 
 
 
-        <!-- <div class="social-icons">
+        <div class="social-icons">
           <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
           <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+          <!-- <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a> -->
           <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
           <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-        </div> -->
+        </div>
       </div>
 
 
@@ -414,11 +226,7 @@
           aria-hidden="true"></i></a>
 
 
-
-
       <!-- <a href="#collabs"  style="position: fixed; top: 54%; right: 20px " ><i class="fa fa-users" aria-hidden="true"></i></a> -->
-
-
 
 
       <a href="#popularsongs" style=" position: fixed; top: 45%; right: 25px; 
@@ -435,12 +243,6 @@
 
 
 
-
-
-
-
-
-
       <a href="#albums"  style="position: fixed; top: 52%; right: 20px;    
       
         /* text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000; */
@@ -450,11 +252,7 @@
 
 
 
-
-
-
-
-      <a href="#topvideo" style="position: fixed; top: 59%; right: 20px;
+      <!-- <a href="#topvideo" style="position: fixed; top: 59%; right: 20px;
 
 
 
@@ -469,13 +267,13 @@
           /* text-shadow: 0 0 20px #ff060600, 0 0 40px #1100ff00; */
 
       
-      "><i class="fa fa-video-camera" aria-hidden="true"></i></a>
+      "><i class="fa fa-video-camera" aria-hidden="true"></i></a> -->
 
 
 
 
 
-      <a href="#playlist" style="position: fixed; top: 66%; right: 25px;
+      <a href="#ipod" style="position: fixed; top: 73%; right: 25px;
 
       /* background-image: url(./img/eyelooping.gif);
       background-position: center;
@@ -491,7 +289,7 @@
 
 
 
-      <a href="#merch" style="position: fixed; top: 73%; right: 28px;
+      <a href="#merch" style="position: fixed; top: 66%; right: 28px;
 
       background-image: url(./assets/img/eyelooping.gif);
       background-position: center;
@@ -558,25 +356,301 @@
 
 
 
+  </header>
+
+  <!-- Side bar -->
+  <!-- Side bar -->
+  <!-- Side bar -->
+  <!-- <div class="area"></div> -->
+  <!-- <nav class="main-menu">
+    <ul>
+      <li>
+        <a href="https://jbfarrow.com">
+          <i class="fa fa-home fa-2x"></i>
+          <span class="nav-text">
+          Community Dashboard
+        </span>
+        </a>
+
+      </li>
+      <li class="has-subnav">
+        <a href="#">
+          <i class="fa fa-globe fa-2x"></i>
+          <span class="nav-text">
+          Global Surveyors
+        </span>
+        </a>
+
+      </li>
+      <li class="has-subnav">
+        <a href="#">
+          <i class="fa fa-comments fa-2x"></i>
+          <span class="nav-text">
+          Group Hub Forums
+        </span>
+        </a>
+
+      </li>
+      <li class="has-subnav">
+        <a href="#">
+          <i class="fa fa-camera-retro fa-2x"></i>
+          <span class="nav-text">
+          Survey Photos
+        </span>
+        </a>
+
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa fa-film fa-2x"></i>
+          <span class="nav-text">
+          Surveying Tutorials
+        </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa fa-book fa-2x"></i>
+          <span class="nav-text">
+          Surveying Jobs
+        </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa fa-cogs fa-2x"></i>
+          <span class="nav-text">
+          Tools & Resources
+        </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa fa-map-marker fa-2x"></i>
+          <span class="nav-text">
+          Member Map
+        </span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fa fa-info fa-2x"></i>
+          <span class="nav-text">
+          Documentation
+        </span>
+        </a>
+      </li>
+    </ul>
+
+    <ul class="logout">
+      <li>
+        <a href="#">
+          <i class="fa fa-power-off fa-2x"></i>
+          <span class="nav-text">
+            Logout
+          </span>
+        </a>
+      </li>
+    </ul>
+  </nav> -->
 
 
 
 
 
-    <!-- Main Title -->
+  <section class="hero">
+    <h1>Limitless Music</h1>
+    <p>A clean and responsive HTML5 template designed to get your project up and running quickly.</p>
+  </section>
 
-    <br>
-    <br>
-    <br>
+  <!-- Hero Section-->
+  <!-- Hero Section-->
+  <!-- Hero Section-->
+  <!-- Back Ground Slide Show -->
+  <!-- Back Ground Slide Show -->
+  <section class="selection">
+
+
+
+
+    <!-- Pop up for visiting user -->
+    <!-- Pop up for visiting user -->
+    <!-- Pop up for visiting user -->
+
+    <div class="popup" id="popup">
+
+
+
+
+      <div class="popup-content" style="background-image: url(./assets/img/lucy.jpg); background-position: center;
+      background-size: cover;
       
+      " >
+
+          
+
+
+
+          <span class="close" id="close">&times;</span> 
+          <br>
+          <h7>Limitless Music</h7>
+          
+
+          <h1 style="font-size: 20px;color: #ffffff; font-weight: 600;" >Marketing/Streaming <span style="font-size: 10px;">platform</span></h1>
+
+
+          <!-- lETTERS MARQUEE -->
+          <!-- lETTERS MARQUEE -->
+          <!-- lETTERS MARQUEE -->
+          <div class="marquee">
+            <div class="marquee__group2">
+              <span>Urban ⨝</span>
+              <span>Rap ⨝ HipHop ⨝</span>
+              <span>Dembow ⨝ Bachata ⨝</span>
+
+            </div>
+
+
+
+            <div class="marquee__group2" aria-hidden="true">
+              <span>Urban ⨝</span>
+              <span>Rap ⨝ HipHop ⨝</span>
+              <span>Dembow ⨝ Bachata ⨝</span>
+
+            </div>
+
+
+          </div>
+
+
+          <!-- Mailer Subscriber BTN -->
+          <button class="ml-onclick-form" onclick="ml('show', 'kextw7', true)" style="display: block;">
+            <h7 style="
+            font-size: 25px;
+            font-weight: 800;
+
+            ">
+              Subscribe!
+            </h7>
+
+
+
+              <!-- <h2 class="titles" style="
+              display: flex; 
+              justify-content: space-around; 
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+              
+              text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000f3;
+
+
+              left: auto;
+              
+              z-index: 0;
+              margin-top: 0;
+              color: rgb(255, 0, 0);
+              font-size: 30px;
+              text-align: center;
+              
+              
+              
+              /* background-position: center;
+              background-image: url(./img/okok5.gif);
+              background-clip: text;
+              -webkit-background-clip: text;
+              color: transparent;
+              background-size: contain; */
+              letter-spacing: 0;
+              
+              ">◆Subscribe◆</h2> -->
+
+        
+            
+          
+          </button>
+
+          <br>
+
+          
+          <button class="popupmarkettingbtn" data-modal-target="#modalsubscribe" style="font-size: 10px; display: block;"  ><h7 style="font-size: 25px;">Music Video</h7></button>
+          
+          <br>
+          
+
+          <div  class="popupmarkettingbtn">
+        
+            <button class="popupmarkettingbtn"  style="font-size: 10px; display: block;"><h7 style="font-size: 25px;">Upload</h7></button>
+
+          
+            <p style="
+            font-size: 20px;
+            font-family: fantasy;
+            color: #0011ff;
+            text-shadow: 0 0 20px #ff0000, 0 0 40px #bc0000;
+            
+            " >
+            
+              <ul style=" color: rgb(255, 255, 255); font-size: 10px; font-weight: 600;" >
+              
+                <!-- <h7 style="font-size: 20px; font-weight: 800; color: #2f00ff;" >Upload:</h7> -->
+
+                <h7>Songs</h7>
+                <h7>Albums</h7>
+                <h7>Videos</h7>
+                
+              </ul>
+
+            </p>
+
+          </div>
+          
+
+                  
+
+          <a href="https://ko-fi.com/devs_support"><button  class="popupmarkettingbtn" >Support Project</button></a>
+          
+          <!-- <h7>Music Video</h7> -->
+          
+          
+          <!-- <h1 style="
+            display: flex; 
+            justify-content: space-around; 
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #ff0000;
+            text-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;
+            font-size: 20px;
+            ">30% OFF Music Videos Edits (Expire 2025)
+          </h1> -->
+
+
+          <!-- <h2 style="color: #51ff00;
+          font-size: 50px;
+
+          ">●$525.00●</h2> -->
+
+            <p style="font-weight: 700; color: white;" >Thank you for visiting!</p>  
+
+      </div>
+    </div>
+
+
+  
+
+    <br>
+    <br>
+    <br>
+
+    <!-- Video Slide Show -->
+    <!-- Video Slide Show -->
+    <!-- Video Slide Show -->
+    
       
-    <h7 style="
+    <!-- <h7 style="
     display: flex;
     justify-content: center;
 
     font-size: 50px;
     
-    " >Limitless Music</h7>
+    " >Limitless Music</h7> -->
 
 
 
@@ -592,16 +666,7 @@
       <li><span></span></li>
       <li><span></span></li>
     </ul>
-    
-    
-    
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <!-- Animated Dynamic Text -->
     <!-- Animated Dynamic Text -->
     <!-- Animated Dynamic Text -->
@@ -622,6 +687,17 @@
 
 
 
+    <!-- Text left to roght -->
+    <!-- Text left to roght -->
+    <!-- <div class="scrolling-text-container2">
+      <div class="scrolling-text2">
+         Limitless Music
+      </div>
+    </div> -->
+
+
+
+
     <!-- Marketing BTN pop up -->
     <!-- Marketing BTN pop up -->
     <!-- Marketing BTN pop up -->
@@ -629,7 +705,11 @@
       <div class="cardmarketing">
 
 
-          <button class="popupmarkettingbtn" data-modal-target="#modalsubscribe" style="font-size: 20px; display: block;" ><i class="fa fa-users" aria-hidden="true" ></i></button>
+        <!-- BTn Pop up -->
+        <!-- BTn Pop up -->
+        <!-- BTn Pop up -->
+        <!-- <button class="popupmarkettingbtn" data-modal-target="#modalsubscribe" style="font-size: 20px; display: block;" ><i class="fa fa-users" aria-hidden="true" ></i></button> -->
+          
 
 
           
@@ -774,33 +854,187 @@
 
     </div>
 
-    
 
 
 
 
-    <!-- lETTERS MARQUEE -->
-    <!-- lETTERS MARQUEE -->
-    <!-- lETTERS MARQUEE -->
-    <div class="marquee">
-      <div class="marquee__group">
-        <span>Urban ➺ Style ➺</span>
-        <span>Rap ➺ HipHop ➺</span>
-        <span>Dembow ➺ Bachata ➺</span>
 
+    <!-- Marketting btn modal -->
+    <!-- Marketting btn modal -->
+    <!-- Marketting btn modal -->
+    <!-- Trigger Button -->
+    <button id="marketingbtn" style="display: block;"><h7>Subscribe!</h7></button>
+
+    <!-- Modal -->
+    <div id="marketingModal" class="modal">
+      <div class="marketing-modal-content">
+        <span class="marketingCloseBtn">&times;</span>
+        <div class="modal-body">
+          <!-- Your marketing modal content goes here -->
+
+
+          <!-- Pop up for visiting user -->
+          <!-- Pop up for visiting user -->
+          <!-- Pop up for visiting user -->
+
+
+
+          <div class="popup-content" style="background-image: url(./assets/img/lucy.jpg); background-position: center;
+            background-size: cover;
+            
+            " >
+
+
+            <h7>Limitless Music</h7>
+            
+
+            <h1 style="font-size: 20px;color: #ffffff; font-weight: 600;" >Marketing/Streaming <span style="font-size: 10px;">platform</span></h1>
+
+
+            <!-- lETTERS MARQUEE -->
+            <!-- lETTERS MARQUEE -->
+            <!-- lETTERS MARQUEE -->
+            <div class="marquee">
+              <div class="marquee__group2">
+                <span>Urban ⨝</span>
+                <span>Rap ⨝ HipHop ⨝</span>
+                <span>Dembow ⨝ Bachata ⨝</span>
+
+              </div>
+
+
+
+              <div class="marquee__group2" aria-hidden="true">
+                <span>Urban ⨝</span>
+                <span>Rap ⨝ HipHop ⨝</span>
+                <span>Dembow ⨝ Bachata ⨝</span>
+
+              </div>
+
+
+            </div>
+
+
+            <!-- Mailer Subscriber BTN -->
+            <button class="ml-onclick-form" onclick="ml('show', 'kextw7', true)" style="display: block;">
+              <h7 style="
+              font-size: 25px;
+              font-weight: 800;
+
+              ">
+                Subscribe!
+              </h7>
+
+
+
+                <!-- <h2 class="titles" style="
+                display: flex; 
+                justify-content: space-around; 
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+                
+                text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000f3;
+
+
+                left: auto;
+                
+                z-index: 0;
+                margin-top: 0;
+                color: rgb(255, 0, 0);
+                font-size: 30px;
+                text-align: center;
+                
+                
+                
+                /* background-position: center;
+                background-image: url(./img/okok5.gif);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                background-size: contain; */
+                letter-spacing: 0;
+                
+                ">◆Subscribe◆</h2> -->
+
+          
+              
+            
+            </button>
+
+            <br>
+
+            
+            <button class="popupmarkettingbtn" data-modal-target="#modalsubscribe" style="font-size: 10px; display: block;"  ><h7 style="font-size: 25px;">Music Video</h7></button>
+            
+            <br>
+            
+
+            <div  class="popupmarkettingbtn">
+          
+              <button class="popupmarkettingbtn"  style="font-size: 10px; display: block;"><h7 style="font-size: 25px;">Upload</h7></button>
+
+            
+              <p style="
+              font-size: 20px;
+              font-family: fantasy;
+              color: #0011ff;
+              text-shadow: 0 0 20px #ff0000, 0 0 40px #bc0000;
+              
+              " >
+              
+                <ul style=" color: rgb(255, 255, 255); font-size: 10px; font-weight: 600;" >
+                
+                  <!-- <h7 style="font-size: 20px; font-weight: 800; color: #2f00ff;" >Upload:</h7> -->
+
+                  <h7>Songs</h7>
+                  <h7>Albums</h7>
+                  <h7>Videos</h7>
+                  
+                </ul>
+
+              </p>
+
+            </div>
+            
+
+                    
+
+            <a href="https://ko-fi.com/devs_support"><button  class="popupmarkettingbtn" >Support Project</button></a>
+            
+            <!-- <h7>Music Video</h7> -->
+            
+            
+            <!-- <h1 style="
+              display: flex; 
+              justify-content: space-around; 
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              color: #ff0000;
+              text-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;
+              font-size: 20px;
+              ">30% OFF Music Videos Edits (Expire 2025)
+            </h1> -->
+
+
+            <!-- <h2 style="color: #51ff00;
+            font-size: 50px;
+
+            ">●$525.00●</h2> -->
+
+              <p style="font-weight: 700; color: white;" >Thank you for visiting!</p>  
+
+          </div>
+
+
+
+        </div>
       </div>
-
-
-
-      <div class="marquee__group" aria-hidden="true">
-        <span>Urban ➺ Style ➺</span>
-        <span>Rap ➺ HipHop ➺</span>
-        <span>Dembow ➺ Bachata ➺</span>
-
-      </div>
-
-
     </div>
+
+
+    <!-- Mailer Subscriber BTN -->
+    <!-- <button class="ml-onclick-form" onclick="ml('show', 'kextw7', true)" style="display: block;">Subscribe!</button> -->
+
+
+
 
 
 
@@ -809,21 +1043,19 @@
 
   <!-- Subscribe Marquee -->
   <!-- Subscribe Marquee -->
-  <div>
+  <!-- <div>
 
     <marquee id="#subscribe" behavior="ease-in-out" direction="right" style="width: 100%;
     font-size: 40px;
     color: #ffffff;
-    text-shadow: 0 0 2px #00fffb, 0 0 20px #0400ff;
+    text-shadow: 0 0 2px #00fffb, 0 0 20px #ff0000;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
     ">Subscribe!</marquee>
 
 
 
-    <!-- Marquee Artist -->
-    <!-- Marquee Artist -->
-    <!-- Marquee Artist -->
+    
     <div class="marquee">
       <ul class="marquee-content">
         <li><img src="./assets/img/metal.png" alt=""></li>
@@ -866,7 +1098,7 @@
 
 
 
-        <!-- <li><i class="fa fa-certificate" aria-hidden="true"></i>
+        <li><i class="fa fa-certificate" aria-hidden="true"></i>
       </li>
       <li><i class="fa fa-bullseye" aria-hidden="true"></i>
       </li>
@@ -909,7 +1141,7 @@
       <li><i class="fab fa-wordpress"></i></li>
       <li><i class="fab fa-aws"></i></li>
       <li><i class="fab fa-docker"></i></li>
-      <li><i class="fab fa-android"></i></li> -->
+      <li><i class="fab fa-android"></i></li>
       </ul>
     </div>
 
@@ -926,22 +1158,62 @@
 
 
 
+  </div> -->
+
+
+
+  <!-- Text Left to right -->
+  <!-- Text Left to right -->
+  <div class="scrolling-text-container2">
+    <div class="scrolling-text2">
+        Limitless Music
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <!-- lETTERS MARQUEE -->
+  <!-- lETTERS MARQUEE -->
+  <!-- lETTERS MARQUEE -->
+  <div class="marquee">
+    <div class="marquee__group">
+      <span>Urban ➺ Style ➺</span>
+      <span>Rap ➺ HipHop ➺</span>
+      <span>Dembow ➺ Bachata ➺</span>
+
+    </div>
+
+
+
+    <div class="marquee__group" aria-hidden="true">
+      <span>Urban ➺ Style ➺</span>
+      <span>Rap ➺ HipHop ➺</span>
+      <span>Dembow ➺ Bachata ➺</span>
+
+    </div>
+
+
   </div>
 
 
 
-
- 
-  <!-- Popular Song -->
-  <!-- Popular Song -->
+  <!-- Top Hits -->
+  <!-- Top Hits -->
+  <!-- Popular Songs Marquee -->
+  <!-- Popular Songs Marquee -->
   <section id="popularsongs" class="hitsection" style="
 
-  background-image: url(./assets/img/UnFlowZaza.gif); 
+  /* background-image: url(./assets/img/UnFlowZaza.gif);  */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 
   ">
+
+
+
+
 
 
 
@@ -971,8 +1243,15 @@
         background-size: contain; */
         letter-spacing: 0;">◆Top Hits◆</h2>
 
+
+
+
+
+
+
     <!-- Track Marquee -->
     <!-- Track Marquee -->
+     
     <div class="footer-1db style-6MKcK" id="style-6MKcK">
 
       <div class="footer-3q9">
@@ -1017,11 +1296,11 @@
             <div style="width: 200px; height: 100px;" class="swiper-slide">
               <img style="background-image: center; background-size: cover;" src="./assets/img/thug11.png" />
               <div class="slide-overlay">
-                <!-- <h2>Nory Dolla</h2> -->
+                <h2>Young Thug</h2>
                 <!-- <h3>Codigos</h3> -->
-                <button>
-                  Young Thug <i class="fa-solid fa-circle-play"></i>
-                </button>
+                <!-- <button>
+                   <i class="fa-solid fa-circle-play"></i>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/I'll Tell U What.mp3" type="audio/ogg">
@@ -1045,9 +1324,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2> -->
                 <!-- <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Young Thug <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/mindRight.mp3" type="audio/ogg">
@@ -1072,9 +1351,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2> -->
                 <!-- <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Young Thug <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/Hey, I.mp3" type="audio/ogg">
@@ -1097,9 +1376,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2> -->
                 <!-- <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Nory Dolla <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/Nory-Codigos.mp3" type="audio/ogg">
@@ -1133,9 +1412,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Fa Melz <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/QueFue.mp3" type="audio/ogg">
@@ -1165,9 +1444,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Fa Melz <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/UnFlowZaza.mp3" type="audio/ogg">
@@ -1196,8 +1475,8 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
-                  Fa Melz Ft Nory <i class="fa-solid fa-circle-play"></i>
+                <!-- <button>
+                  Fa Melz Ft Nory <i class="fa-solid fa-circle-play"></i> -->
                 </button>
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
@@ -1222,9 +1501,9 @@
             <div class="slide-overlay">
               <!-- <h2>Fa Melzs</h2> -->
               <!-- <h3>Codigos</h3> -->
-              <button>
+              <!-- <button>
                 Fa melz <i class="fa-solid fa-circle-play"></i>
-              </button>
+              </button> -->
 
               <audio style="width: 100px; color: transparent;" controls preload="auto">
                 <source src="./assets/music/EseTatoo.mp3" type="audio/ogg">
@@ -1247,9 +1526,9 @@
             <div class="slide-overlay">
               <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-              <button>
+              <!-- <button>
                 Panda <i class="fa-solid fa-circle-play"></i>
-              </button>
+              </button> -->
 
               <audio style="width: 100px; color: transparent;" controls preload="auto">
                 <source src="./assets/music/panda.mp3" type="audio/ogg">
@@ -1275,9 +1554,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   ASE <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/oneandonly.mp3" type="audio/ogg">
@@ -1302,9 +1581,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Kevin Durant <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/GodAmongUs.mp3" type="audio/ogg">
@@ -1330,9 +1609,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Cirujano <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music//Cirujano4.mp3" type="audio/ogg">
@@ -1362,9 +1641,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Cirujano <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music//Cirujano3.mp3" type="audio/ogg">
@@ -1387,9 +1666,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Cirujano <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/Cirujano2.mp3" type="audio/ogg">
@@ -1412,9 +1691,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Young Thug <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/Thug-NeverHadIt.mp3" type="audio/ogg">
@@ -1437,9 +1716,9 @@
             <div class="slide-overlay">
               <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-              <button>
+              <!-- <button>
                 Gunna <i class="fa-solid fa-circle-play"></i>
-              </button>
+              </button> -->
 
               <audio style="width: 100px; color: transparent;" controls preload="auto">
                 <source src="./assets/music/Gunna-Relentless.mp3" type="audio/ogg">
@@ -1461,9 +1740,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Gunna <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/Gunna-oneofwun.mp3" type="audio/ogg">
@@ -1484,9 +1763,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Gunna <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/Gunna-Fumean.mp3" type="audio/ogg">
@@ -1508,9 +1787,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Royals <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/Royal.mp3" type="audio/ogg">
@@ -1536,9 +1815,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Fa Melzs</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Lil baby <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/Allofasudden2.mp3" type="audio/ogg">
@@ -1563,9 +1842,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Thug <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/withthat.mp3" type="audio/ogg">
@@ -1595,9 +1874,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   21 Savage <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/GhostRidersKillers.mp3" type="audio/ogg">
@@ -1620,9 +1899,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Thug <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/NeverHadIt.mp3" type="audio/ogg">
@@ -1648,9 +1927,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Drake <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/PushUp.mp3" type="audio/ogg">
@@ -1675,9 +1954,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Bobby Smurdda <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/Hotniig.mp3" type="audio/ogg">
@@ -1700,9 +1979,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Future <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/Timmy.mp3" type="audio/ogg">
@@ -1725,9 +2004,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   21 Savage <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/Choppahate.mp3" type="audio/ogg">
@@ -1749,9 +2028,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Pop Smoke<i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/dior.mp3" type="audio/ogg">
@@ -1772,9 +2051,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Drakea <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/Drake-familymatter.mp3" type="audio/ogg">
@@ -1796,8 +2075,8 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
-                  Kendrick Lamar <i class="fa-solid fa-circle-play"></i>
+                <!-- <button>
+                  Kendrick Lamar <i class="fa-solid fa-circle-play"></i> -->
                 </button>
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
@@ -1828,9 +2107,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Lil baby <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/sum2prove.mp3" type="audio/ogg">
@@ -1853,8 +2132,8 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
-                  Kendrick Lamar <i class="fa-solid fa-circle-play"></i>
+                <!-- <button>
+                  Kendrick Lamar <i class="fa-solid fa-circle-play"></i> -->
                 </button>
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
@@ -1878,9 +2157,9 @@
               <div class="slide-overlay">
                 <!-- <h2>Nory Dolla</h2>
                 <h3>Codigos</h3> -->
-                <button>
+                <!-- <button>
                   Nory <i class="fa-solid fa-circle-play"></i>
-                </button>
+                </button> -->
 
                 <audio style="width: 100px; color: transparent;" controls preload="auto">
                   <source src="./assets/music/Nory-hit1.mp3" type="audio/ogg">
@@ -1950,11 +2229,11 @@
 
     <!-- Text left to roght -->
     <!-- Text left to roght -->
-    <div class="scrolling-text-container2">
+    <!-- <div class="scrolling-text-container2">
       <div class="scrolling-text2">
-         Limitless 
+         Limitless Music
       </div>
-    </div>
+    </div> -->
 
 
 
@@ -1965,1191 +2244,10 @@
 
 
 
-
-
-  <!-- Album Section -->
-  <!-- Album Section -->
-  <!-- Album Section -->
-
-  <section id="albums">
-    
-
-
-
-
-    <h8 style="
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    ">Top Albums</h8>
-
-
-
-
-    <!-- Music Player Albums -->
-    <!-- Music Player Albums -->
-    <!-- Music Player Albums -->
-
-    <div class="contentartist">
-
-
-      <!-- <h1 class="heading">Card Flip</h1> -->
-
-
-      <!-- <p class="description">Hover over a card to flip it.</p>
-      <p class="description">Get to know up coming artist.</p> -->
-      
-      <a class="card" href="#!">
-
-
-        <!-- Musicplayer1 -->
-        <!-- Musicplayer1 -->
-        <!-- Musicplayer1 -->
-
-
-      <div class="front" style="background-image: url(./assets/images/Cirujano3.png)">
-
-        <h8 style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 35px;
-        ">Cirujano Nopturno</h8>
-
-      </div>
-
-      <div class="back" style="background-image: url(./assets/img/Cirujano2.png); background-position: center; background-size: contain;" >
-        <div>
-          <!-- Music Container1 -->
-          <!-- Music Container1 -->
-          <div class="music-container" id="music-container">
-            <div class="music-info">
-              <h4 id="title"></h4>
-              <div class="progress-container" id="progress-container">
-                <div class="progress" id="progress"></div>
-              </div>
-            </div>
-      
-            <audio src="assets/music/Cirujano2.mp3" id="audio"></audio>
-      
-            <div class="img-container">
-              <img src="assets/images/Cirujano2.png" alt="music-cover" id="cover" />
-            </div>
-            <div class="navigation">
-              <button id="prev" class="action-btn">
-                <i class="fas fa-backward"></i>
-              </button>
-              <button id="play" class="action-btn action-btn-big">
-                <i class="fas fa-play"></i>
-              </button>
-              <button id="next" class="action-btn">
-                <i class="fas fa-forward"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-
-      </div></a>
-      
-      
-      
-      <a class="card" href="#!">
-
-
-
-        <!-- Musicplayer2 -->
-        <!-- Musicplayer2 -->
-        <!-- Musicplayer2 -->
-
-
-
-      <div class="front" style="background-image: url(./assets/images/Lapiz1.png)">
-        <h8 style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 35px;
-        ">Lapiz Conciente</h8>
-      </div>
-
-      <div class="back" style="background-image: url(./assets/images/Lapiz2.png); background-position: center; background-size: cover; ">
-        <div>
-
-          <!-- Music Container2 -->
-          <!-- Music Container2 -->
-
-
-          <div class="music-container2" data-src="assets/music/Lapiz1.mp3" data-title="Cirujano" data-cover="assets/images/Lapiz1.png">
-
-
-            <div class="music-info">
-              <h4 class="title">Cirujano</h4>
-              <div class="progress-container">
-                <div class="progress"></div>
-              </div>
-            </div>
-          
-            <audio class="audio"></audio>
-          
-            <div class="img-container">
-              <img src="assets/images/Cirujano2.png" alt="music-cover" class="cover" />
-            </div>
-            <div class="navigation">
-              <button class="prev action-btn">
-                <i class="fas fa-backward"></i>
-              </button>
-              <button class="play action-btn action-btn-big">
-                <i class="fas fa-play"></i>
-              </button>
-              <button class="next action-btn">
-                <i class="fas fa-forward"></i>
-              </button>
-            </div>
-          </div>
-
-
-        </div>
-      </div></a>
-
-
-
-      <a class="card" href="#!">
-
-
-
-        <!-- Musicplayer3 -->
-        <!-- Musicplayer3 -->
-        <!-- Musicplayer3 -->
-
-
-
-      <div class="front" style="background-image: url(./assets/img/fa-melz.png)">
-        <h8 style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 35px;
-        ">Fa Melz</h8>
-      </div>
-      <div class="back" style="background-image: url(./assets/img/UnFlowZaza.gif); background-position: center; background-size: cover; " >
-        <div>
-          <!-- Music Container3 -->
-          <!-- Music Container3 -->
-          
-
-
-          <div class="music-container3" data-src="assets/music/Song3.mp3" data-title="Song 3" data-cover="assets/images/Song3.png">
-            <div class="music-info">
-              <h4 class="title">Song 3</h4>
-              <div class="progress-container">
-                <div class="progress"></div>
-              </div>
-            </div>
-          
-            <audio class="audio"></audio>
-          
-            <div class="img-container">
-              <img src="assets/images/Song3.png" alt="music-cover" class="cover" />
-            </div>
-            <div class="navigation">
-              <button class="prev action-btn">
-                <i class="fas fa-backward"></i>
-              </button>
-              <button class="play action-btn action-btn-big">
-                <i class="fas fa-play"></i>
-              </button>
-              <button class="next action-btn">
-                <i class="fas fa-forward"></i>
-              </button>
-            </div>
-          </div>
-
-
-
-
-
-
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-        
-
-      <a class="card" href="#!">
-
-
-
-        <!-- Musicplayer4 -->
-        <!-- Musicplayer4 -->
-        <!-- Musicplayer4 -->
-
-
-
-      <div class="front" style="background-image: url(./assets/img/vs.png)">
-      <h8 style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 35px;
-        ">Drake <br>vs <br>Kendrick</h8>
-      </div>
-      <div class="back" style="background-image: url(./assets/img/vs3.png); background-position: bottom; background-size: contain; background-repeat: no-repeat;
-      background-color: black;
-      " >
-        <div>
-
-
-          <!-- Music Container4 -->
-          <!-- Music Container4 -->
-          
-
-
-          <div class="music-container4" data-src="assets/music/dior.mp3" data-title="Song 3" data-cover="assets/images/Song3.png">
-            <div class="music-info">
-              <h4 class="title">Song 3</h4>
-              <div class="progress-container">
-                <div class="progress"></div>
-              </div>
-            </div>
-          
-            <audio class="audio"></audio>
-          
-            <div class="img-container">
-              <img src="assets/images/Song3.png" alt="music-cover" class="cover" />
-            </div>
-            <div class="navigation">
-              <button class="prev action-btn">
-                <i class="fas fa-backward"></i>
-              </button>
-              <button class="play action-btn action-btn-big">
-                <i class="fas fa-play"></i>
-              </button>
-              <button class="next action-btn">
-                <i class="fas fa-forward"></i>
-              </button>
-            </div>
-          </div>
-
-
-
-          
-
-
-
-
-
-
-        </div>
-      </div>
-    
-
-
-
-
-
-        
-
-
-
-
-
-
-      
-      </a>
-      
-      <!-- 5th Music Pplayer -->
-      <!-- <a class="card" href="#!"> -->
-
-        <!-- 5th Music Pplayer -->
-
-          
-        
-
-    </div>
-
-
-
-  </section>
-  
-
-
-
-  <h8 style="
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  ">Albums</h8>
-
-
-  <section class="layout"  style=" 
-    width: 100%;
-  
-    display: grid;
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-columns: repeat(5, 1fr);
-    gap: 8px;
-  
-    justify-content: center;
-    align-content: center;
-
-    
-  "
-  
-  >
-
-  
-    <div style="background-image: url(./assets/img/eyelooping.gif); background-position: center; background-size: cover;">1
-
-      <!-- <div class="albummodal-container">
-        <button class="albummodal-button albumshow">Album</button>
-        <span class="albummodal-overlay"></span>
-  
-        <div class="albummodal-content">
-          <i class="fa-regular fa-circle-check"></i>
-          <h2>Completed</h2>
-          <h3>You have successfully downloaded all the source code files.</h3>
-  
-          <div class="albumbuttons">
-            <button class="albummodal-button albumclose-btn">Ok, Close</button>
-            <button class="modal-button">Open File</button>
-          </div>
-        </div>
-      </div> -->
-
-
-
-
-    </div>
-
-
-
-
-    <!-- <div style="background-image: url(./assets/img/biggestfan.png); background-position: center; background-size: cover;">1</div> -->
-    <!-- <div style="background-image: url(./assets/img/calm.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/catchme.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/Cirujano2.png); background-position: center; background-size: cover;">1</div> -->
-    <!-- <div style="background-image: url(./assets/img/compro.png); background-position: center; background-size: cover;">1</div> -->
-    <div style="background-image: url(./assets/img/dior.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/UnFlowZaza.gif); background-position: center; background-size: cover;">1</div>
-    <!-- <div style="background-image: url(./assets/img/essence.png); background-position: center; background-size: cover;">1</div> -->
-    <div style="background-image: url(./assets/img/ChoppaHate.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/clinclingif-ezgif.com.gif); background-position: center; background-size: cover;">1</div>
-    <!-- <div style="background-image: url(./assets/img/compro.png); background-position: center; background-size: cover;">1</div> -->
-    <div style="background-image: url(./assets/img/fa-melz.png); background-position: center; background-size: cover;">1</div>
-    
-    <!-- <div style="background-image: url(./assets/img/fallingdown.jpg); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/freefromdesire.png); background-position: center; background-size: cover;">1</div> -->
-    <!-- <div style="background-image: url(./assets/img/freemind.png); background-position: center; background-size: cover;">1</div> -->
-    <div style="background-image: url(./assets/img/Goddest.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/Gunna2.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/codigosvid.gif); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/lucy.jpg); background-position: center; background-size: cover;">1</div>
-
-
-    <div style="background-image: url(./assets/img/LM-gif.gif); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/LM-gif.gif); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/LM-gif.gif); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/LM-gif.gif); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/LM-gif.gif); background-position: center; background-size: cover;">1</div>
-    <!-- <div style="background-image: url(./assets/img/kd.png); background-position: center; background-size: cover;">1</div> -->
-    <!-- <div style="background-image: url(./assets/img/Kulosa.png); background-position: center; background-size: cover;">1</div> -->
-    <!-- <div style="background-image: url(./assets/img/Lastlast.png); background-position: center; background-size: cover;">1</div> -->
-    <!-- <div style="background-image: url(./assets/img/lilbaby2.png); background-position: center; background-size: cover;">1</div> -->
-    <!-- <div style="background-image: url(./assets/img/LM.png); background-position: center; background-size: cover;">1</div> -->
-    
-    <div style="background-image: url(./assets/img/metal.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/metallic.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/migos.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/Nory&Famelz-Wow.gif); background-position: center; background-size: cover;">1</div>
-    
-    <div style="background-image: url(./assets/img/nory1.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/norygif.gif); background-position: center; background-size: cover;">1</div>
-    <!-- <div style="background-image: url(./assets/img/norymecanse.png); background-position: center; background-size: cover;">1</div> -->
-    <!-- <div style="background-image: url(./assets/img/notlikeus.png); background-position: center; background-size: cover;">1</div> -->
-    
-    <div style="background-image: url(./assets/img/panda.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/Quefue.gif); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/quefue.png); background-position: center; background-size: cover;">1</div>
-    <!-- <div style="background-image: url(./assets/img/sky.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/Royal.png); background-position: center; background-size: cover;">1</div>
-    <div style="background-image: url(./assets/img/soundgasm.png); background-position: center; background-size: cover;">1</div> -->
-    <div style="background-image: url(./assets/img/UnFlowZaza.gif); background-position: center; background-size: cover;">1</div>
-  </section>
-
-
-
-
-
-
-  <!-- Videos -->
-  <!-- Videos -->
-  <section  style="
-    /* background-image: url(./assets/img/clinclingif-ezgif.com.gif);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat; */
-    
-    " id="topvideo" class="">
-
-    <!-- Top Videos -->
-    <!-- Top Videos -->
-    <!-- Top Videos -->
-
-
-    <!-- <h2 id="topvideo"  class="title" style="
-          
-    display: flex; justify-content: space-around; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-shadow: 0 0 20px #0004ff, 0 0 40px #0081bc;
-    
-    
-    left: auto;
-    bottom: 0;
-    z-index: 0;
-    margin-top: 0;
-    color: rgb(19, 2, 255);
-    font-size: 6vw;
-    text-align: center;
-    letter-spacing: 0;
-    background-image: url(./img/transstars.gif);
-    background-position: center;
-    
-    ">ΞΞΞTop VideosΞΞΞ</h2> -->
-
-
-    <!-- <h1 id="topvideo" class="titles" style="
-
-    display: flex; 
-    justify-content: space-around; 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 800;
-    
-    text-shadow: 0 0 20px #ffffff00, 0 0 60px #1100ff00;
-
-
-    left: auto;
-  
-    z-index: 0;
-    margin-top: 0;
-    color: rgb(255, 255, 255);
-    font-size: 100px;
-    text-align: center;
-    background-position: center;
-    
-    background-image: url(./assets/img/clinclingif-ezgif.com.gif);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-size: cover;
-
-
-    letter-spacing: 0;">Limitless Music</h1> -->
-
-    <!-- <hr style="
-    height: 200px; 
-    background-image: url(./assets/img/codigosvid.gif);
-    background-position: center;
-    
-    " >  -->
-   
-    <br>
-    <br>
-    <br>
-
-
-    <h2 id="#topvideo" class="titles" style="
-    
-    display: flex; 
-    justify-content: space-around; 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 800;
-    
-    text-shadow: 0 0 20px #ffffff00, 0 0 60px #1100ff00;
-
-
-    left: auto;
-  
-    z-index: 0;
-    margin-top: 0;
-    /* color: rgb(255, 255, 255); */
-    font-size: 145px;
-    text-align: center;
-    background-position: center;
-    
-    background-image: url(./assets/img/clinclingif-ezgif.com.gif);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-size: contain;
-
-
-    letter-spacing: 0;">Videos</h2>
-
-    
-
-
-    <br>
-    <br>
-
-   
-
-
-    <!-- Show Price Modal -->
-    <!-- Show Price Modal -->
-    <!-- Show Price Modal -->
-    <div class="modal-container">
-      <button class="modal-button show">Show Price</button>
-      <span class="modal-overlay"></span>
-
-      <div class="modal-content">
-        <i class="fa-regular fa-circle-check"></i>
-
-        <h2
-
-
-        class="popupmarkettingbtn" 
-        
-        
-        
-        
-        style="
-        /* color: #ffffff; */
-        /* font-size: 50px; */
-        /* text-decoration: line-through; */
-        
-        ">$525.₀₀</h2>
-
-        <!-- <h2 style="color: #ffffff;">●●Open 24/7●●</h2> -->
-
-
-
-        <!-- <h2 style="
-        color: transparent;
-        font-size: 50px;
-        ">●●$525.00●●</h2> -->
-
-        
-
-        
-        <!-- <h2 style="
-        
-        background-image: url(./img/clinclingif-ezgif.com.gif);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-        background-size: cover;
-        background-position: center;
-        
-        
-        ">●●Balse Eh MMG ●●</h2> -->
-          
-
-          <br>
-
-          <!-- <h2 style="color: #000000; font-size: 25px; ">●●Only Video Editing●●</h2> -->
-
-          <br>
-
-
-          <!-- <h2 style="color: red;">For now:</h2> -->
-
-          <br>
-          <br>
-
-          
-          <!-- <h2 style="color: #000000;">2 Thumbnail Covers</h2> -->
-
-          <br>
-          <br>
-          
-          <h2>4k Video</h2>
-          <h2>2 previews <br> Scene</h2>
-          <br>
-
-
-
-
-          <div class="buttons">
-            <button class="modal-button close-btn">Close</button>
-            <a href="https://www.paypal.com/ncp/payment/F68JZ2U28YBDS"><button class="modal-button">Hired</button></a>
-          </div>
-      </div>
-    </div>
-
-
-    <!-- JS for modal is at the bottom of the pg -->
-
-
-    <br>
-    <br>
-    <br>
-
-
-    
-
-    <!-- Marquee Videos -->
-    <!-- Marquee Videos -->
-    <!-- Marquee Videos -->
-
-    <div class="footer-1db style-6MKcK" id="style-6MKcK">
-
-      <div class="footer-3q9">
-
-        <div class="footer-ogw" style="width: 100%; height: 250px;">
-
-
-          <!-- <a  class="footer-t51 style-zO5m9" id="style-zO5m9">
-          <div class="footer-m8a">
-          </div>
-          <div class="footer-ekg">
-            <img src="./img/trapnationgif.gif" width="200" height="150" class="laz-3o6">
-          </div>
-          <div class="footer-coh">
-            Web Design
-          </div>
-        </a> -->
-
-
-
-
-
-
-
-
-          <div class="backcard">
-            <div class="cardclinclin">
-              <!-- <h1 style="text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;" >Un Flow zaza</h1> -->
-              <video class="video" src="./assets/video/Clinvidremix1min.mp4" controls muted loop style="z-index: 100;
-            max-width: 100%;
-            margin: 30px auto;
-            margin-left: 30px  auto;
-            
-            padding: 0px;
-            /* border: 1px solid #ddd; */
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            display: flex;
-            justify-content: center;
-            align-items: center;">
-
-              </video>
-            </div>
-
-          </div>
-
-
-
-
-
-
-
-
-          <div class="backcard">
-            <div class="cardnory">
-              <!-- <h1 style="text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;" >Nory Money</h1> -->
-              <video class="video" src="./assets/video/nory-codigosvid.mp4" controls muted loop style="z-index: 100;
-        max-width: 100%;
-        margin: 30px auto;
-        margin-left: 30px  auto;
-        
-        padding: 0px;
-        /* border: 1px solid #ddd; */
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        display: flex;
-        justify-content: center;
-        align-items: center;">
-
-              </video>
-            </div>
-          </div>
-
-
-
-
-
-
-          <div class="backcard">
-            <div class="cardfa">
-              <!-- <h1 style="text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;" >Fa melz</h1> -->
-              <video class="video" src="./assets/video/Famelz-Quefue(1min).mp4" controls muted loop style="z-index: 100;
-        max-width: 100%;
-        margin: 30px auto;
-        margin-left: 30px  auto;
-        
-        padding: 0px;
-        /* border: 1px solid #ddd; */
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        display: flex;
-        justify-content: center;
-        align-items: center;">
-
-              </video>
-            </div>
-          </div>
-
-
-
-
-
-
-
-
-          
-
-
-
-
-
-
-          <div class="backcard">
-            <div class="cardwow">
-              <!-- <h1 style="text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;" >Un Flow zaza</h1> -->
-              <video class="video" src="./assets/video/Nory&Famels-Wowoffvideo(gif).mp4" controls muted loop style="z-index: 100;
-            max-width: 100%;
-            margin: 30px auto;
-            margin-left: 30px  auto;
-            
-            padding: 0px;
-            /* border: 1px solid #ddd; */
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            display: flex;
-            justify-content: center;
-            align-items: center;">
-
-              </video>
-            </div>
-
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          <!-- <a  class="footer-t51 style-7Tgr3" id="style-7Tgr3">
-          <div style="width: 200px; height: 100px;" class="swiper-slide">
-            <img src="./images/kd.png" />
-            <div class="slide-overlay">
-              <h2>Nory Dolla</h2>
-              <h3>Codigos</h3>
-              <button>
-                Kevin Durant <i class="fa-solid fa-circle-play"></i>
-              </button>
-          
-              <audio style="width: 100px; color: transparent;" controls preload="auto" >
-                <source src="./music/GodAmongUs.mp3" type="audio/ogg">
-                <source src="./music/GodAmongUs.mp3" type="audio/mpeg">
-                Your browser does not support the audio element
-                .
-              </audio>
-          
-            </div>
-          </div>
-        </a>
-
-
-
-
-
-        
-        
-        
-        <a  class="footer-t51 style-7Tgr3" id="style-7Tgr3">
-          <div style="width: 200px; height: 100px;" class="swiper-slide">
-            <img src="./img/Cirujano2.png" />
-            <div class="slide-overlay">
-              <h2>Nory Dolla</h2>
-              <h3>Codigos</h3>
-              <button>
-                Cirujano <i class="fa-solid fa-circle-play"></i>
-              </button>
-          
-              <audio style="width: 100px; color: transparent;" controls preload="auto" >
-                <source src="./music//Cirujano4.mp3" type="audio/ogg">
-                <source src="./music//Cirujano4.mp3" type="audio/mpeg">
-                Your browser does not support the audio element
-                .
-              </audio>
-          
-            </div>
-          </div>
-        </a>
-
-
-
-
-
-
-        
-
-
-
-
-
-        <a  class="footer-t51 style-7Tgr3" id="style-7Tgr3">
-          <div style="width: 200px; height: 100px;" class="swiper-slide">
-            <img src="./img/Cirujano2.png" />
-            <div class="slide-overlay">
-              <h2>Nory Dolla</h2>
-              <h3>Codigos</h3>
-              <button>
-                Cirujano <i class="fa-solid fa-circle-play"></i>
-              </button>
-          
-              <audio style="width: 100px; color: transparent;" controls preload="auto" >
-                <source src="./music//Cirujano3.mp3" type="audio/ogg">
-                <source src="./music//Cirujano3.mp3" type="audio/mpeg">
-                Your browser does not support the audio element
-                .
-              </audio>
-          
-            </div>
-          </div>
-        </a>
-
-
-
-
-
-        <a  class="footer-t51 style-7Tgr3" id="style-7Tgr3">
-          <div style="width: 200px; height: 100px;" class="swiper-slide">
-            <img src="./images/Cirujano2.png" />
-            <div class="slide-overlay">
-              <h2>Nory Dolla</h2>
-              <h3>Codigos</h3>
-              <button>
-                Cirujano <i class="fa-solid fa-circle-play"></i>
-              </button>
-          
-              <audio style="width: 100px; color: transparent;" controls preload="auto" >
-                <source src="./music/Cirujano2.mp3" type="audio/ogg">
-                <source src="./music/Cirujano2.mp3" type="audio/mpeg">
-                Your browser does not support the audio element
-                .
-              </audio>
-          
-            </div>
-          </div>
-        </a>
-
-
-
-
-
-        <a  class="footer-t51 style-7Tgr3" id="style-7Tgr3">
-          <div style="width: 200px; height: 100px;" class="swiper-slide">
-            <img src="./img/thug111.png" />
-            <div class="slide-overlay">
-              <h2>Nory Dolla</h2>
-              <h3>Codigos</h3>
-              <button>
-                Young Thug <i class="fa-solid fa-circle-play"></i>
-              </button>
-          
-              <audio style="width: 100px; color: transparent;" controls preload="auto" >
-                <source src="./music/Thug-NeverHadIt.mp3" type="audio/ogg">
-                <source src="./music/Thug-NeverHadIt.mp3" type="audio/mpeg">
-                Your browser does not support the audio element
-                .
-              </audio>
-          
-            </div>
-          </div>
-        </a>
-
-
-
-
-
-        <a  class="footer-t51 style-7Tgr3" id="style-7Tgr3"></a>
-          <div style="width: 200px; height: 100px;" class="swiper-slide">
-            <img src="./img/Gunna2.png" />
-            <div class="slide-overlay">
-              <h2>Nory Dolla</h2>
-              <h3>Codigos</h3>
-              <button>
-                Gunna <i class="fa-solid fa-circle-play"></i>
-              </button>
-          
-              <audio style="width: 100px; color: transparent;" controls preload="auto" >
-                <source src="./music/Gunna-Relentless.mp3" type="audio/ogg">
-                <source src="./music/Gunna-Relentless.mp3" type="audio/mpeg">
-                Your browser does not support the audio element
-                .
-              </audio>
-          
-            </div>
-          </div>
-        </a>
-        
-        
-        
-        
-        <a  class="footer-t51 style-7Tgr3" id="style-7Tgr3">
-          <div style="width: 200px; height: 100px;" class="swiper-slide">
-            <img src="./img/Gunna2.png" />
-            <div class="slide-overlay">
-              <h2>Nory Dolla</h2>
-              <h3>Codigos</h3>
-              <button>
-                Gunna <i class="fa-solid fa-circle-play"></i>
-              </button>
-          
-              <audio style="width: 100px; color: transparent;" controls preload="auto" >
-                <source src="./music/Gunna-oneofwun.mp3" type="audio/ogg">
-                <source src="./music/Gunna-oneofwun.mp3" type="audio/mpeg">
-                Your browser does not support the audio element
-                .
-              </audio>
-          
-            </div>
-          </div>
-        </a>
-
-
-
-        <a  class="footer-t51 style-7Tgr3" id="style-7Tgr3">
-          <div style="width: 200px; height: 100px;" class="swiper-slide">
-            <img src="./img/Gunna2.png" />
-            <div class="slide-overlay">
-              <h2>Nory Dolla</h2>
-              <h3>Codigos</h3>
-              <button>
-                Gunna <i class="fa-solid fa-circle-play"></i>
-              </button>
-          
-              <audio style="width: 100px; color: transparent;" controls preload="auto" >
-                <source src="./music/Gunna-Fumean.mp3" type="audio/ogg">
-                <source src="./music/Gunna-Fumean.mp3" type="audio/mpeg">
-                Your browser does not support the audio element
-                .
-              </audio>
-          
-            </div>
-          </div>
-        </a> -->
-
-
-
-
-          <!-- <a  class="footer-t51 footer-5ps style-FsPRc" id="style-FsPRc">
-          <div class="footer-m8a">
-          </div>
-          <div class="footer-ekg">
-            <img src="./IMG/JellyBlue.jpg" width="200" height="150" class="laz-3o6">
-          </div>
-          <div class="footer-coh">
-            Product Design
-          </div>
-        </a> -->
-
-        </div>
-      </div>
-
-
-
-
-
-      <br>
-      <br>
-      <br>
-      <br>
-    </div>
-
-
-
-
-    <br>
-    <br>
-    <br>
-    
-
-
-
-
-
-    <div class="scrolling-text-container">
-      <div class="scrolling-text">
-        Limitless 
-      </div>
-    </div>
-
-
-
-    
-    <div class="scrolling-text-container2">
-      <div class="scrolling-text2">
-         Limitless
-      </div>
-    </div>
-
-
-  </section>
-
-
-
-
-
-
-  <!-- Intersect Marquee -->
-  <!-- Intersect Marquee -->
-  <!-- Intersect Marquee -->
-  <!-- Intersect Marquee -->
-
-
-
-
-  <!-- <section style="
-  /* background-image: url(./assets/img/okok13.gif);
-  background-position: center;
-  background-size: contain; */
-  /* background-repeat: no-repeat; */
-  ">
-    <div class="scroll text-1">
-      <div>
-        Prisms <span>Prisms</span> Prisms <span>Prisms</span> Prisms <span>Prisms</span> Prisms
-        <span>Prisms&nbsp;</span>
-      </div>
-      <div>
-        Prisms <span>Prisms</span> Prisms <span>Prisms</span> Prisms <span>Prisms</span> Prisms
-        <span>Prisms&nbsp;</span>
-      </div>
-    </div>
-  
-    <div class="scroll text-2">
-      <div>
-        Reflection <span>Reflection</span> Reflection <span>Reflection</span> Reflection <span>Reflection</span> Reflection
-        <span>Reflection&nbsp;</span>
-      </div>
-      <div>
-        Reflection <span>Reflection</span> Reflection <span>Reflection</span> Reflection <span>Reflection</span> Reflection
-        <span>Reflection&nbsp;</span>
-      </div>
-    </div>
-  
-    <div class="scroll text-3">
-      <div>
-        Experimental <span>Experimental</span> Experimental <span>Experimental</span> Experimental <span>Experimental</span> Experimental
-        <span>Experimental&nbsp;</span>
-      </div>
-      <div>
-        Experimental <span>Experimental</span> Experimental <span>Experimental</span> Experimental <span>Experimental</span> Experimental
-        <span>Experimental&nbsp;</span>
-      </div>
-    </div>
-  
-    <div class="scroll text-4">
-      <div>
-        The Eye <span>The Eye</span> The Eye <span>The Eye</span> The Eye <span>The Eye</span> The Eye
-        <span>The Eye&nbsp;</span>
-      </div>
-      <div>
-        The Eye <span>The Eye</span> The Eye <span>The Eye</span> The Eye <span>The Eye</span> The Eye
-        <span>The Eye&nbsp;</span>
-      </div>
-    </div>
-  
-    <div class="scroll text-5">
-      <div>
-        Portraits <span>Portraits</span> Portraits <span>Portraits</span> Portraits <span>Portraits</span> Portraits
-        <span>Portraits&nbsp;</span>
-      </div>
-      <div>
-        Portraits <span>Portraits</span> Portraits <span>Portraits</span> Portraits <span>Portraits</span> Portraits
-        <span>Portraits&nbsp;</span>
-      </div>
-    </div>
-  
-    <div class="scroll text-6">
-      <div>
-        Illusion <span>Illusion</span> Illusion <span>Illusion</span> Illusion <span>Illusion</span> Illusion
-        <span>Illusion&nbsp;</span>
-      </div>
-      <div>
-        Illusion <span>Illusion</span> Illusion <span>Illusion</span> Illusion <span>Illusion</span> Illusion
-        <span>Illusion&nbsp;</span>
-      </div>
-    </div>
-  </section> -->
-
-
-
-
-  
-  <!-- Music Player -->
-  <!-- Music Player -->
-  <!-- Music Player -->
-  <section id="playlist" style="
-  
-  /* background-image: url(./assets/img/LM-promoad.gif);  */
-  /* background-size: contain; */
-  /* background-color: transparent; */
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  /* border-radius: 90%; */
-  
-  ">
-
-
-
-
-
-
-    <!-- <h2 class="" style="
-        display: flex; justify-content: space-around; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-shadow: 0 0 20px #ff0000, 0 0 40px #0081bc;
-
-
-        left: auto;
-        /* bottom: 32px; */
-        z-index: 0;
-        margin-top: 0;
-        color: rgb(255, 0, 0);
-
-
-        background-image: url(./img/transstars.gif);
-        background-position: center;
-
-
-        
-        font-size: 6vw;
-        text-align: center;
-        letter-spacing: 0;">ΞΞΞPlaylistΞΞΞ</h2> -->
-
+  <!-- Feature Section -->
+  <!-- Feature Section -->
+  <!-- Feature Section -->
+  <section class="section">
 
     <h2 class="titles" style="
         display: flex; 
@@ -3160,411 +2258,854 @@
 
 
         left: auto;
-       
-        z-index: 0;
-        margin-top: 0;
-        color: rgb(255, 255, 255);
-        font-size: 8vw;
-        text-align: center;
         
-        
-        
-        /* background-position: center;
-        
-        background-image: url(./img/clinclingif-ezgif.com.gif);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-        background-size: contain; */
-
-
-
-
-
-
-
-    letter-spacing: 0;">◆P♪aylist◆</h2>
-
-
-    <!-- Music Player -->
-    <!-- Music Player -->
-    <!-- Music Player -->
-    <div id="player" class="player" style="--f: url(#glow-1); 
-    --l: #ff45457f, #00ff997f, #006aff7f, #ff00957f,">
-      <div class="wrapper" style="background-image: url(./assets/img/okok13.gif);" >
-        <div class="details">
-          <div class="now-playing">PLAYING x OF y</div>
-          <div class="track-art"></div>
-          <div class="track-name">Track Name</div>
-          <div class="track-artist">Track Artist</div>
-        </div>
-
-        <div class="slider_container">
-          <div class="current-time">00:00</div>
-          <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
-          <div class="total-duration">00:00</div>
-        </div>
-
-        <!-- <div class="slider_container">
-          <i class="fa fa-volume-down"></i>
-          <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
-          <i class="fa fa-volume-up"></i>
-        </div> -->
-
-        <div class="buttons">
-          <div class="random-track" onclick="randomTrack()">
-            <i class="fas fa-random fa-2x" title="random"></i>
-          </div>
-          <div class="prev-track" onclick="prevTrack()">
-            <i class="fa fa-step-backward fa-2x"></i>
-          </div>
-          <div class="playpause-track" onclick="playpauseTrack()">
-            <i class="fa fa-play-circle fa-5x"></i>
-          </div>
-          <div class="next-track" onclick="nextTrack()">
-            <i class="fa fa-step-forward fa-2x"></i>
-          </div>
-          <div class="repeat-track" onclick="repeatTrack()">
-            <i class="fa fa-repeat fa-2x" title="repeat"></i>
-          </div>
-        </div>
-
-        <!-- <div id="wave">
-          <span class="stroke"></span>
-          <span class="stroke"></span>
-          <span class="stroke"></span>
-          <span class="stroke"></span>
-          <span class="stroke"></span>
-          <span class="stroke"></span>
-          <span class="stroke"></span>
-        </div> -->
-      </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </section>
-
-
-
-
-
-
-
-  <!-- Store -->
-  <!-- Store -->
-  <!-- Store -->
-   
-  <section id="merch" style="
-  background-image: url(./assets/img/eyelooping.gif);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  border-radius: 50% 50%;
-
-
-
-  ">
-
-
-
-    <h2 class="titles" style="
-        display: flex; 
-        justify-content: space-around; 
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-        
-        text-shadow: 0 0 20px #33ff0000, 0 0 40px #1100ff00;
-
-
-        left: auto;
-       
-        z-index: 0;
-        margin-top: 0;
-        /* color: rgb(255, 255, 255); */
-        font-size: 100px;
-        text-align: center;
-        background-position: center;
-        
-        background-image: url(./assets/img/eyelooping.gif);
-        background-position: center;
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-        background-size: contain;
-
-
-
-
-
-
-
-    letter-spacing: 0;">Ŝ₸●®ě</h2>
-
-
-
-    <!-- Visit Store -->
-    <!-- Visit Store -->
-    <!-- Visit Store -->
-    <!-- Visit Store -->
-
-
-
-
-    <div class="product-container">
-
-      <div class="product-info">
-        <!-- <h2>Limitless Store</h2> -->
-        <!-- <p>Si te metite palla, tiene que compra obligao!</p> -->
-        <!-- <a href="https://clay3d11.github.io/LimitlessMerch/"><button>Visit Store</button></a> -->
-
-        <a  href="https://clay3d11.github.io/LimitlessMerch/"><button class="popupmarkettingbtn" style="font-size: 20px;
-          margin: 0 auto;
-          /* width: 50%; */
-          display: block;
-          ">
-            Visit Store
-    
-          </button></a>
-
-
-
-
-
-        <!-- <a href="https://clay3d11.github.io/LimitlessMerch/"><button class='glowing-btn'><span class='glowing-txt'>ST<span class='faulty-letter'>OR</span>E</span></button></a> -->
-
-      </div>
-
-
-
-
-
-
-
-
-
-
-      <!-- <img src="/LimitlessShop/images/nike_marquee_edge_mirrored_running_sunglasses_Oh8f9Gy7yP.webp"> -->
-
-
-
-      <!-- <img src="https://assets2.oakley.com/cdn-record-files-pi/41ce95cd-3eb9-42c5-8480-a6ba01218223/a07b3c7a-5942-42bd-8a62-afc70167b54a/0OJ9001__900105__P21__shad__qt.png?impolicy=OO_ratio&width=2000" alt="">
-      <div class="marquee -container">
-        <marquee behavior="scroll" direction="left">Coming Soon!</marquee>
-      </div>
-
-      <br>
-      <br>
-      <br>
-
-      <img src="https://assets2.oakley.com/cdn-record-files-pi/6868f1b5-0f5d-4eba-bf81-a6ba0121b6b5/5c5f1e63-2dfa-420a-8de1-afc701689482/0OJ9001__900106__P21__shad__qt.png?impolicy=OO_ratio&width=2000" alt="">
-      <div class="marquee -container">
-        <marquee behavior="scroll" direction="left">Coming Soon!</marquee>
-      </div>
-
-      <br>
-      <br>
-      <br>
-
-      <img src="https://assets2.oakley.com/cdn-record-files-pi/67eab5b4-f56f-4906-98f6-ab5700fe755e/dc86aa87-e056-4c2e-871c-afc7016e2725/0OJ9001__900115__P21__shad__qt.png?impolicy=OO_ratio&width=2000" alt="">
-      <div class="marquee -container">
-        <marquee behavior="scroll" direction="left">Coming Soon!</marquee>
-      </div> -->
-
-      <!-- <br>
-      <br>
-      <br>
-
-      <img src="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/888392243683_F.jpg" alt="">
-      <div class="marquee -container">
-        <marquee behavior="scroll" direction="left">Coming Soon!</marquee>
-      </div> -->
-
-
-
-
-
-
-
-    </div>
-
-
-    <!-- <p>25% Revenue</p> -->
-    <br>
-    <br>
-    <h7 style="
-  margin: 0 auto;
-  /* width: 30%; */
-  display: block;
-  
-  ">25% Revenue <br><br><br> we cover: </h7>
-
-
-
-    <!-- <h8 style="
-  margin: 0 auto;
-  width: 50%;
-  display: block;
-
-  color: #000000;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
-  " >we Cover:</h8> -->
-
-    <h7 style="margin: 0 auto;display: block;" >stocking <br>Selling <br> Shipping</h7>
-
-
-
-    <!-- <marquee behavior="ease-in-out" direction="">
-      <img src="./img/taatracao.gif" alt="" style="width: 200px; height: 150px; display: inline; " >
-      <h2 class="" style="
-        display: flex; justify-content: space-around; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-shadow: 0 0 2px #00fffb, 0 0 20px #0081bc;
-
-
-        left: auto;
-        /* bottom: 32px; */
         z-index: 0;
         margin-top: 0;
         color: rgb(255, 255, 255);
         font-size: 50px;
         text-align: center;
-    letter-spacing: 0;">
-    ATTN: Merchendise owners/Sellers : 25% of revenue and Limitess Store take care of the stocking, shipping, and selling.</h2> 
-    </marquee> -->
+        
+        
+        
+        /* background-position: center;
+        background-image: url(./img/clinclingif-ezgif.com.gif);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-size: contain; */
+        letter-spacing: 0;">◆Features◆</h2>
 
 
+    <!-- <h2>Features</h2> -->
+    
+
+    <div class="cards">
 
 
+      <div class="cardeyelooping">
+        <h3>Fast & Responsive</h3>
+        <p>Built with mobile-first design and modern layout techniques to look good on any screen.</p>
+      </div>
 
 
-    <a href="https://calendar.app.google/YhqvDd5F7H2QUsx16"><button class="popupmarkettingbtn" style="font-size: 20px;
-      margin: 0 auto;
-      /* width: 50%; */
-      display: block;
+      
+      <div class="cardfamels">
+        <h3>FaMels</h3>
+        <p>Built with mobile-first design and modern layout techniques to look good on any screen.</p>
+      </div>
+
+
+      <div class="card">
+        <h3>Easy to Customize</h3>
+        <p>Use this structure as a base and tweak the components to suit your content needs.</p>
+      </div>
+
+
+      <div class="card">
+        <h3>Clean Aesthetic</h3>
+        <p>Typography, spacing, and layout are thoughtfully crafted for clarity and simplicity.</p>
+      </div>
+
       
       
-      ">
-
-        Lets Become Partners!
 
 
+     
 
 
+    </div>
+  </section>
 
 
+  <!-- Albums Wall -->
+  <!-- Albums Wall -->
+  <!-- Albums Wall -->
+  <div id="albums" class="card">
+    <!-- <h8 style="
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ">Albums</h8> -->
 
-      </button></a>
-
+    <!-- <br> -->
     
 
 
 
+    <section class="layout"  style=" 
+      /* width: 100%; */
 
+      height: 100vh;
+    
+      display: grid;
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-columns: repeat(5, 1fr);
+      gap: 8px;
+    
+      justify-content: center;
+      align-content: center;
 
+      
+    "
+    
+    >
 
+    
+      <div style="background-image: url(./assets/img/eyelooping.gif); background-position: center; background-size: cover;">
 
-
-
-
-
-
-
-    <!-- <div class="product-container">
-          <img src="https://assets2.oakley.com/cdn-record-files-pi/13bb41b2-ab71-4ea4-b51b-af17013161c5/f8c86aae-58f1-4c8f-9e4a-af330041a596/0OJ9001__900127__P21__shad__qt.png?impolicy=OO_ratio&width=2000" alt="Product Image">
-          <div class="marquee-container">
-            <marquee behavior="ease-in-out" direction="left" style="width: 100%;" >Coming Soon!!</marquee>
-          </div>
-          <div class="product-info">
-            <h2>Hottest Merch</h2>
-            <p>Limitless Music Sport Glasses</p>
-            <div class="price-container">
-              <span class="original-price">$99.99</span>
-              <span class="discounted-price">$79.99</span>
+        <!-- <div class="albummodal-container">
+          <button class="albummodal-button albumshow">Album</button>
+          <span class="albummodal-overlay"></span>
+    
+          <div class="albummodal-content">
+            <i class="fa-regular fa-circle-check"></i>
+            <h2>Completed</h2>
+            <h3>You have successfully downloaded all the source code files.</h3>
+    
+            <div class="albumbuttons">
+              <button class="albummodal-button albumclose-btn">Ok, Close</button>
+              <button class="modal-button">Open File</button>
             </div>
-            <button class="buy-now">Buy Now</button>
           </div>
         </div> -->
 
 
 
 
+      </div>
+
+
+
+
+      <!-- <div style="background-image: url(./assets/img/biggestfan.png); background-position: center; background-size: cover;"></div> -->
+      <!-- <div style="background-image: url(./assets/img/calm.png); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/catchme.png); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/Cirujano2.png); background-position: center; background-size: cover;"></div> -->
+      <!-- <div style="background-image: url(./assets/img/compro.png); background-position: center; background-size: cover;"></div> -->
+      <div style="background-image: url(./assets/img/dior.png); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/UnFlowZaza.gif); background-position: center; background-size: cover;"></div>
+      <!-- <div style="background-image: url(./assets/img/essence.png); background-position: center; background-size: cover;"></div> -->
+      <div style="background-image: url(./assets/img/ChoppaHate.png); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/clinclingif-ezgif.com.gif); background-position: center; background-size: cover;"></div>
+      <!-- <div style="background-image: url(./assets/img/compro.png); background-position: center; background-size: cover;"></div> -->
+      <div style="background-image: url(./assets/img/fa-melz.png); background-position: center; background-size: cover;"></div>
+      
+      <!-- <div style="background-image: url(./assets/img/fallingdown.jpg); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/freefromdesire.png); background-position: center; background-size: cover;"></div> -->
+      <!-- <div style="background-image: url(./assets/img/freemind.png); background-position: center; background-size: cover;"></div> -->
+      <div style="background-image: url(./assets/img/Goddest.png); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/Gunna2.png); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/codigosvid.gif); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/lucy.jpg); background-position: center; background-size: cover;"></div>
+
+
+      <div style="background-image: url(./assets/img/LM-gif.gif); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/LM-gif.gif); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/LM-gif.gif); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/LM-gif.gif); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/LM-gif.gif); background-position: center; background-size: cover;"></div>
+      <!-- <div style="background-image: url(./assets/img/kd.png); background-position: center; background-size: cover;"></div> -->
+      <!-- <div style="background-image: url(./assets/img/Kulosa.png); background-position: center; background-size: cover;"></div> -->
+      <!-- <div style="background-image: url(./assets/img/Lastlast.png); background-position: center; background-size: cover;"></div> -->
+      <!-- <div style="background-image: url(./assets/img/lilbaby2.png); background-position: center; background-size: cover;"></div> -->
+      <!-- <div style="background-image: url(./assets/img/LM.png); background-position: center; background-size: cover;"></div> -->
+      
+      <div style="background-image: url(./assets/img/metal.png); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/metallic.png); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/migos.png); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/Nory&Famelz-Wow.gif); background-position: center; background-size: cover;"></div>
+      
+      <div style="background-image: url(./assets/img/allofthesudden.png); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/norygif.gif); background-position: center; background-size: cover;"></div>
+      <!-- <div style="background-image: url(./assets/img/norymecanse.png); background-position: center; background-size: cover;"></div> -->
+      <!-- <div style="background-image: url(./assets/img/notlikeus.png); background-position: center; background-size: cover;"></div> -->
+      
+      <div style="background-image: url(./assets/img/panda.png); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/Quefue.gif); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/quefue.png); background-position: center; background-size: cover;"></div>
+      <!-- <div style="background-image: url(./assets/img/sky.png); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/Royal.png); background-position: center; background-size: cover;"></div>
+      <div style="background-image: url(./assets/img/soundgasm.png); background-position: center; background-size: cover;"></div> -->
+      <div style="background-image: url(./assets/img/UnFlowZaza.gif); background-position: center; background-size: cover;"></div>
+    </section>
+
+  </div>
+
+
+
+
+  <!-- Store Modal -->
+  <!-- Store Modal -->
+  <!-- Store Modal -->
+  <br id="merch">
+  <br>
+  <div  class="cardstore">
+    <!-- Store BTN Open Modal -->
+    <!-- Store BTN Open Modal -->
+    <button id="openModalBtn">
+
+      <h2 class="titles" style="
+                  display: flex; 
+                  justify-content: space-around; 
+                  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+                  
+                  text-shadow: 0 0 20px #33ff0000, 0 0 40px #1100ff00;
+
+
+                  left: auto;
+                
+                  z-index: 0;
+                  margin-top: 0;
+                  color: rgb(255, 255, 255);
+                  font-size: 100px;
+                  text-align: center;
+                  background-position: center;
+                  
+                  background-image: url(./assets/img/eyelooping.gif);
+                  background-position: center;
+                  background-clip: text;
+                  -webkit-background-clip: text;
+
+                  
+                  color: transparent;
+                  background-size: contain;
+
+      letter-spacing: 0;">Ŝ₸●®ě</h2>
+    
+    
+    </button>
+  
+
+    <!-- Modal Structure -->
+    <!-- Modal Structure -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="closeBtn">&times;</span>
+        <div class="modal-body">
+          <!-- Your content goes here -->
+
+          <!-- Store -->
+          <!-- Store -->
+            
+          <section id="merch" style="
+            background-image: url(./assets/img/eyelooping.gif);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 50% 50%;
+
+
+
+            ">
+
+
+
+              <h2 class="titles" style="
+                  display: flex; 
+                  justify-content: space-around; 
+                  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+                  
+                  text-shadow: 0 0 20px #33ff0000, 0 0 40px #1100ff00;
+
+
+                  left: auto;
+                
+                  z-index: 0;
+                  margin-top: 0;
+                  color: rgb(255, 255, 255);
+                  font-size: 100px;
+                  text-align: center;
+                  background-position: center;
+                  
+                  background-image: url(./assets/img/eyelooping.gif);
+                  background-position: center;
+                  background-clip: text;
+                  -webkit-background-clip: text;
+                  color: transparent;
+                  background-size: contain;
 
 
 
 
 
 
-    <!-- small Mini img Marque -->
-    <!-- small Mini img Marque -->
-    <!-- small Mini img Marque -->
-    <!-- small Mini img Marque -->
-    <!-- <div class="marqueesocial">
-          <div>
-            <img src="./img/Cirujano.png" alt="">
-            <img src="./img/Kulosa.png" alt="">
-            <img src="./img/fa-melz1.png" alt="">
-            <img src="./img/Fatmelz.png" alt="">
-            <img src="./img/Nory2.png" alt="">
-            <img src="./img/Shadow1.png" alt="">
-            <img src="./img/Fatmelz4.png" alt="">
-            <img src="./img/Nory4.png" alt="">
-            <img src="./img/fa-melz.png" alt="">
-            <img src="./img/Goddest.png" alt="">
-            <img src="./img/Nory-Code.png" alt="">
-            <img src="./img/Cirujano2.png" alt="">
-            <img src="./img/norymecanse.png" alt="">
+
+              letter-spacing: 0;">Ŝ₸●®ě</h2>
+
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+
+
+
+              <!-- Visit Store -->
+              <!-- Visit Store -->
+              <!-- Visit Store -->
+              <!-- Visit Store -->
+
+
+
+
+              <div class="product-container">
+
+                <div class="product-info">
+                  <!-- <h2>Limitless Store</h2> -->
+                  <!-- <p>Si te metite palla, tiene que compra obligao!</p> -->
+                  <!-- <a href="https://clay3d11.github.io/LimitlessMerch/"><button>Visit Store</button></a> -->
+
+                  <a  href="https://clay3d11.github.io/LimitlessMerch/"><button class="popupmarkettingbtn" style="font-size: 20px;
+                    margin: 0 auto;
+                    /* width: 50%; */
+                    display: block;
+                    color: #ffffff;
+                    /* font-weight: 800; */
+                    ">
+                      Visit Store
+              
+                    </button></a>
 
 
 
 
 
-            <img src="./img/Cirujano.png" alt="">
-            <img src="./img/Kulosa.png" alt="">
-            <img src="./img/fa-melz1.png" alt="">
-            <img src="./img/Fatmelz.png" alt="">
-            <img src="./img/Nory2.png" alt="">
-            <img src="./img/Shadow1.png" alt="">
-            <img src="./img/Fatmelz4.png" alt="">
-            <img src="./img/Nory4.png" alt="">
-            <img src="./img/fa-melz.png" alt="">
-            <img src="./img/Goddest.png" alt="">
-            <img src="./img/Nory-Code.png" alt="">
-            <img src="./img/Cirujano2.png" alt="">
-            <img src="./img/norymecanse.png" alt="">
+                  <!-- <a href="https://clay3d11.github.io/LimitlessMerch/"><button class='glowing-btn'><span class='glowing-txt'>ST<span class='faulty-letter'>OR</span>E</span></button></a> -->
+
+                </div>
 
 
 
 
-            <img src="./img/Cirujano.png" alt="">
-            <img src="./img/Kulosa.png" alt="">
-            <img src="./img/fa-melz1.png" alt="">
-            <img src="./img/Fatmelz.png" alt="">
-            <img src="./img/Nory2.png" alt="">
-            <img src="./img/Shadow1.png" alt="">
-            <img src="./img/Fatmelz4.png" alt="">
-            <img src="./img/Nory4.png" alt="">
-            <img src="./img/fa-melz.png" alt="">
-            <img src="./img/Goddest.png" alt="">
-            <img src="./img/Nory-Code.png" alt="">
-            <img src="./img/Cirujano2.png" alt="">
-            <img src="./img/norymecanse.png" alt="">
+
+
+
+
+
+
+                <!-- <img src="/LimitlessShop/images/nike_marquee_edge_mirrored_running_sunglasses_Oh8f9Gy7yP.webp"> -->
+
+
+
+                <!-- <img src="https://assets2.oakley.com/cdn-record-files-pi/41ce95cd-3eb9-42c5-8480-a6ba01218223/a07b3c7a-5942-42bd-8a62-afc70167b54a/0OJ9001__900105__P21__shad__qt.png?impolicy=OO_ratio&width=2000" alt="">
+                <div class="marquee -container">
+                  <marquee behavior="scroll" direction="left">Coming Soon!</marquee>
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+                <img src="https://assets2.oakley.com/cdn-record-files-pi/6868f1b5-0f5d-4eba-bf81-a6ba0121b6b5/5c5f1e63-2dfa-420a-8de1-afc701689482/0OJ9001__900106__P21__shad__qt.png?impolicy=OO_ratio&width=2000" alt="">
+                <div class="marquee -container">
+                  <marquee behavior="scroll" direction="left">Coming Soon!</marquee>
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+                <img src="https://assets2.oakley.com/cdn-record-files-pi/67eab5b4-f56f-4906-98f6-ab5700fe755e/dc86aa87-e056-4c2e-871c-afc7016e2725/0OJ9001__900115__P21__shad__qt.png?impolicy=OO_ratio&width=2000" alt="">
+                <div class="marquee -container">
+                  <marquee behavior="scroll" direction="left">Coming Soon!</marquee>
+                </div> -->
+
+                <!-- <br>
+                <br>
+                <br>
+
+                <img src="https://optimaxweb.glassesusa.com/image/upload/f_auto,q_auto/ms/media/catalog_product/1/888392243683_F.jpg" alt="">
+                <div class="marquee -container">
+                  <marquee behavior="scroll" direction="left">Coming Soon!</marquee>
+                </div> -->
+
+
+
+
+
+
+
+              </div>
+
+
+              <!-- <p>25% Revenue</p> -->
+            
+              <h7 style="
+            margin: 0 auto;
+            /* width: 30%; */
+            /* display: block; */
+            
+            
+            ">25% Revenue <br>  </h7>
+
+
+
+              <h8 style="
+            margin: 0 auto;
+            /* width: 50%;
+            display: block; */
+
+            color: #222ed8;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            
+            " >we Cover:</h8>
+
+              <h7 style="
+              margin: 0 auto;
+              /* display: block; */
+              
+              " >stocking <br>Selling <br> Shipping</h7>
+
+
+
+              <!-- <marquee behavior="ease-in-out" direction="">
+                <img src="./img/taatracao.gif" alt="" style="width: 200px; height: 150px; display: inline; " >
+                <h2 class="" style="
+                  display: flex; justify-content: space-around; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-shadow: 0 0 2px #00fffb, 0 0 20px #0081bc;
+
+
+                  left: auto;
+                  /* bottom: 32px; */
+                  z-index: 0;
+                  margin-top: 0;
+                  color: rgb(255, 255, 255);
+                  font-size: 50px;
+                  text-align: center;
+              letter-spacing: 0;">
+              ATTN: Merchendise owners/Sellers : 25% of revenue and Limitess Store take care of the stocking, shipping, and selling.</h2> 
+              </marquee> -->
+
+
+
+
+
+
+              <!-- <a href="https://calendar.app.google/YhqvDd5F7H2QUsx16"><button class="popupmarkettingbtn" style="font-size: 20px;
+                margin: 0 auto;
+                /* width: 50%; */
+                display: block;
+                
+                
+                ">
+
+                  Lets Become Partners!
+
+
+
+
+
+
+
+                </button></a> -->
 
               
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <!-- <div class="product-container">
+                    <img src="https://assets2.oakley.com/cdn-record-files-pi/13bb41b2-ab71-4ea4-b51b-af17013161c5/f8c86aae-58f1-4c8f-9e4a-af330041a596/0OJ9001__900127__P21__shad__qt.png?impolicy=OO_ratio&width=2000" alt="Product Image">
+                    <div class="marquee-container">
+                      <marquee behavior="ease-in-out" direction="left" style="width: 100%;" >Coming Soon!!</marquee>
+                    </div>
+                    <div class="product-info">
+                      <h2>Hottest Merch</h2>
+                      <p>Limitless Music Sport Glasses</p>
+                      <div class="price-container">
+                        <span class="original-price">$99.99</span>
+                        <span class="discounted-price">$79.99</span>
+                      </div>
+                      <button class="buy-now">Buy Now</button>
+                    </div>
+                  </div> -->
+
+
+
+
+
+
+
+
+
+
+              <!-- small Mini img Marque -->
+              <!-- small Mini img Marque -->
+              <!-- small Mini img Marque -->
+              <!-- small Mini img Marque -->
+              <!-- <div class="marqueesocial">
+                    <div>
+                      <img src="./img/Cirujano.png" alt="">
+                      <img src="./img/Kulosa.png" alt="">
+                      <img src="./img/fa-melz1.png" alt="">
+                      <img src="./img/Fatmelz.png" alt="">
+                      <img src="./img/Nory2.png" alt="">
+                      <img src="./img/Shadow1.png" alt="">
+                      <img src="./img/Fatmelz4.png" alt="">
+                      <img src="./img/Nory4.png" alt="">
+                      <img src="./img/fa-melz.png" alt="">
+                      <img src="./img/Goddest.png" alt="">
+                      <img src="./img/Nory-Code.png" alt="">
+                      <img src="./img/Cirujano2.png" alt="">
+                      <img src="./img/norymecanse.png" alt="">
+
+
+
+
+
+                      <img src="./img/Cirujano.png" alt="">
+                      <img src="./img/Kulosa.png" alt="">
+                      <img src="./img/fa-melz1.png" alt="">
+                      <img src="./img/Fatmelz.png" alt="">
+                      <img src="./img/Nory2.png" alt="">
+                      <img src="./img/Shadow1.png" alt="">
+                      <img src="./img/Fatmelz4.png" alt="">
+                      <img src="./img/Nory4.png" alt="">
+                      <img src="./img/fa-melz.png" alt="">
+                      <img src="./img/Goddest.png" alt="">
+                      <img src="./img/Nory-Code.png" alt="">
+                      <img src="./img/Cirujano2.png" alt="">
+                      <img src="./img/norymecanse.png" alt="">
+
+
+
+
+                      <img src="./img/Cirujano.png" alt="">
+                      <img src="./img/Kulosa.png" alt="">
+                      <img src="./img/fa-melz1.png" alt="">
+                      <img src="./img/Fatmelz.png" alt="">
+                      <img src="./img/Nory2.png" alt="">
+                      <img src="./img/Shadow1.png" alt="">
+                      <img src="./img/Fatmelz4.png" alt="">
+                      <img src="./img/Nory4.png" alt="">
+                      <img src="./img/fa-melz.png" alt="">
+                      <img src="./img/Goddest.png" alt="">
+                      <img src="./img/Nory-Code.png" alt="">
+                      <img src="./img/Cirujano2.png" alt="">
+                      <img src="./img/norymecanse.png" alt="">
+
+                        
+                        
+                    </div>
+              </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+          </section>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- IpodModal -->
+  <!-- IpodModal -->
+  <!-- IpodModal -->
+  <!-- Trigger Button -->
+
+  <br id="ipod">
+  <br>
+  <br>
+  <br>
+  <div  class="cardstore">
+
+    <button id="ipodmodal" style="display: block;">
+    
+
+
+
+      <div class='music'>
+        <span class='line line1'></span>
+        <span class='line line2'></span>
+        <span class='line line3'></span>
+        <span class='line line4'></span>
+        <span class='line line5'></span>
+      </div>
+
+      <br>
+
+    </button>
+
+    <!-- Modal -->
+    <div id="ipodModal" class="modal">
+      <div class="ipod-modal-content">
+        <span class="ipodCloseBtn">&times;</span>
+        <div class="modal-body">
+          <!-- Your iPod modal content goes here -->
+
+
+
+          <!-- Music Player -->
+          <!-- Music Player -->
+          <!-- Music Player -->
+          <section id="playlist" style="
+          
+          background-image: url(./img/); 
+          background-size: contain;
+          background-position: center;
+          border-radius: 50%;
+          
+          ">
+
+
+
+
+
+
+            <!-- <h2 class="" style="
+                display: flex; justify-content: space-around; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-shadow: 0 0 20px #ff0000, 0 0 40px #0081bc;
+
+
+                left: auto;
+                /* bottom: 32px; */
+                z-index: 0;
+                margin-top: 0;
+                color: rgb(255, 0, 0);
+
+
+                background-image: url(./img/transstars.gif);
+                background-position: center;
+
+
+                
+                font-size: 6vw;
+                text-align: center;
+                letter-spacing: 0;">ΞΞΞPlaylistΞΞΞ</h2> -->
+
+
+            <h2 class="titles" style="
+                display: flex; 
+                justify-content: space-around; 
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+                
+                text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000f3;
+
+
+                left: auto;
               
+                z-index: 0;
+                margin-top: 0;
+                color: rgb(255, 255, 255);
+                font-size: 4vw;
+                text-align: center;
+                
+                
+                
+                /* background-position: center;
+                
+                background-image: url(./img/clinclingif-ezgif.com.gif);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                background-size: contain; */
+
+
+
+
+
+
+
+            letter-spacing: 0;">◆P♪aylist◆</h2>
+
+
+            <!-- Music Player -->
+            <!-- Music Player -->
+            <!-- Music Player -->
+            <div id="player" class="player" style="--f: url(#glow-1); 
+            --l: #ff45457f, #00ff997f, #006aff7f, #ff00957f,">
+              <div class="wrapper">
+                <div class="details">
+                  <div class="now-playing">PLAYING x OF y</div>
+                  <div class="track-art"></div>
+                  <div class="track-name">Track Name</div>
+                  <div class="track-artist">Track Artist</div>
+                </div>
+
+                <div class="slider_container">
+                  <div class="current-time">00:00</div>
+                  <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+                  <div class="total-duration">00:00</div>
+                </div>
+
+                <!-- <div class="slider_container">
+                  <i class="fa fa-volume-down"></i>
+                  <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+                  <i class="fa fa-volume-up"></i>
+                </div> -->
+
+                <div class="buttons">
+                  <div class="random-track" onclick="randomTrack()">
+                    <i class="fas fa-random fa-2x" title="random"></i>
+                  </div>
+                  <div class="prev-track" onclick="prevTrack()">
+                    <i class="fa fa-step-backward fa-2x"></i>
+                  </div>
+                  <div class="playpause-track" onclick="playpauseTrack()">
+                    <i class="fa fa-play-circle fa-5x"></i>
+                  </div>
+                  <div class="next-track" onclick="nextTrack()">
+                    <i class="fa fa-step-forward fa-2x"></i>
+                  </div>
+                  <div class="repeat-track" onclick="repeatTrack()">
+                    <i class="fa fa-repeat fa-2x" title="repeat"></i>
+                  </div>
+                </div>
+
+                <!-- <div id="wave">
+                  <span class="stroke"></span>
+                  <span class="stroke"></span>
+                  <span class="stroke"></span>
+                  <span class="stroke"></span>
+                  <span class="stroke"></span>
+                  <span class="stroke"></span>
+                  <span class="stroke"></span>
+                </div> -->
+              </div>
+            </div>
+
+
+          </section>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Ticket Modal  -->
+  <!-- Ticket Modal  -->
+  <!-- Ticket Modal  -->
+   <br>
+   <br>
+   <br>
+  <div class="cardstore">
+
+    <!-- Trigger Button -->
+    <button id="tickets" style="display: block;">Shows</button>
+
+    <!-- Modal -->
+    <div id="ticketsModal" class="modal">
+      <div class="tickets-modal-content">
+        <span class="ticketsCloseBtn">&times;</span>
+        <div class="modal-body">
+          <!-- Your tickets modal content goes here -->
+
+          <!-- SHows -->
+          <!-- SHows -->
+          <!-- SHows -->
+      
+
+          <div class="section-p4b sho-vvl">
+            <h2 class="background-234 light-g6h">
+              SHOWS
+              
+
+            </h2>
+            <!-- <div class="shows-parallax-qvi style-lzTZo" id="style-lzTZo"></div> -->
+
+
+            <div class="container-rtl">
+                <div class="column-br2">
+
+                    <div>
+
+                        <div class="sho-vvl">
+
+
+
+
+
+                            
+
+                            <div class="item-wgb style-KQEpB" id="style-KQEpB">
+                                <div>
+                                    <h3 class="title-lf6">United Palaza</h3>
+                                    <div class="show-qlj">
+                                        <h5 class="show-9ar">Jun 18, 2024</h5>
+                                        <h5 class="show-cqt">NY, NY</h5>
+                                    </div>
+                                </div><a href="#" class="nav-link-ej8 button-yfj rsv-f7w">TICKETS</a>
+                            </div>
+
+
+
+                            <div class="item-wgb style-E8TDq" id="style-E8TDq">
+                                <div>
+                                    <h3 class="title-lf6">Coachella</h3>
+                                    <div class="show-qlj">
+                                        <h5 class="show-9ar">Jul 11, 2024</h5>
+                                        <h5 class="show-cqt">California</h5>
+                                    </div>
+                                </div><a href="" class="nav-link-ej8 button-yfj rsv-f7w">TICKETS</a>
+                            </div>
+
+
+
+                            <div class="item-wgb style-Lhone" id="style-Lhone">
+                                <div>
+                                    <h3 class="title-lf6">Lollapalooza</h3>
+                                    <div class="show-qlj">
+                                        <h5 class="show-9ar">Mar 28, 2020</h5>
+                                        <h5 class="show-cqt">Colombia</h5>
+                                    </div>
+                                </div><a href="#" class="nav-link-ej8 button-yfj rsv-f7w">TICKETS</a>
+                            </div>
+
+
+
+
+                            <div class="item-wgb style-Jp1Ig" id="style-Jp1Ig">
+                                <div>
+                                    <h3 class="title-lf6">Centro Olimpico</h3>
+                                    <div class="show-qlj">
+                                        <h5 class="show-9ar">Agu 27, 2024</h5>
+                                        <h5 class="show-cqt">D.R</h5>
+                                    </div>
+                                </div><a href="" class="nav-link-ej8 button-yfj rsv-f7w">TICKETS</a>
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="container-rtl container-vlo">
+                        <!-- <div class="column-br2 cen-rme"><a href="#" class="nav-link-ej8 button-yfj">View All Show Dates</a></div> -->
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="shows-parallax-qvi style-lzTZo" id="style-lzTZo"></div> -->
+            <!-- <h2 class="background-234 light-g6h">SHOWS</h2> -->
           </div>
-    </div> -->
 
 
 
@@ -3574,10 +3115,18 @@
 
 
 
+        </div>
+      </div>
+    </div>
 
 
 
-  </section>
+
+    
+  </div>
+
+
+
 
 
 
@@ -3595,7 +3144,7 @@
   /* padding: 20px; */
 
 
-  background-image: url(./assets/img/LMpromo3squareslower-ezgif.com-optimize.gif);
+  /* background-image: url(./assets/img/LMpromo3squareslower-ezgif.com-optimize.gif); */
   background-size: contain;
   /* background-position: center; */
   /* background-repeat: no-repeat; */
@@ -3661,200 +3210,53 @@
     </div>
 
   </section> 
-  
-
-
-
-
-
-
-  <!-- Footer -->
-  <!-- Footer -->
-  <section  style="
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-image: url(./assets/img/lucy.jpg);
-  background-size: contain;
-  background-position: center;
-
-  background-repeat: repeat-x;
-  
-  ">
-
-
-
-
-
-
-
-
-
-  <footer class="footer-distributed">
-
-    <div class="footer-left">
-
-      <IMG SRC="./assets/img/LMpromo.gif" ALT="" WIDTH=200 HEIGHT=100>
-
-        <!-- <div style="width: 200px; height: 100px; margin: auto;" >
-          <h7>
-           Limitless <br> Music
-          </h7>
-        </div> -->
-
-
-
-      <p class="footer-links">
-        <a href="#">Home</a> ·
-        <a href="#">About</a> ·
-        <a href="#">Pricing</a> 
-        <!-- <a href="#">About</a> · -->
-        <!-- <a href="#">Faq</a> · -->
-        <!-- <a href="#">Contact</a> -->
-      </p>
-
-      <p class="footer-company-name">Limitles Music &copy; 2025</p>
-    </div>
-
-
-    <div class="footer-center">
-
-
-
-      
-
-
-<button class="ml-onclick-form" onclick="ml('show', 'qBGmjV', true)">Click here to show form</button>
-
-          <br>
-          <br>
-          <br>
-
-
-          <button class="popupmarkettingbtn" data-modal-target="#modalsubscribe">Music Video</button>
-
-          <br>
-          <br>
-          <br>
-
-
-          <a href="https://ko-fi.com/devs_support"><button  class="popupmarkettingbtn" >Support Project</button></a>
-
-          <br>
-          <br>
-          <br>
-
-          <div>
-            <!-- <i class="fa fa-envelope"></i>
-            <p><a href="mailto:v.clainer11@gmail.com" style="color: rgb(255, 0, 0); font-size: 18px; font-weight: 800;" >v.clainer11@gmail.com</a></p> -->
-
-            <a href="https://calendar.app.google/YhqvDd5F7H2QUsx16">
-              <button class="popupmarkettingbtn" >
-
-                Contact Developer
-
-              </button>
-            </a>
-
-
-
-          </div>
-
-
-
-
-            
-
-
-
-           <!-- <a>
-           <span class="bUO-w8t bnetGame-ab9 bnetGame-nlz"><a
-            class="popupmarkettingbtn"
-            href="https://ko-fi.com/devs_support"><span class="KMd-z91 iNv-zfq" style="font-weight: 800;color: #ffffff;" >Support <br> Project.</span></a></span></a> -->
-            
-
-
-
-            <!-- <a
-            class="popupmarkettingbtn"
-            href="https://ko-fi.com/devs_support"><span class="KMd-z91 iNv-zfq" style="font-weight: 800;color: #ffffff;" >Support <br> Project.</span></a> -->
-
-
-
-
-            <!-- <div>
-              <img class="spinner" src="./assets/img/floting.gif" style="border-radius: 50%; width: 250px; height: 250px;" >
-            </div> -->
-
-
-
-    </div>
-
-
-    <div class="footer-right">
-
-      <p class="footer-company-about"  style="color: white; font-size: 18px; font-weight: 700;">
-        <span>About: Limitless Music</span> <br> Online platform that provide Marketing & Streaming Services.
-      </p>
-
-      <div class="footer-icons">
-
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-github"></i></a>
-
-
-      </div>
-      
-      <p style="color: #ffffff;margin: auto;" >Copyright Limitless Music © 2025. All rights reserved.</p>
-
-    </div>
-
-
-
-    
-
-
-
-  </footer>
-  
-
-
-  </section>
-
-
-  <!-- this is Closing Div at the end of the code -->
-  <!-- this is Closing Div at the end of the code -->
-  <!-- this is Closing Div at the end of the code -->
-  </div>
-  
-
-
-
- <script src="./js/popup.js"></script>
- <script src="./js/loader.js"></script>
- <script src="./js/subscribe.js"></script>
- <script src="./js/textslider.js"></script>
- <script src="./js/modal.js"></script>
- <script src="./js/logos.js"></script>
- <script src="./js/musicplayer.js"></script>
 
  
- <script src="./js/musicalbummodal.js"></script>
- <script src="./js/player1.js"></script>
- <script src="./js/player2.js"></script>
- <script src="./js/player3.js"></script>
- <script src="./js/player4.js"></script>
+
+  <!-- Get in Touch section -->
+  <!-- Get in Touch section -->
+  <!-- Get in Touch section -->
+  <!-- <section class="section">
+    <h2>Get in Touch</h2>
+    <form style="max-width: 600px; margin: 0 auto;">
+      <input type="text" placeholder="Your Name" style="width: 100%; padding: 0.75rem; margin-bottom: 1rem;" />
+      <input type="email" placeholder="Email Address" style="width: 100%; padding: 0.75rem; margin-bottom: 1rem;" />
+      <textarea placeholder="Your Message" rows="4" style="width: 100%; padding: 0.75rem;"></textarea>
+      <button type="submit" style="margin-top: 1rem; padding: 0.75rem 1.5rem; background: var(--color-primary); color: white; border: none; border-radius: var(--border-radius); cursor: pointer;">Send</button>
+    </form>
+  </section> -->
 
 
 
- <!-- <script src="./js/albummodal.js"></script> -->
+  <footer class="footer">
+    &copy; 2025 Limitless Music. Built with ♥ by Clainer Ventura.
+  </footer>
 
+
+
+
+<script src="./js/popup.js"></script>
+
+<script src="js/textslider.js"></script>
+
+<script src="./js/modal.js"></script>
+
+<script src="./js/subscribe.js"></script>
+
+<script src="./js/storemodal.js"></script>
+
+<script src="./js/markettingbtnmodal.js"></script>
+
+<script src="./js/ticketstoremodal.js"></script>
+
+
+
+
+<!-- IpodModal & Ipod Style -->
+<!-- IpodModal & Ipod Style -->
+<!-- IpodModal & Ipod Style -->
+<script src="./js/ipodmodal.js"></script>
+<script src="./js/ipodstyle.js"></script>
 
 </body>
-
-
 </html>
