@@ -1,0 +1,19 @@
+.cardeyelooping {
+  background: var(--color-white);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+
+
+  background-image: url(/LimitlessMusicStructurepg/assets/img/eyelooping.gif);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.cardeyelooping h3,p {
+  color: transparent;
+}
+/* .cardeyelooping h3 {
+  color: transparent;
+} */

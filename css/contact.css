@@ -1,0 +1,206 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'outfit';
+  background: linear-gradient(#000000, #505050);
+  /* background-image: repeating-conic-gradient(#ffffff 0% 25%, #000000 0% 50%);
+  background-position: 0 0, 32px 32px;
+  background-size: 64px 64px;
+  background-color: #000000; */
+
+
+
+}
+
+
+
+
+
+
+
+/* @import url("https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap"); */
+
+svg {
+	/* font-family: "RocknRoll One", sans-serif; */
+	font-family: 'Times New Roman', Times, serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #FF0000;
+	font-size: 80px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgb(0, 0, 255); stroke: rgba(255,0,0,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(0,0,255,0); stroke: rgba(255,0,0,1); }
+	80%  {fill: rgba(0,0,255,0); stroke: rgba(255,0,0,1); stroke-width: 3; }
+	100% {
+		fill: rgba(0,0,255,1); stroke: rgb(255, 0, 0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+/* .wrapper {background-color: #FFFFFF}; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-container{
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-left{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.contact-left-title h2 {
+  font-weight: 800;
+  color: #ff0000;
+  font-size: 40px;
+  margin-bottom: 5px;
+  text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000f3;
+}
+
+.contact-left-title hr {
+  border: none;
+  width: 120px;
+  height: 5px;
+  background-color: #a363aa;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 20px;
+}
+/* .contact-left-title hr {
+  background-image: url(/LimitlessMusic.app/LimitlessMusic.app/assets/img/clinclingif-ezgif.com.gif);
+  background-position: center;
+  height: 300px;
+  width: 400px;
+
+} */
+
+.contact-inputs{
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #666;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.contact-left textarea {
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.contact-inputs:focus{
+  border: 2px solid #a363aa;
+}
+
+.contact-inputs::placeholder{
+  color: #a9a9a9;
+}
+
+.contact-left button {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  background: linear-gradient(100deg, #ff0000, #2f00ff);
+  cursor: pointer;
+}
+
+/* .contact-left button img {
+  height: 15px;
+} */
+
+.contact-right img {
+  width: 500px;
+}
+
+@media (max-width:800px) {
+  .contact-inputs {
+    width: 80vw;
+  }
+
+  .contact-right{
+    display: none;
+  }
+
+  .contact-container{
+    background-position: center;
+    background-repeat: repeat-x;
+  }
+  
+}
