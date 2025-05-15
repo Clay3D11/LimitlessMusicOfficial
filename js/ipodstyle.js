@@ -36,14 +36,14 @@ const music_list = [
 
     },
     {
-        img : 'assets/images/catchme.png',
+        img : 'assets/img/catchme.png',
         name : 'Catch me if you can',
         artist : 'Adekunle Gold',
         music : 'assets/music/catchmeifyoucan.mp3'
 
     },
     {
-        img : 'assets/images/Kulosa.png',
+        img : 'assets/img/Kulosa.png',
         name : 'Oxlade',
         artist : 'Kulosa',
         music : 'assets/music/Kulosa1.mp3'
@@ -79,102 +79,102 @@ const music_list = [
 
 
     {
-        img : 'assets/images/Soweto.png',
+        img : 'assets/img/Soweto.png',
         name : 'Soweto',
         artist : 'Victony & Tempoe',
         music : 'assets/music/Victony.Tempoe-Soweto.mp3'
     },
     {
-        img : 'assets/images/biggestfan.png',
+        img : 'assets/img/biggestfan.png',
         name : 'Biggest Fan',
         artist : 'Vybz Kartel',
         music : 'assets/music/biggestfan.mp3'
     },
     {
-        img : 'assets/images/calm.png',
+        img : 'assets/img/calm.png',
         name : 'Calm',
         artist : 'Ream ft Selena',
         music : 'assets/music/calm.mp3'
         
     },
     {
-        img : 'assets/images/compro.png',
+        img : 'assets/img/compro.png',
         name : 'Compromise',
         artist : 'Fireboy DML',
         music : 'assets/music/compromise.mp3'
         
     },
     {
-        img : 'assets/images/pero.png',
+        img : 'assets/img/pero.png',
         name : 'Peru',
         artist : 'Pero',
         music : 'assets/music/Peru.mp3'
         
     },
     {
-        img : 'assets/images/energy.png',
+        img : 'assets/img/energy.png',
         name : 'Energy',
         artist : 'Skepta ft Wizkid',
         music : 'assets/music/energy.mp3'
         
     },
     {
-        img : 'assets/images/essence.png',
+        img : 'assets/img/essence.png',
         name : 'Essence',
         artist : 'Essence',
         music : 'assets/music/essence.mp3'
         
     },
     {
-        img : 'assets/images/Lastlast.png',
+        img : 'assets/img/Lastlast.png',
         name : 'Last last',
         artist : 'Burna Boy',
         music : 'assets/music/Lastlast.mp3'
     },
     {
-        img : 'assets/images/Lastlast.png',
+        img : 'assets/img/Lastlast.png',
         name : 'For My Hand',
         artist : 'Burna Boy',
         music : 'assets/music/formyhand.mp3'
 
     },
     {
-        img : 'assets/images/freefromdesire.png',
+        img : 'assets/img/freefromdesire.png',
         name : 'Free From Desire',
         artist : 'Calvin Harris',
         music : 'assets/music/freefromdesire.mp3'
 
     },
     {
-        img : 'assets/images/freemind.png',
+        img : 'assets/img/freemind.png',
         name : 'Free Mind',
         artist : 'Tems',
         music : 'assets/music/freemind.mp3'
 
     },
     {
-        img : 'assets/images/love.png',
+        img : 'assets/img/love.png',
         name : 'Love nwantiti',
         artist : 'Ckay',
         music : 'assets/music/lovenwantiti.mp3'
 
     },
     {
-        img : 'assets/images/oneandonly.png',
+        img : 'assets/img/oneandonly.png',
         name : 'One and Only',
         artist : 'ASE',
         music : 'assets/music/oneandonly.mp3'
 
     },
     {
-        img : 'assets/images/soundgasm.png',
+        img : 'assets/img/soundgasm.png',
         name : 'Soundgasm',
         artist : 'Rema',
         music : 'assets/music/soundgasm.mp3'
 
     },
     {
-        img : 'assets/images/thewayyou.png',
+        img : 'assets/img/thewayyou.png',
         name : 'The Way You Move',
         artist : 'Jenn Champion',
         music : 'assets/music/thewayyoumove.mp3'
