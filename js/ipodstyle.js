@@ -25,28 +25,28 @@ const music_list = [
         img : 'img/thug11.png',
         name : 'With That',
         artist : 'Young Thug',
-        music : 'music/withthat.mp3'
+        music : 'assets/music/withthat.mp3'
 
     },
     {
         img : 'img/Thug.png',
         name : 'Check',
         artist : 'Young Thug',
-        music : 'music/Check.mp3'
+        music : 'assets/music/Check.mp3'
 
     },
     {
         img : 'images/catchme.png',
         name : 'Catch me if you can',
         artist : 'Adekunle Gold',
-        music : 'music/catchmeifyoucan.mp3'
+        music : 'assets/music/catchmeifyoucan.mp3'
 
     },
     {
         img : 'images/Kulosa.png',
         name : 'Oxlade',
         artist : 'Kulosa',
-        music : 'music/Kulosa1.mp3'
+        music : 'assets/music/Kulosa1.mp3'
     },
 
 
@@ -56,21 +56,21 @@ const music_list = [
         img : 'img/Royal.png',
         name : 'Royal Flush',
         artist : 'Thug ft.',
-        music : 'music/Royal.mp3'
+        music : 'assets/music/Royal.mp3'
 
     },
     {
         img : 'img/panda.png',
         name : 'Panda',
         artist : 'Panda',
-        music : 'music/Panda.mp3'
+        music : 'assets/music/Panda.mp3'
 
     },
     {
         img : 'img/Gunna2.png',
         name : 'One of Wu',
         artist : 'Gunna',
-        music : 'music/Gunna-oneofwun.mp3'
+        music : 'assets/music/Gunna-oneofwun.mp3'
 
     },
 
@@ -82,102 +82,102 @@ const music_list = [
         img : 'images/Soweto.png',
         name : 'Soweto',
         artist : 'Victony & Tempoe',
-        music : 'music/Victony.Tempoe-Soweto.mp3'
+        music : 'assets/music/Victony.Tempoe-Soweto.mp3'
     },
     {
         img : 'images/biggestfan.png',
         name : 'Biggest Fan',
         artist : 'Vybz Kartel',
-        music : 'music/biggestfan.mp3'
+        music : 'assets/music/biggestfan.mp3'
     },
     {
         img : 'images/calm.png',
         name : 'Calm',
         artist : 'Ream ft Selena',
-        music : 'music/calm.mp3'
+        music : 'assets/music/calm.mp3'
         
     },
     {
         img : 'images/compro.png',
         name : 'Compromise',
         artist : 'Fireboy DML',
-        music : 'music/compromise.mp3'
+        music : 'assets/music/compromise.mp3'
         
     },
     {
         img : 'images/pero.png',
         name : 'Peru',
         artist : 'Pero',
-        music : 'music/Peru.mp3'
+        music : 'assets/music/Peru.mp3'
         
     },
     {
         img : 'images/energy.png',
         name : 'Energy',
         artist : 'Skepta ft Wizkid',
-        music : 'music/energy.mp3'
+        music : 'assets/music/energy.mp3'
         
     },
     {
         img : 'images/essence.png',
         name : 'Essence',
         artist : 'Essence',
-        music : 'music/essence.mp3'
+        music : 'assets/music/essence.mp3'
         
     },
     {
         img : 'images/Lastlast.png',
         name : 'Last last',
         artist : 'Burna Boy',
-        music : 'music/Lastlast.mp3'
+        music : 'assets/music/Lastlast.mp3'
     },
     {
         img : 'images/Lastlast.png',
         name : 'For My Hand',
         artist : 'Burna Boy',
-        music : 'music/formyhand.mp3'
+        music : 'assets/music/formyhand.mp3'
 
     },
     {
         img : 'images/freefromdesire.png',
         name : 'Free From Desire',
         artist : 'Calvin Harris',
-        music : 'music/freefromdesire.mp3'
+        music : 'assets/music/freefromdesire.mp3'
 
     },
     {
         img : 'images/freemind.png',
         name : 'Free Mind',
         artist : 'Tems',
-        music : 'music/freemind.mp3'
+        music : 'assets/music/freemind.mp3'
 
     },
     {
         img : 'images/love.png',
         name : 'Love nwantiti',
         artist : 'Ckay',
-        music : 'music/lovenwantiti.mp3'
+        music : 'assets/music/lovenwantiti.mp3'
 
     },
     {
         img : 'images/oneandonly.png',
         name : 'One and Only',
         artist : 'ASE',
-        music : 'music/oneandonly.mp3'
+        music : 'assets/music/oneandonly.mp3'
 
     },
     {
         img : 'images/soundgasm.png',
         name : 'Soundgasm',
         artist : 'Rema',
-        music : 'music/soundgasm.mp3'
+        music : 'assets/music/soundgasm.mp3'
 
     },
     {
         img : 'images/thewayyou.png',
         name : 'The Way You Move',
         artist : 'Jenn Champion',
-        music : 'music/thewayyoumove.mp3'
+        music : 'assets/music/thewayyoumove.mp3'
 
     },
 
@@ -186,7 +186,7 @@ const music_list = [
         img : 'img/migos3rd.png',
         name : 'Casper',
         artist : 'Take Off',
-        music : 'music/migos-3rd.mp3'
+        music : 'assets/music/migos-3rd.mp3'
 
     },
 
@@ -201,84 +201,84 @@ const music_list = [
         img : 'img/ChoppaHate.png',
         name : 'Choppa Hate',
         artist : '21 Savage ft Off SET',
-        music : 'music/Choppahate.mp3'
+        music : 'assets/music/Choppahate.mp3'
 
     },
     {
         img : 'img/dior.png',
         name : 'Dior',
         artist : 'Dior',
-        music : 'music/dior.mp3'
+        music : 'assets/music/dior.mp3'
 
     },
     {
         img : 'img/thug111.png',
         name : 'Dome',
         artist : 'Young Thug',
-        music : 'music/dome.mp3'
+        music : 'assets/music/dome.mp3'
 
     },
     {
         img : 'img/Thug.png',
         name : 'Never Had IT',
         artist : 'Young Thug',
-        music : 'music/Neverhadit.mp3'
+        music : 'assets/music/Neverhadit.mp3'
 
     },
     {
         img : 'img/GhostKiller.png',
         name : 'Ghoust Killer',
         artist : '21 Savage',
-        music : 'music/Ghostfacekillers.mp3'
+        music : 'assets/music/Ghostfacekillers.mp3'
 
     },
     {
         img : 'img/Gunna2.png',
         name : 'Gunna',
         artist : 'Relentless',
-        music : 'music/Gunna-Relentless.mp3'
+        music : 'assets/music/Gunna-Relentless.mp3'
 
     },
     {
         img : 'img/Gunna2.png',
         name : 'Gunna',
         artist : 'F U Mean',
-        music : 'music/Gunna-fumean.mp3'
+        music : 'assets/music/Gunna-fumean.mp3'
 
     },
     {
         img : 'img/lilbaby2.png',
         name : 'Sum 2 Prove',
         artist : 'Lil Baby',
-        music : 'music/sum2prove.mp3'
+        music : 'assets/music/sum2prove.mp3'
 
     },
     {
         img : 'img/migos1.png',
         name : 'Too Hoty',
         artist : 'Migos',
-        music : 'music/Toohotty.mp3'
+        music : 'assets/music/Toohotty.mp3'
 
     },
     {
         img : 'img/future2.png',
         name : 'Timmmy Turner',
         artist : 'Future',
-        music : 'music/Timmy.mp3'
+        music : 'assets/music/Timmy.mp3'
 
     },
     {
         img : 'img/migos2.png',
         name : 'Guwop',
         artist : 'Young Thug',
-        music : 'music/Guwop.mp3'
+        music : 'assets/music/Guwop.mp3'
 
     },
     {
         img : 'img/bobby1.png',
         name : 'Hot Nigg',
         artist : 'Bobby Swmurda',
-        music : 'music/Hotniig.mp3'
+        music : 'assets/music/Hotniig.mp3'
 
     },
 
@@ -295,25 +295,25 @@ const music_list = [
         img : 'img/codigosvid.gif',
         name : 'Nory Dolla',
         artist : 'Codigos',
-        music : 'music/Nory-Codigos.mp3'
+        music : 'assets/music/Nory-Codigos.mp3'
     },
     {
         img : 'img/UnFlowZaza.gif',
         name : 'Fa Melz',
         artist : 'Tengo Un Flow',
-        music : 'music/UnFlowZaza.mp3'
+        music : 'assets/music/UnFlowZaza.mp3'
     },
     {
         img : 'img/drake11.png',
         name : 'Family Matter',
         artist : 'Drake',
-        music : 'music/Drake-familymatter.mp3'
+        music : 'assets/music/Drake-familymatter.mp3'
     },
     {
         img : 'img/notlikeus.png',
         name : 'Not Like US',
         artist : 'Kendric',
-        music : 'music/NotLikeUs.mp3'
+        music : 'assets/music/NotLikeUs.mp3'
     },
    
 
