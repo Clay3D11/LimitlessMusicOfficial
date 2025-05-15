@@ -38,20 +38,20 @@
 }
 
 .slideshow li:nth-child(1) span {
-  background-image: url("/LimitlessMusicStructurepg/assets/img/lucy.jpg");
+  background-image: url("../assets/img/lucy.jpg");
   /* background-position: center;
   background-size: contain; */
 }
 
 .slideshow li:nth-child(2) span {
-  background-image: url("/LimitlessMusicStructurepg/assets/img/clinclingif-ezgif.com.gif");
+  background-image: url("../assets/img/clinclingif-ezgif.com.gif");
   background-position: center;
   background-size: contain;
   animation-delay: 6s;
 }
 
 .slideshow li:nth-child(3) span {
-  background-image: url("/LimitlessMusicStructurepg/assets/img/clinclingif-ezgif.com.gif");
+  background-image: url("../assets/img/clinclingif-ezgif.com.gif");
   /* background-position: center;
   background-size: contain;
   background-repeat: repeat-x; */
@@ -59,25 +59,25 @@
 }
 
 .slideshow li:nth-child(4) span {
-  background-image: url("/LimitlessMusicStructurepg/assets/img/UnFlowZaza.gif");
+  background-image: url("../assets/img/UnFlowZaza.gif");
   animation-delay: 18s;
 }
 
 .slideshow li:nth-child(5) span {
-  background-image: url("/LimitlessMusicStructurepg/assets/img/codigosvid.gif");
+  background-image: url("../assets/img/codigosvid.gif");
   /* background-position: center;
   background-size: contain; */
   animation-delay: 24s;
 }
 
 .slideshow li:nth-child(6) span {
-  background-image: url("/LimitlessMusicStructurepg/assets/img/eyelooping.gif");
+  background-image: url("../assets/img/eyelooping.gif");
   background-position: center;
   background-size: cover;
   animation-delay: 30s;
 }
 .slideshow li:nth-child(7) span {
-  background-image: url("/LimitlessMusicStructurepg/assets/img/okok13.gif");
+  background-image: url("../assets/img/okok13.gif");
   background-position: center;
   /* background-size: cover; */
   animation-delay: 36s;
