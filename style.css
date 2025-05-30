@@ -36,6 +36,25 @@ body {
   line-height: 1.6;
 }
 
+
+/* body{
+  font-family: 'outfit';
+  background: linear-gradient(#000000, #505050);
+  background-image: repeating-conic-gradient(#ffffff 0% 25%, #000000 0% 50%);
+  background-position: 0 0, 32px 32px;
+  background-size: 64px 64px;
+  background-color: #000000;
+
+
+
+} */
+
+
+
+
+
+
+
 a {
   color: var(--color-primary);
   text-decoration: none;
@@ -137,10 +156,10 @@ nav a:hover {
 
 
 .cardstore {
-  background: var(--color-white);
+  /* background: var(--color-white); */
   /* padding: 2rem; */
   border-radius: var(--border-radius);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.267);
 
   /* Edditeds */
   /* background-image: url(./assets/img/okok13.gif);
@@ -149,6 +168,12 @@ nav a:hover {
   color: transparent; */
 
   background-color: transparent;
+  
+
+
+
+  /* Important */
+  text-align: center;
 
 }
 
@@ -172,9 +197,14 @@ nav a:hover {
 
 .footer {
   background: #111827;
-  color: white;
+  color: rgb(233, 3, 3);
   padding: 2rem;
   text-align: center;
   font-size: 0.875rem;
   
 }
+
+
+
+
+
