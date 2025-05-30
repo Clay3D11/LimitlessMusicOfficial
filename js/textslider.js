@@ -1,7 +1,7 @@
 var sliderIndex = 0;
 var sliderItems = [
-    "Limitless",
-    "Music",
+    // "Limitless",
+    // "Music",
     "Subscribe",
     "Urban Style",
     "Visit Store",
