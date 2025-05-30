@@ -21,27 +21,27 @@ let isRandom = false;
 let updateTimer;
 
 const music_list = [
-    {
-        img : 'assets/img/thug11.png',
-        name : 'With That',
-        artist : 'Young Thug',
-        music : 'assets/music/withthat.mp3'
+    // {
+    //     img : 'assets/img/thug11.png',
+    //     name : 'With That',
+    //     artist : 'Young Thug',
+    //     music : 'assets/music/withthat.mp3'
 
-    },
-    {
-        img : 'assets/img/Thug.png',
-        name : 'Check',
-        artist : 'Young Thug',
-        music : 'assets/music/Check.mp3'
+    // },
+    // {
+    //     img : 'assets/img/Thug.png',
+    //     name : 'Check',
+    //     artist : 'Young Thug',
+    //     music : 'assets/music/Check.mp3'
 
-    },
-    {
-        img : 'assets/img/catchme.png',
-        name : 'Catch me if you can',
-        artist : 'Adekunle Gold',
-        music : 'assets/music/catchmeifyoucan.mp3'
+    // },
+    // {
+    //     img : 'assets/img/catchme.png',
+    //     name : 'Catch me if you can',
+    //     artist : 'Adekunle Gold',
+    //     music : 'assets/music/catchmeifyoucan.mp3'
 
-    },
+    // },
     {
         img : 'assets/img/Kulosa.png',
         name : 'Oxlade',
@@ -52,27 +52,27 @@ const music_list = [
 
 
     
-    {
-        img : 'assets/img/Royal.png',
-        name : 'Royal Flush',
-        artist : 'Thug ft.',
-        music : 'assets/music/Royal.mp3'
+    // {
+    //     img : 'assets/img/Royal.png',
+    //     name : 'Royal Flush',
+    //     artist : 'Thug ft.',
+    //     music : 'assets/music/Royal.mp3'
 
-    },
-    {
-        img : 'assets/img/panda.png',
-        name : 'Panda',
-        artist : 'Panda',
-        music : 'assets/music/Panda.mp3'
+    // },
+    // {
+    //     img : 'assets/img/panda.png',
+    //     name : 'Panda',
+    //     artist : 'Panda',
+    //     music : 'assets/music/Panda.mp3'
 
-    },
-    {
-        img : 'assets/img/Gunna2.png',
-        name : 'One of Wu',
-        artist : 'Gunna',
-        music : 'assets/music/Gunna-oneofwun.mp3'
+    // },
+    // {
+    //     img : 'assets/img/Gunna2.png',
+    //     name : 'One of Wu',
+    //     artist : 'Gunna',
+    //     music : 'assets/music/Gunna-oneofwun.mp3'
 
-    },
+    // },
 
 
 
@@ -90,13 +90,13 @@ const music_list = [
         artist : 'Vybz Kartel',
         music : 'assets/music/biggestfan.mp3'
     },
-    {
-        img : 'assets/img/calm.png',
-        name : 'Calm',
-        artist : 'Ream ft Selena',
-        music : 'assets/music/calm.mp3'
+    // {
+    //     img : 'assets/img/calm.png',
+    //     name : 'Calm',
+    //     artist : 'Ream ft Selena',
+    //     music : 'assets/music/calm.mp3'
         
-    },
+    // },
     {
         img : 'assets/img/compro.png',
         name : 'Compromise',
@@ -104,13 +104,13 @@ const music_list = [
         music : 'assets/music/compromise.mp3'
         
     },
-    {
-        img : 'assets/img/pero.png',
-        name : 'Peru',
-        artist : 'Pero',
-        music : 'assets/music/Peru.mp3'
+    // {
+    //     img : 'assets/img/pero.png',
+    //     name : 'Peru',
+    //     artist : 'Pero',
+    //     music : 'assets/music/Peru.mp3'
         
-    },
+    // },
     {
         img : 'assets/img/energy.png',
         name : 'Energy',
@@ -118,26 +118,26 @@ const music_list = [
         music : 'assets/music/energy.mp3'
         
     },
-    {
-        img : 'assets/img/essence.png',
-        name : 'Essence',
-        artist : 'Essence',
-        music : 'assets/music/essence.mp3'
+    // {
+    //     img : 'assets/img/essence.png',
+    //     name : 'Essence',
+    //     artist : 'Essence',
+    //     music : 'assets/music/essence.mp3'
         
-    },
+    // },
     {
         img : 'assets/img/Lastlast.png',
         name : 'Last last',
         artist : 'Burna Boy',
         music : 'assets/music/Lastlast.mp3'
     },
-    {
-        img : 'assets/img/Lastlast.png',
-        name : 'For My Hand',
-        artist : 'Burna Boy',
-        music : 'assets/music/formyhand.mp3'
+    // {
+    //     img : 'assets/img/Lastlast.png',
+    //     name : 'For My Hand',
+    //     artist : 'Burna Boy',
+    //     music : 'assets/music/formyhand.mp3'
 
-    },
+    // },
     {
         img : 'assets/img/freefromdesire.png',
         name : 'Free From Desire',
@@ -166,29 +166,29 @@ const music_list = [
         music : 'assets/music/oneandonly.mp3'
 
     },
-    {
-        img : 'assets/img/soundgasm.png',
-        name : 'Soundgasm',
-        artist : 'Rema',
-        music : 'assets/music/soundgasm.mp3'
+    // {
+    //     img : 'assets/img/soundgasm.png',
+    //     name : 'Soundgasm',
+    //     artist : 'Rema',
+    //     music : 'assets/music/soundgasm.mp3'
 
-    },
-    {
-        img : 'assets/img/thewayyou.png',
-        name : 'The Way You Move',
-        artist : 'Jenn Champion',
-        music : 'assets/music/thewayyoumove.mp3'
+    // },
+    // {
+    //     img : 'assets/img/thewayyou.png',
+    //     name : 'The Way You Move',
+    //     artist : 'Jenn Champion',
+    //     music : 'assets/music/thewayyoumove.mp3'
 
-    },
+    // },
 
 
-    {
-        img : 'assets/img/migos3rd.png',
-        name : 'Casper',
-        artist : 'Take Off',
-        music : 'assets/music/migos-3rd.mp3'
+    // {
+    //     img : 'assets/img/migos3rd.png',
+    //     name : 'Casper',
+    //     artist : 'Take Off',
+    //     music : 'assets/music/migos-3rd.mp3'
 
-    },
+    // },
 
 
 
@@ -197,20 +197,20 @@ const music_list = [
 
 
     
-    {
-        img : 'assets/img/ChoppaHate.png',
-        name : 'Choppa Hate',
-        artist : '21 Savage ft Off SET',
-        music : 'assets/music/Choppahate.mp3'
+    // {
+    //     img : 'assets/img/ChoppaHate.png',
+    //     name : 'Choppa Hate',
+    //     artist : '21 Savage ft Off SET',
+    //     music : 'assets/music/Choppahate.mp3'
 
-    },
-    {
-        img : 'assets/img/dior.png',
-        name : 'Dior',
-        artist : 'Dior',
-        music : 'assets/music/dior.mp3'
+    // },
+    // {
+    //     img : 'assets/img/dior.png',
+    //     name : 'Dior',
+    //     artist : 'Dior',
+    //     music : 'assets/music/dior.mp3'
 
-    },
+    // },
     {
         img : 'assets/img/thug111.png',
         name : 'Dome',
@@ -227,60 +227,60 @@ const music_list = [
     },
     {
         img : 'assets/img/GhostKiller.png',
-        name : 'Ghoust Killer',
+        name : 'Ghost Killer',
         artist : '21 Savage',
-        music : 'assets/music/Ghostfacekillers.mp3'
+        music : 'assets/music/GhostRiderskillers.mp3'
 
     },
-    {
-        img : 'assets/img/Gunna2.png',
-        name : 'Gunna',
-        artist : 'Relentless',
-        music : 'assets/music/Gunna-Relentless.mp3'
+    // {
+    //     img : 'assets/img/Gunna2.png',
+    //     name : 'Gunna',
+    //     artist : 'Relentless',
+    //     music : 'assets/music/Gunna-Relentless.mp3'
 
-    },
-    {
-        img : 'assets/img/Gunna2.png',
-        name : 'Gunna',
-        artist : 'F U Mean',
-        music : 'assets/music/Gunna-fumean.mp3'
+    // },
+    // {
+    //     img : 'assets/img/Gunna2.png',
+    //     name : 'Gunna',
+    //     artist : 'F U Mean',
+    //     music : 'assets/music/Gunna-fumean.mp3'
 
-    },
-    {
-        img : 'assets/img/lilbaby2.png',
-        name : 'Sum 2 Prove',
-        artist : 'Lil Baby',
-        music : 'assets/music/sum2prove.mp3'
+    // },
+    // {
+    //     img : 'assets/img/lilbaby2.png',
+    //     name : 'Sum 2 Prove',
+    //     artist : 'Lil Baby',
+    //     music : 'assets/music/sum2prove.mp3'
 
-    },
-    {
-        img : 'assets/img/migos1.png',
-        name : 'Too Hoty',
-        artist : 'Migos',
-        music : 'assets/music/Toohotty.mp3'
+    // },
+    // {
+    //     img : 'assets/img/migos1.png',
+    //     name : 'Too Hoty',
+    //     artist : 'Migos',
+    //     music : 'assets/music/Toohotty.mp3'
 
-    },
-    {
-        img : 'assets/img/future2.png',
-        name : 'Timmmy Turner',
-        artist : 'Future',
-        music : 'assets/music/Timmy.mp3'
+    // },
+    // {
+    //     img : 'assets/img/future2.png',
+    //     name : 'Timmmy Turner',
+    //     artist : 'Future',
+    //     music : 'assets/music/Timmy.mp3'
 
-    },
-    {
-        img : 'assets/img/migos2.png',
-        name : 'Guwop',
-        artist : 'Young Thug',
-        music : 'assets/music/Guwop.mp3'
+    // },
+    // {
+    //     img : 'assets/img/migos2.png',
+    //     name : 'Guwop',
+    //     artist : 'Young Thug',
+    //     music : 'assets/music/Guwop.mp3'
 
-    },
-    {
-        img : 'assets/img/bobby1.png',
-        name : 'Hot Nigg',
-        artist : 'Bobby Swmurda',
-        music : 'assets/music/Hotniig.mp3'
+    // },
+    // {
+    //     img : 'assets/img/bobby1.png',
+    //     name : 'Hot Nigg',
+    //     artist : 'Bobby Swmurda',
+    //     music : 'assets/music/Hotniig.mp3'
 
-    },
+    // },
 
 
 
@@ -291,30 +291,30 @@ const music_list = [
 
 
 
-    {
-        img : 'assets/img/codigosvid.gif',
-        name : 'Nory Dolla',
-        artist : 'Codigos',
-        music : 'assets/music/Nory-Codigos.mp3'
-    },
-    {
-        img : 'assets/img/UnFlowZaza.gif',
-        name : 'Fa Melz',
-        artist : 'Tengo Un Flow',
-        music : 'assets/music/UnFlowZaza.mp3'
-    },
-    {
-        img : 'assets/img/drake11.png',
-        name : 'Family Matter',
-        artist : 'Drake',
-        music : 'assets/music/Drake-familymatter.mp3'
-    },
-    {
-        img : 'assets/img/notlikeus.png',
-        name : 'Not Like US',
-        artist : 'Kendric',
-        music : 'assets/music/NotLikeUs.mp3'
-    },
+    // {
+    //     img : 'assets/img/codigosvid.gif',
+    //     name : 'Nory Dolla',
+    //     artist : 'Codigos',
+    //     music : 'assets/music/Nory-Codigos.mp3'
+    // },
+    // {
+    //     img : 'assets/img/UnFlowZaza.gif',
+    //     name : 'Fa Melz',
+    //     artist : 'Tengo Un Flow',
+    //     music : 'assets/music/UnFlowZaza.mp3'
+    // },
+    // {
+    //     img : 'assets/img/drake11.png',
+    //     name : 'Family Matter',
+    //     artist : 'Drake',
+    //     music : 'assets/music/Drake-familymatter.mp3'
+    // },
+    // {
+    //     img : 'assets/img/notlikeus.png',
+    //     name : 'Not Like US',
+    //     artist : 'Kendric',
+    //     music : 'assets/music/NotLikeUs.mp3'
+    // },
    
 
 
