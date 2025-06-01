@@ -192,27 +192,32 @@ h7 {
   }
 
 
+  .h2{
+    display: flex; 
+    justify-content: space-around; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    
+    text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000f3;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    left: auto;
+    
+    z-index: 0;
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    
+    
+    
+    /* background-position: center;
+    background-image: url(./img/okok5.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: contain; */
+    letter-spacing: 0;
+              
+}
 
 
