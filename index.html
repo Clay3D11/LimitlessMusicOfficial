@@ -172,27 +172,87 @@
           
           <!-- Bottom Side Bar -->
           <!-- Bottom Side Bar -->
-          <li><a class="navbarsidebar" href="#"  style="position: fixed; top: 60%; right: 3px; cursor: pointer;" ><img src="./assets/img/okok13.gif" alt="Logo" style="border-radius: 50%;" ></a></li>
+          <li> 
+            <a class="navbarsidebar" href="#" style="position: fixed; top: 50%; right: 3px; cursor: pointer;" >
+             <img src="./assets/img/eyelooping.gif" alt="Logo" style="border-radius: 50%;" >
+            </a>
+          </li>
           
-          <li><abbr title="Subscribe"><a class="navbarsidebar" href="#features"  style="position: fixed; top: 70%; right: 5px; cursor: pointer;" ><i class="fa fa-users"></abbr></i></a></li>
           
-          <li><a id="ipodmodal" class="navbarsidebar" style="position: fixed; top: 80%; right: 3px; cursor: pointer;" >
+          
+          <li>
             
-            <!-- <img src="./assets/img/eyelooping.gif" alt="Logo" style="border-radius: 50%;" > -->
+            <abbr title="Subscribe">
+              <a class="navbarsidebar" href="#features"  style="position: fixed; top: 60%; right: 5px; cursor: pointer;" >
+                <i class="fa fa-users">
+
+                </i>
+              </a>
+            </abbr>
 
 
-            <div class='musicicon'>
-              <span class='line1 line1'></span>
-              <span class='line1 line2'></span>
-              <span class='line1 line3'></span>
-              <span class='line1 line4'></span>
-              <span class='line1 line5'></span>
-            </div>
+          </li>
+          
+
+
+
+
+          <li> 
+            <a id="openModalBtn" class="navbarsidebar"  style="position: fixed; top: 65%; right: 3px; cursor: pointer;" >
+              
+             <!-- <img src="./assets/img/okok13.gif" alt="Logo" style="border-radius: 50%;" > -->
+
+
+              <abbr title="Store">
+                <i class="fab fa-shopify" style="background-image: url(./assets/img/eyelooping.gif);
+                  background-position: center;
+                  background-clip: text;
+                  -webkit-background-clip: text;
+                  color: transparent;
+                  background-size: contain;
+
+                  font-size: 40px;
+          
+                  text-shadow: 0 0 20px #1bff0600, 0 0 40px #2bff0000;">
+                </i>
+              </abbr>
+
+
+            </a>
+          </li>
+
+
+
+
+
+
+
+
+
+          <!-- --important this link dont allow you to come back to the actual webpage, it only show the ipod controller -->
+           
+          <!-- <li>
+            <a id="ipodmodal" class="navbarsidebar" style="position: fixed; top: 80%; right: 3px; cursor: pointer;" >
+            
+              <img src="./assets/img/eyelooping.gif" alt="Logo" style="border-radius: 50%;" >
+
+
+              <abbr title="IPod">
+                <div class='musicicon'>
+                  <span class='line1 line1'></span>
+                  <span class='line1 line2'></span>
+                  <span class='line1 line3'></span>
+                  <span class='line1 line4'></span>
+                  <span class='line1 line5'></span>
+                </div>
+              </abbr>
           
           
           
           
-          </a></li>
+            </a>
+
+          </li> -->
 
 
 
@@ -1219,6 +1279,25 @@
   <br>
   <div  class="cardstore">
 
+    <abbr title="Online Store">
+      <a  ----  >
+        <i class="fab fa-shopify" style="background-image: url(./assets/img/eyelooping.gif);
+            background-position: center;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-size: contain;
+
+            font-size: 120px;
+    
+            text-shadow: 0 0 20px #1bff0600, 0 0 40px #2bff0000;">
+          </i>
+      </a>
+    </abbr>
+
+
+
+
     <!-- Store BTN Open Modal -->
     <!-- Store BTN Open Modal -->
     <button  style="background-color: transparent; border: 0;" >
@@ -1249,26 +1328,10 @@
                   color: transparent;
                   background-size: contain;
 
-      letter-spacing: 0;">Ŝ₸●®ě</h2>
+      letter-spacing: 0;">₸●®ě</h2>
     
     
     </button>
-
-
-
-
-    <abbr title="Online Store"><a id="openModalBtn" ><i class="fab fa-shopify" style="background-image: url(./assets/img/eyelooping.gif);
-            background-position: center;
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            background-size: contain;
-
-            font-size: 100px;
-    
-            text-shadow: 0 0 20px #1bff0600, 0 0 40px #2bff0000;"></abbr></i></a>
-
-
 
 
   
@@ -1611,7 +1674,10 @@
   <!-- Trigger Button -->
   <div  class="cardstore">
 
-    <!-- <button id="ipodmodal"  title="Ipod" style="border: 0; background-color: transparent; cursor: pointer;">
+
+    <!-- This un commented will allowed you to come back to the website once you go to other pages --Important BTN to analyze intead of link -->
+
+    <button id="ipodmodal"  title="Ipod" style="border: 0; background-color: transparent; cursor: pointer;">
     
 
 
@@ -1626,7 +1692,7 @@
 
       <br>
 
-    </button> -->
+    </button>
 
     <!-- Modal -->
     <div id="ipodModal" class="modal">
@@ -2103,7 +2169,7 @@
 
 
 
-<script src="./js/popup.js"></script>
+<!-- <script src="./js/popup.js"></script> -->
 
 <script src="js/textslider.js"></script>
 
