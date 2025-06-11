@@ -1,0 +1,314 @@
+/** SLIDESHOW **/
+/** SLIDESHOW **/
+.slideshow1,
+.slideshow1:after {
+  top: -16px; /*Not sure why I needed this fix*/
+
+  /* Important Background Slide show setting */
+  /* Important Background Slide show setting */
+  /* Important Background Slide show setting */
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  /* z-index: 0; */
+
+  
+}
+
+.slideshow1 li span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  /* z-index: 0; */
+  animation: imageAnimation 42s linear infinite 0s;
+  -webkit-animation: imageAnimation 42s linear infinite 0s;
+}
+
+.slideshow1 li {
+  color: transparent;
+}
+
+.slideshow1 li:nth-child(1) span {
+  background-image: url("../assets/img/lucy.jpg");
+  /* background-position: center;
+  background-size: contain; */
+}
+
+.slideshow1 li:nth-child(2) span {
+  background-image: url("../assets/img/clinclingif-ezgif.com.gif");
+  background-position: center;
+  background-size: contain;
+  animation-delay: 6s;
+}
+
+.slideshow1 li:nth-child(3) span {
+  background-image: url("../assets/img/clinclingif-ezgif.com.gif");
+  /* background-position: center;
+  background-size: contain;
+  background-repeat: repeat-x; */
+  animation-delay: 12s;
+}
+
+.slideshow1 li:nth-child(4) span {
+  background-image: url("../assets/img/UnFlowZaza.gif");
+  animation-delay: 18s;
+}
+
+.slideshow1 li:nth-child(5) span {
+  background-image: url("../assets/img/codigosvid.gif");
+  /* background-position: center;
+  background-size: contain; */
+  animation-delay: 24s;
+}
+
+.slideshow1 li:nth-child(6) span {
+  background-image: url("../assets/img/eyelooping.gif");
+  background-position: center;
+  background-size: cover;
+  animation-delay: 30s;
+}
+.slideshow1 li:nth-child(7) span {
+  background-image: url("../assets/img/okok13.gif");
+  background-position: center;
+  /* background-size: cover; */
+  animation-delay: 36s;
+}
+
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in;
+  }
+  8% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes titleAnimation {
+  0% {
+    opacity: 0;
+  }
+  8% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  19% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.no-cssanimations .cb-slideshow1 li span {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** SLIDESHOW **/
+/** SLIDESHOW **/
+.slideshow2,
+.slideshow2:after {
+  /*Thisisfortheslidetostayatthetop*//*Thisisfortheslidetostayatthetop*//*Thisisfortheslidetostayatthetop*//*top: -16px;
+  *//*NotsurewhyIneededthisfix*//*ImportantBackgroundSlideshowsetting*//*ImportantBackgroundSlideshowsetting*//*ImportantBackgroundSlideshowsetting*/position: absolute;
+  display: block;
+  width: 100%;
+  /*height: 100vh;
+  */height: 50vh;
+  left: 0px;
+  /*z-index: 0;
+  */
+}
+
+.slideshow2 li span {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 0px;
+  /*left: 0px;
+  */color: transparent;
+  /*background-size: cover;
+  */background-size: contain;
+  /*background-position: 50% 50%;
+  */background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  /*z-index: 0;
+  */animation: imageAnimation 42s linear infinite 0s;
+  -webkit-animation: imageAnimation 42s linear infinite 0s;
+
+}
+
+.slideshow2 li {
+  color: transparent;
+}
+
+.slideshow2 li:nth-child(1) span {
+  /* background-image: url("../assets/img/lucy.jpg"); */
+  background-position: center;
+  background-size: contain;
+}
+
+.slideshow2 li:nth-child(2) span {
+  background-image: url("../assets/img/clinclingif-ezgif.com.gif");
+  background-position: center;
+  background-size: contain;
+  animation-delay: 6s;
+}
+
+.slideshow2 li:nth-child(3) span {
+  background-image: url("../assets/img/Clinvidremix1min-ezgif.com-effects.gif");
+  background-position: center;
+  background-size: contain;
+  /* background-repeat: repeat-x; */
+  animation-delay: 12s;
+}
+
+.slideshow2 li:nth-child(4) span {
+  background-image: url("../assets/img/UnFlowZaza.gif");
+  animation-delay: 18s;
+}
+
+.slideshow2 li:nth-child(5) span {
+  background-image: url("../assets/img/codigosvid.gif");
+  background-position: center;
+  background-size: contain;
+  animation-delay: 24s;
+}
+
+.slideshow2 li:nth-child(6) span {
+  background-image: url("../assets/img/Nory&Famelz-Wow.gif");
+  background-position: center;
+  background-size: contain;
+  animation-delay: 30s;
+}
+.slideshow2 li:nth-child(7) span {
+  background-image: url("../assets/img/norygif.gif");
+  background-position: center;
+  /* background-size: cover; */
+  animation-delay: 36s;
+}
+
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in;
+  }
+  8% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes titleAnimation {
+  0% {
+    opacity: 0;
+  }
+  8% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  19% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.no-cssanimations .cb-slideshow2 li span {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
