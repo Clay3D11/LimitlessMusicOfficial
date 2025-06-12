@@ -1,0 +1,237 @@
+/* Marquee */
+/* Marquee */
+
+/* @import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+/* body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eee;
+  color: #111;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+:root {
+  --marquee-width: 80vw;
+  --marquee-height: 25vh;
+  /* --marquee-elements: 12; */ /* defined with JavaScript */
+  --marquee-elements-displayed: 5;
+  --marquee-element-width: calc(
+    var(--marquee-width) / var(--marquee-elements-displayed)
+  );
+  --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+}
+
+.marquee:before {
+  left: 0;
+  background: linear-gradient(to right, #111 0%, transparent 100%);
+}
+.marquee:after {
+  right: 0;
+  background: linear-gradient(to left, #111 0%, transparent 100%);
+}
+.marquee-content {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  animation: scrolling var(--marquee-animation-duration) linear infinite;
+  -webkit-animation: scrolling var(--marquee-animation-duration) linear infinite;
+}
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      calc(-1 * var(--marquee-element-width) * var(--marquee-elements))
+    );
+  }
+}
+.marquee-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  flex-shrink: 0;
+  width: var(--marquee-element-width);
+  max-height: 100%;
+  font-size: calc(var(--marquee-height) * 3 / 4); /* 5rem; */
+  white-space: nowrap;
+}
+
+.marquee-content li img {
+  width: 100%;
+  /* height: 100%; */
+  border: 2px solid #eee;
+}
+
+
+
+/* .marquee-content li:hover {
+  scale: 130%;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+} */
+
+
+
+@media (max-width: 600px) {
+  /* html {
+    font-size: 22px;
+  } */
+  :root {
+    --marquee-width: 100vw;
+    --marquee-height: 16vh;
+    --marquee-elements-displayed: 3;
+  }
+  /* .marquee:before,
+  .marquee:after {
+    width: 5rem;
+  } */
+
+  
+  
+}
+
+
+
+
+/* This was the one that fix the 2nd section articts marquee over flow */
+/* Real Marquee */
+/* Real Marquee */
+
+.marquee {
+  display: flex;
+  overflow: hidden;
+  /* height: 20vh; */
+  user-select: none;
+  gap: 1.5rem;
+  /* padding-top: 1rem; */
+  /* padding-bottom: 1.2rem; */
+  /*background-color: green;*/
+  /*transform: skewY(-3deg); */
+  /*transform: rotate(-5deg) translateY(-30px) translateX(50px);*/
+}
+
+.marquee:hover {
+  -webkit-text-stroke: 1.5px #fff;
+  text-stroke: 1.5px #fff;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  color: transparent;
+  transition: all 0.5s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+
+  text-shadow: 0 0 15px #00fffb, 0 0 15px #0081bc;
+}
+
+.marquee__group {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  min-width: 100%;
+  animation: scroll 8s linear infinite reverse;
+  -webkit-animation: scroll 8s linear infinite reverse;
+}
+
+
+/* Pop up marketting  */
+.marquee__group2 {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  min-width: 100%;
+  animation: scroll 8s linear infinite ;
+  -webkit-animation: scroll 8s linear infinite ;
+}
+
+.marquee__group span {
+  color: white;
+  font-size: 2vw;
+  font-weight: 800;
+  white-space: nowrap;
+  font-family: "Syne", sans-serif !important;
+  /*text-transform: uppercase;*/
+
+  background-image: url(./img/);
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: contain;
+
+  color: #ffffff;
+  text-shadow: 0 0 20px #06a4ff, 0 0 40px #00ccff;
+}
+
+/* Pop up marketting  */
+
+.marquee__group2 span {
+  color: white;
+  font-size: 2vw;
+  font-weight: 800;
+  white-space: nowrap;
+  font-family: "Syne", sans-serif !important;
+  /*text-transform: uppercase;*/
+
+  background-image: url(./img/);
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: contain;
+
+  color: #ffffff;
+  text-shadow: 0 0 20px #06a4ff, 0 0 40px #00ccff;
+}
+
+
+
+
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 2rem));
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .marquee__group span {
+    font-size: 3.5vw;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .marquee__group span {
+    font-size: 11.5vw;
+  }
+  .marquee__group2 span {
+    font-size: 11.5vw;
+  }
+}
