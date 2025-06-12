@@ -94,7 +94,7 @@
     margin-bottom: 80px;
 
 
-      position: fixed;
+      position: sticky;
       bottom: 20px;
       right: 3px;
       display: flex;
