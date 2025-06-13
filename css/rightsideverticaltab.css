@@ -83,89 +83,158 @@
 
 
 
-  /* Icon tab 2 */
-  /* Icon tab 2 */
+/* Icon tab 2 */
+/* Icon tab 2 */
+
+
 
   .icon-tab2 {
+
+  /* font-size: 60px; */
+
+
+  margin-bottom: 80px;
+
+
   position: fixed;
-  bottom: env(safe-area-inset-bottom, 20px); /* Keeps it above the UI/tab bar */
-  right: env(safe-area-inset-right, 20px);     /* Avoids notches on iPhones etc */
-  z-index: 500;
-  /* width: 50px; */
-  height: auto;
-  border-radius: 25px;
-  overflow: hidden;
-  background: #444;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  transition: all 0.5s ease;
-}
+  bottom: 20px;
+  /* right: 3px; */
+  display: flex;
+  flex-direction: column;
+  /* background: #ff0909f8; */
+  /* border-left: 2px solid #ccc; */
+  /* box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); */
+  max-height: 40vh;
+  overflow-y: auto;
+  /* padding: 0.5rem; */
+  z-index: 1;
+  border-radius: 8px;
+  scrollbar-width: none;
+  }
 
+  .icon-tab2::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers */
+  }
 
-
-
-
-
-
-  .icon-tab2 {
-
-    /* font-size: 60px; */
-
-
-    margin-bottom: 80px;
-
-
-    position: fixed;
-    bottom: 20px;
-    /* right: 3px; */
+  .icon-tab2 a {
     display: flex;
-    flex-direction: column;
-    background: #ffffff00;
-    /* border-left: 2px solid #ccc; */
-    /* box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); */
-    max-height: 40vh;
-    overflow-y: auto;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0.3rem 0;
     padding: 0.5rem;
-    z-index: 1;
-    border-radius: 8px;
-    scrollbar-width: none;
-    }
+    font-size: 1.4rem;
+    transition: background 0.3s ease;
+    border-radius: 50%;
+  }
 
-    .icon-tab2::-webkit-scrollbar {
-      display: none; /* Hide scrollbar for WebKit browsers */
+  .icon-tab2 a:hover {
+    /* background: #f0f0f0; */
+    background-image: url(../assets/img/eyelooping.gif);
+    background-position: center;
+    background-size: cover;
+    color: #000;
+  }
+
+  @media (max-width: 600px) {
+    .icon-tab2 {
+      padding: 0.3rem;
+      right: 0px;
+      bottom: 10px;
     }
 
     .icon-tab2 a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      color: #ffffff;
-      margin: 0.3rem 0;
-      padding: 0.5rem;
-      font-size: 1.4rem;
-      transition: background 0.3s ease;
-      border-radius: 50%;
+      font-size: 1.5rem;
+      padding: 0.4rem;
     }
+  }
 
-    .icon-tab2 a:hover {
-      /* background: #f0f0f0; */
-      background-image: url(../assets/img/eyelooping.gif);
-      background-position: center;
-      background-size: cover;
-      color: #000;
-    }
 
-    @media (max-width: 600px) {
-      .icon-tab2 {
-        padding: 0.3rem;
-        right: 0px;
-        bottom: 10px;
-      }
 
-      .icon-tab2 a {
-        font-size: 1.5rem;
-        padding: 0.4rem;
-      }
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+  .icon-tab-wrapper {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+  }
+
+  /* Hide checkbox */
+  #toggle-tab {
+    display: none;
+  }
+
+  /* Toggle button */
+  .icon-tab-toggle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    /* background: #333; */
+    background-image: url(../assets/img/eyelooping.gif);
+    background-size: cover;
+
+
+
+
+
+
+    color: #ffffff00;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+  /* The icon group */
+  .icon-tab2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(20px);
+    transition: 0.3s ease;
+  }
+
+  /* Show when checked */
+  #toggle-tab:checked ~ .icon-tab2 {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  .icon-tab2 a {
+    text-align: center;
+    /* background: rgba(0, 0, 0, 0.6); */
+    border-radius: 50%;
+    padding: 10px;
+  }
 
 
