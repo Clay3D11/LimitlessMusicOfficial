@@ -297,12 +297,12 @@ const music_list = [
     //     artist : 'Codigos',
     //     music : 'assets/music/Nory-Codigos.mp3'
     // },
-    // {
-    //     img : 'assets/img/UnFlowZaza.gif',
-    //     name : 'Fa Melz',
-    //     artist : 'Tengo Un Flow',
-    //     music : 'assets/music/UnFlowZaza.mp3'
-    // },
+    {
+        img : 'assets/img/UnFlowZaza.gif',
+        name : 'Fa Melz',
+        artist : 'Tengo Un Flow',
+        music : 'assets/music/UnFlowZaza.mp3'
+    },
     // {
     //     img : 'assets/img/drake11.png',
     //     name : 'Family Matter',
@@ -353,32 +353,67 @@ function loadTrack(track_index){
     updateTimer = setInterval(setUpdate, 1000);
 
     curr_track.addEventListener('ended', nextTrack);
+
+
+
     // random_bg_color();
+
+    updateBackgroundImage();
+
+
+
+    
 }
 
 
 
 
 
-function random_bg_color(){
-    let hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e'];
-    let a;
+// function random_bg_color(){
+//     let hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e'];
+//     let a;
 
-    function populate(a){
-        for(let i=0; i<6; i++){
-            let x = Math.round(Math.random() * 14);
-            let y = hex[x];
-            a += y;
-        }
-        return a;
-    }
-    let Color1 = populate('#');
-    let Color2 = populate('#');
-    var angle = 'to right';
+//     function populate(a){
+//         for(let i=0; i<6; i++){
+//             let x = Math.round(Math.random() * 14);
+//             let y = hex[x];
+//             a += y;
+//         }
+//         return a;
+//     }
+//     let Color1 = populate('#');
+//     let Color2 = populate('#');
+//     var angle = 'to right';
 
-    let gradient = 'linear-gradient(' + angle + ',' + Color1 + ', ' + Color2 + ")";
-    document.body.style.background = gradient;
+//     let gradient = 'linear-gradient(' + angle + ',' + Color1 + ', ' + Color2 + ")";
+
+
+    
+
+//     document.body.style.background = gradient;
+    
+//     document.querySelector('.wrapper').style.background = gradient;
+// }
+
+
+
+
+
+function updateBackgroundImage() {
+    const wrapper = document.querySelector('.wrapper');
+    const backgroundImage = `url(${music_list[track_index].img})`;
+
+    // Use a blurred and darkened version of the image as the background
+    wrapper.style.background = `
+        linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)),
+        ${backgroundImage}`;
+    wrapper.style.backgroundSize = 'cover';
+    wrapper.style.backgroundPosition = 'center';
+    wrapper.style.backgroundRepeat = 'no-repeat';
 }
+
+
+
 
 
 
