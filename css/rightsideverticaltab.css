@@ -1,80 +1,130 @@
 .icon-tab {
   position: fixed;
-  top: 60px;
+  /* top: 60px; */
   right: 10px;
-  width: 70px;
-  height: 43vh;
+  width: 100px;
+  /* height: calc(100vh - 60px); */
+  overflow: hidden;
   background: transparent;
-  overflow: hidden; /* initially hidden */
   z-index: 1;
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none;
 }
 
 .icon-tab:hover {
-  overflow-y: auto; /* enable vertical scroll */
-  scroll-behavior: smooth; /* smooth scrolling on manual */
+  overflow-y: auto;
+  scroll-behavior: smooth;
 }
 
-.icon-tab:hover::-webkit-scrollbar {
-  display: none; /* Chrome, Safari */
+.icon-tab::-webkit-scrollbar {
+  display: none;
 }
 
 .icon-container {
-  position: relative;
-  height: auto;
+  height: 100%;
   width: 100%;
   overflow: hidden;
+  position: relative;
 }
 
 .icon-track {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  animation: scrollUp 20s linear infinite;
+  animation: scrollLoop 30s linear infinite;
+  -webkit-animation:;
 }
 
 .icon-tab:hover .icon-track {
-  animation-play-state: paused; /* pause marquee on hover */
+  animation-play-state: paused;
 }
 
-@keyframes scrollUp {
+/* Keyframe scroll full height of one list only */
+@keyframes scrollLoop {
   0% {
-    transform: translateY(0%);
+    transform: translateY(0);
   }
   100% {
     transform: translateY(-50%);
   }
 }
 
+.icon-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .icon-tab a {
-  padding: 20px 10px;
+
+  margin-top: 35px;
+
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px 10px;
+  
   width: 100%;
+  height: 90px;
+
+  color: #fff;
   text-decoration: none;
-  color: #ffffff;
-  transition: background 0.3s ease;
+  transition: background 0.3s ease, color 0.3s ease;
+  -webkit-transition: background 0.3s ease, color 0.3s ease;
+  -moz-transition: background 0.3s ease, color 0.3s ease;
+  -ms-transition: background 0.3s ease, color 0.3s ease;
+  -o-transition: background 0.3s ease, color 0.3s ease;
 }
 
 .icon-tab a:hover {
-  background-color: #f0f0f0;
+  background-color: rgba(255, 255, 255, 0.2);
   color: #000;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .icon-tab i {
   font-size: 2.4rem;
+  pointer-events: none;
 }
 
 @media (max-width: 600px) {
   .icon-tab {
-    width: 50px;
+    width: 40px;
   }
 
   .icon-tab i {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+  }
+
+  .icon-tab a {
+    height: 20px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -90,7 +140,7 @@
 
   .icon-tab2 {
 
-  /* font-size: 60px; */
+  font-size: 60px;
 
 
   margin-bottom: 80px;
@@ -99,15 +149,21 @@
   position: fixed;
   bottom: 20px;
   /* right: 3px; */
+  
+  
   display: flex;
   flex-direction: column;
-  /* background: #ff0909f8; */
-  /* border-left: 2px solid #ccc; */
+  /* background: #ff0303; */
+  background-image: url(../assets/img/);
+  /* background-position: center; */
+
+
+  border-left: 2px solid #01ff0d;
   /* box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); */
   max-height: 40vh;
   overflow-y: auto;
-  /* padding: 0.5rem; */
-  z-index: 1;
+  padding: 0.5rem;
+  z-index: 10;
   border-radius: 8px;
   scrollbar-width: none;
   }
@@ -122,8 +178,8 @@
     justify-content: center;
     text-decoration: none;
     color: #ffffff;
-    margin: 0.3rem 0;
-    padding: 0.5rem;
+    /* margin: 0.3rem 0; */
+    /* padding: 0.5rem; */
     font-size: 1.4rem;
     transition: background 0.3s ease;
     border-radius: 50%;
@@ -142,44 +198,29 @@
       padding: 0.3rem;
       right: 0px;
       bottom: 10px;
+      width: 20%;
     }
 
     .icon-tab2 a {
       font-size: 1.5rem;
       padding: 0.4rem;
+      
     }
   }
 
+  
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
+  /* Toggle btn */
+  /* Toggle btn */
+  /* Toggle btn */
 
   .icon-tab-wrapper {
     position: fixed;
     bottom: 20px;
-    left: 20px;
+    left: 30px;
     z-index: 2;
   }
 
