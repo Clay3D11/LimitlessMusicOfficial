@@ -92,6 +92,9 @@
 @media (max-width: 600px) {
   .icon-tab {
     width: 40px;
+
+    /* This make it desappear on small mobile devices */
+    display: none;
   }
 
   .icon-tab i {
@@ -206,6 +209,7 @@
       padding: 0.4rem;
       
     }
+    
   }
 
   
