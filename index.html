@@ -395,53 +395,6 @@
 
   ">
 
-
-
-
-
-
-
-
-
-
-
-
-    
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Pop up AD for visiting user -->
     <!-- Pop up AD for visiting user -->
     <!-- Pop up AD for visiting user -->
@@ -1030,13 +983,13 @@
           <h2>Our Mission</h2>
 
           <p>We believe creativity should have no boundaries. Our mission is to provide artists and entrepreneurs with the tools and exposure to turn passion into purpose — through world-class video production, design, and digital storytelling.
-          <span class="toolong" >
+          <!-- <span class="toolong" >
           <br>
           <br>
           To empower artists and creators by providing the tools, exposure, and freedom
           to turn imagination into impact — through innovation, storytelling, and limitless creativity.
           </p>
-          </span>
+          </span> -->
 
 
 
@@ -1044,24 +997,24 @@
 
         <div class="limitless-quote">
           <h2>Our Vision</h2>
-          <p>Universal Limitless stands for innovation, collaboration, and artistic freedom. We blend video, music, and digital art into one unified experience — giving every creator the space to grow, express, and thrive without limits.
-            <span class="toolong" >
+          <p>Universal Limitless stands for innovation, collaboration, and artistic freedom. We blend video, music, and digital art into one unified experience — giving every creator the space to grow, express, and thrive without limits.</p>
+            <!-- <span class="toolong" >
           <br>
           <br>
           To build a global creative ecosystem where art, technology, and opportunity
           merge — enabling every creator to grow, express, and thrive without limits.
           </p>
-          </span>
+          </span> -->
         </div>
       </section>
       <style>.limitless-section {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
 
         margin: 0 auto;
-        padding: clamp(2rem, 4vw, 4rem);
+        /* padding: clamp(2rem, 4vw, 4rem); */
         max-width: 900px;
         width: 100%;
         text-align: center;
@@ -1075,7 +1028,7 @@
         background: rgba(0, 0, 0, 0.35);
         box-shadow: 0 0 25px rgba(0, 255, 251, 0.25);
 
-        padding: clamp(1.5rem, 3vw, 2.5rem);
+        padding: clamp(1.5rem, 1vw, 2.5rem);
         color: #e7faff;
         transition: all 0.3s ease;
       }
@@ -1100,7 +1053,8 @@
       /* ✅ Responsive for smaller screens */
       @media (max-width: 600px) {
         .limitless-section {
-          padding: 1.5rem;
+          flex-direction: column;
+          /* padding: 1.5rem; */
         }
 
         .limitless-quote {
