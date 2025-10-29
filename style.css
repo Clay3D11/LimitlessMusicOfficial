@@ -191,3 +191,93 @@ nav a:hover {
 }
 
 
+
+
+
+
+
+
+/* About-Box */
+/* About-Box */
+
+
+.about-box {
+  width: 100%;
+  max-width: 850px;
+
+
+  padding: clamp(1.5rem, 4vw, 3rem);
+  
+  text-align: center;
+  
+  border: 2px solid #00eaff;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 25px rgba(0, 255, 251, 0.25);
+  color: #e7faff;
+}
+
+.about-box h1 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  text-shadow: 0 0 15px #00fffb, 0 0 35px #0081bc;
+}
+
+.about-box p {
+  font-size: 20px;
+  /* line-height: 1.75; */
+  /* font-size: clamp(0.95rem, 2.2vw, 1.2rem); */
+  /* margin-bottom: 1.2rem; */
+  color: #d7e9ff;
+}
+
+/* ✅ Improve spacing + readability on small screens */
+@media (max-width: 520px) {
+  .about-section {
+    /* padding: 1.5rem 1rem; */
+    min-height: auto;
+  }
+
+  .about-box {
+    border-width: 1.5px;
+    /* padding: 1.5rem; */
+  }
+
+  .about-box h1 {
+    /* font-size: 1.9rem; */
+    font-weight: 700;
+  }
+}
+
+/* ✅ Ultra small screen support */
+@media (max-width: 360px) {
+  .about-box p {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .about-box p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 19px;
+        text-align: center;
+        font-weight: 700;
+        color: #ffffff;
+        /* line-height: 1; */
+        /* margin-bottom: 1.5rem; */
+        /* text-align: left; */
+    }
+    .about-box h1 {
+
+    }
+}
+
+
+
+
+
