@@ -220,7 +220,7 @@ nav a:hover {
 
 .about-box h1 {
   font-size: clamp(1.8rem, 4vw, 3rem);
-  margin-bottom: 1.2rem;
+  /* margin-bottom: 1.2rem; */
   font-weight: 700;
   text-shadow: 0 0 15px #00fffb, 0 0 35px #0081bc;
 }
@@ -262,19 +262,90 @@ nav a:hover {
 
 
 @media (max-width: 768px) {
+  .limitless-section {
+    flex-direction: row;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
     .about-box p {
         font-family: 'Times New Roman', Times, serif;
-        font-size: 19px;
+        font-size: 16px;
         text-align: center;
         font-weight: 700;
+
+
         color: #ffffff;
         /* line-height: 1; */
         /* margin-bottom: 1.5rem; */
         /* text-align: left; */
     }
+
     .about-box h1 {
 
     }
+}
+
+
+
+/* Main Page Cards */
+/* Main Page Cards */
+
+.info-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 2rem;
+  justify-items: center;
+  align-items: stretch;
+}
+
+.info-card {
+  width: 100%;
+  max-width: 850px;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  text-align: center;
+  border: 2px solid #00eaff;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 25px rgba(0, 255, 251, 0.25);
+  color: #e7faff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 35px rgba(0, 255, 251, 0.45);
+}
+
+.info-card h2 {
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  margin-bottom: 0.8rem;
+  text-shadow: 0 0 10px #00fffb, 0 0 25px #0081bc;
+}
+
+.info-card p {
+  line-height: 1.7;
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
+}
+
+/* ✅ Responsive: stack cards on small screens */
+@media (max-width: 768px) {
+  .info-section {
+    /* grid-template-columns: 1fr; */
+    
+  }
+
+  .info-card {
+    height: auto;
+  }
 }
 
 
