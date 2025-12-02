@@ -569,70 +569,63 @@
     <!-- Slide Show -->
     <!-- Slide Show -->
     <!-- Slide Show -->
-    <ul class="slideshow1">
-      
-      
-      
-      
-      
-      <li>
-        <span>
-
-          <video autoplay muted loop playsinline  style="width: 100%;">
-          <source src="./assets/video//HeadingSTG_flash.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video>
-          
-        </span>
-      </li>
-      
-      
-      <li>
-        <span>
-          
-          <video autoplay muted loop playsinline  style="width: 100%;">
-          <source src="./assets/video/UnFlowZaza.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video>
-          
-        </span>
-      </li>
-
-
-      <li><span></span></li>
-
-      <li>
-        <span>
-
-          <video autoplay muted loop playsinline  style="width: 100%;">
-          <source src="./assets/video/Fatmelz - ToLoDia.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video>
-          
-        </span>
-      </li>
-      
-      <li>
-        <span>
-          
-          <video autoplay muted loop playsinline  style="width: 100%; height: 100dvh;">
-          <source src="./assets/video/KulosoEdit.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video>
-          
-        </span>
-      </li>
-      
-      
-      
-
-
-
-
-
-
-
+    <ul class="slideshow">
+      <li><video src="./assets/video/Clinvidremix1min.mp4" autoplay muted loop playsinline></video></li>
+      <li><video src="./assets/video/UnFlowZaza.mp4" autoplay muted loop playsinline></video></li>
+      <li><video src="./assets/video/Fatmelz - ToLoDia.mp4" autoplay muted loop playsinline></video></li>
+      <li><video src="./assets/video/KulosoEdit.mp4" autoplay muted loop playsinline></video></li>
+      <li><video src="./assets/video/Clinvidremix1min.mp4" autoplay muted loop playsinline></video></li>
     </ul>
+
+    <style>.slideshow {
+  list-style-type: none;
+}
+
+/* SLIDESHOW */
+.slideshow,
+.slideshow:after { 
+  top: -16px;
+  /* position: fixed; */
+  width: 100%;
+  height: 100%;
+  left: 0;
+  z-index: 0;
+}
+
+.slideshow li video { 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 0;
+  animation: videoAnimation 30s linear infinite;
+}
+
+/* Delays for each video */
+.slideshow li:nth-child(1) video { animation-delay: 0s; }
+.slideshow li:nth-child(2) video { animation-delay: 6s; }
+.slideshow li:nth-child(3) video { animation-delay: 12s; }
+.slideshow li:nth-child(4) video { animation-delay: 18s; }
+.slideshow li:nth-child(5) video { animation-delay: 24s; }
+
+
+/* Fade animation (same as images) */
+@keyframes videoAnimation { 
+  0% { opacity: 0; }
+  8% { opacity: 1; }
+  17% { opacity: 1; }
+  25% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* Fallback for browsers with no CSS animations */
+.no-cssanimations .slideshow li video {
+  opacity: 1;
+}
+</style>
 
 
 
@@ -1141,7 +1134,7 @@
 
 
 
-  <!-- Artist Marquee -->
+    <!-- Artist Marquee -->
     <!-- Artist Marquee -->
     <!-- Artist Marquee -->
     <section>
