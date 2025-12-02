@@ -1,10 +1,10 @@
 var sliderIndex = 0;
 var sliderItems = [
-    // "Limitless",
-    // "Music",
+    "Limitless",
+    "Music",
     "Subscribe",
-    "Urban Style",
-    "Visit Store",
+    // "Urban Style",
+    // "Visit Store",
 
 ];
 var textSlider = document.querySelector("#dynamicSlider");
