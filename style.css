@@ -346,9 +346,100 @@ nav a:hover {
   .info-card {
     height: auto;
   }
-}
+
+
+
+} 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* Neon & Glass Blurr Div */
+/* Neon & Glass Blurr Div */
+/* Neon & Glass Blurr Div */
+
+
+.limitless-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        margin: 0 auto;
+        /* padding: clamp(2rem, 4vw, 4rem); */
+        max-width: 1400px;
+        width: 100%;
+        text-align: center;
+        gap: 2rem;
+
+
+
+
+        color: white;
+        text-shadow: 0 0 5px #00fffb, 0 0 20px #0081bc;
+
+      }
+
+      .limitless-quote {
+        border: 1px solid rgba(0, 255, 251, 0.3);
+        border-radius: 16px;
+        /* backdrop-filter: blur(10px); */
+        /* background: rgba(0, 0, 0, 0.35); */
+        /* box-shadow: 0 0 25px rgba(0, 255, 251, 0.25); */
+
+        padding: clamp(1.5rem, 1vw, 2.5rem);
+        color: #e7faff;
+        transition: all 0.3s ease;
+
+        
+      }
+
+      .limitless-quote:hover {
+        box-shadow: 0 0 35px rgba(0, 255, 251, 0.4);
+        transform: translateY(-4px);
+      }
+
+      .limitless-quote h2 {
+        font-size: clamp(1.5rem, 2vw, 2rem);
+        margin-bottom: 1rem;
+        color: #00eaff;
+        text-shadow: 0 0 15px rgba(0, 255, 251, 0.5);
+      }
+
+      .limitless-quote p {
+        font-size: clamp(1rem, 1.5vw, 1.1rem);
+        line-height: 1.6;
+
+        font-size: 25px;
+      }
+
+      /* ✅ Responsive for smaller screens */
+      @media (max-width: 600px) {
+        .limitless-section {
+          flex-direction: column;
+          /* padding: 1.5rem; */
+        }
+
+        .limitless-quote {
+          padding: 1.2rem;
+        }
+
+        .limitless-quote h2 {
+          font-size: 1.3rem;
+        }
+
+        .limitless-quote p {
+          font-size: 1.1rem;
+        }
+      }
