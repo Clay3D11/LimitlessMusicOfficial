@@ -369,6 +369,10 @@ nav a:hover {
 
 
 
+
+
+
+
 /* Main Page Cards */
 /* Main Page Cards */
 
@@ -523,3 +527,323 @@ nav a:hover {
           text-align: start;
         }
       }
+
+
+
+
+
+
+
+  /* Video Slide Show */
+  /* Video Slide Show */
+
+    
+    .slideshow {
+  list-style-type: none;
+}
+
+/* SLIDESHOW */
+.slideshow,
+.slideshow:after { 
+  top: -16px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  z-index: -1;
+}
+
+.slideshow li video { 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 0;
+  animation: videoAnimation 30s linear infinite;
+}
+
+/* Delays for each video */
+.slideshow li:nth-child(1) video { animation-delay: 0s; }
+.slideshow li:nth-child(2) video { animation-delay: 6s; }
+.slideshow li:nth-child(3) video { animation-delay: 12s; }
+.slideshow li:nth-child(4) video { animation-delay: 18s; }
+.slideshow li:nth-child(5) video { animation-delay: 24s; }
+
+
+/* Fade animation (same as images) */
+@keyframes videoAnimation { 
+  0% { opacity: 0; }
+  8% { opacity: 1; }
+  17% { opacity: 1; }
+  25% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* Fallback for browsers with no CSS animations */
+.no-cssanimations .slideshow li video {
+  opacity: 1;
+}
+
+
+
+
+
+/* Footer 1st and 2nd*/
+/* Footer 1st and 2nd*/
+/* Footer 1st and 2nd*/
+
+.lux-footer {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  padding: 60px 25px 30px;
+  border-top: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 -2px 20px rgba(0,255,251,0.25);
+}
+
+.lux-footer-inner {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+  color: #fff;
+}
+
+.lux-footer h3 {
+  font-size: 32px;
+  font-weight: 800;
+  text-shadow: 0 0 15px #00eaff;
+  margin-bottom: 10px;
+}
+
+.lux-footer h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-shadow: 0 0 10px #00fffb;
+}
+
+.lux-footer p {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.lux-footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.lux-footer ul li {
+  margin: 8px 0;
+}
+
+.lux-footer ul li a {
+  color: #d3f8ff;
+  font-size: 16px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.lux-footer ul li a:hover {
+  color: #00eaff;
+  text-shadow: 0 0 8px #00eaff;
+}
+
+.lux-socials a {
+  font-size: 28px;
+  margin-right: 15px;
+  color: #fff;
+  text-shadow: 0 0 12px #00eaff;
+  transition: 0.3s;
+}
+
+.lux-socials a:hover {
+  transform: scale(1.15);
+  color: #00eaff;
+}
+
+.lux-copy {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 20px;
+  opacity: 0.6;
+  color: #fff;
+}
+
+
+
+/* last Footer */
+/* last Footer */
+/* last Footer */
+
+/*=============================
+  FOOTER
+=============================*/
+.footer-distributed {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0, 255, 251, 0.25);
+  padding: 50px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  margin: 80px auto 60px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  flex: 1;
+}
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px "Cookie", cursive;
+  margin: 0 0 10px;
+}
+
+.footer-distributed h3 span {
+  color: #5383d3;
+}
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  margin: 0 10px;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.footer-distributed .footer-links a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #00fffb;
+  box-shadow: 0 0 5px #00fffb, 0 0 15px #0081bc;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer-distributed .footer-links a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+  animation: flicker 1.5s infinite alternate;
+}
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 5px 0 0;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  color: #ffffff;
+  border-radius: 2px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.footer-distributed .footer-icons a:hover {
+  background-color: #5383d3;
+}
+
+
+
+/* Responsive video wrapper */
+.responsive-video {
+  width: 100%;
+  max-width: 1000px;   /* customize max size */
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0,255,251,0.4);
+}
+
+/* Preserve aspect ratio */
+.responsive-video::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+/* Position video perfectly */
+.responsive-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* cover, contain, or fill depending on style */
+  border-radius: inherit;
+}
+
+/* Last Footer Responsiness */
+/* Last Footer Responsiness */
+/* Last Footer Responsiness */
+
+
+
+@media (max-width: 768px) {
+    .video-card .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .footer-distributed {
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    margin-bottom: 0;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
