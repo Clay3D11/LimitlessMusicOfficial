@@ -867,11 +867,11 @@ nav a:hover {
 
 .plan {
   border-radius: 16px;
-  box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205);
+  /* box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205); */
   padding: 10px;
-  background-color: #fff;
+  /* background-color: #fff; */
 
-  background-image: url(./assets/img/UnFlowZaza.gif);
+  background-image: url(./assets/img/clinclingif-ezgif.com.gif);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
