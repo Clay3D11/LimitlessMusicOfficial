@@ -847,3 +847,207 @@ nav a:hover {
     margin-left: 0;
   }
 }
+
+
+
+
+
+
+
+/* Price Card */
+/* Price Card */
+
+.plan-center {
+  min-height: 60vh; /* or any height you want */
+  display: grid;
+  place-items: center;
+}
+
+
+
+.plan {
+  border-radius: 16px;
+  box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205);
+  padding: 10px;
+  background-color: #fff;
+
+  background-image: url(./assets/img/UnFlowZaza.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+  
+
+
+  color: #ffffff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+  font-size: 20px;
+  max-width: 400px;
+}
+
+.plan strong {
+  font-weight: 600;
+  color: #ee0000;
+}
+
+.plan .inner {
+  align-items: center;
+  padding: 20px;
+  padding-top: 40px;
+  /* background-color: #ecf0ff71; */
+  border-radius: 12px;
+  position: relative;
+}
+
+.plan .pricing {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #bed6fb;
+  border-radius: 99em 0 0 99em;
+  display: flex;
+  align-items: center;
+  padding: 0.625em 0.75em;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #425475;
+}
+
+.plan .pricing small {
+  color: #707a91;
+  font-size: 0.75em;
+  margin-left: 0.25em;
+}
+
+.plan .title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #425675;
+}
+
+.plan .title + * {
+  margin-top: 0.75rem;
+}
+
+.plan .info + * {
+  margin-top: 1rem;
+}
+
+.plan .features {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan .features li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.plan .features li + * {
+  margin-top: 0.75rem;
+}
+
+.plan .features .icon {
+  background-color: #1900fa;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.plan .features .icon svg {
+  width: 14px;
+  height: 14px;
+}
+
+.plan .features + * {
+  margin-top: 1.25rem;
+}
+
+.plan .action {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.plan .button {
+  background-color: #1900fa;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.125rem;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 0.625em 0.75em;
+  text-decoration: none;
+}
+
+.plan .button:hover, .plan .button:focus {
+  background-color: #1900ff;
+}
+
+/* Center wrapper */
+.plan-center {
+  display: grid;
+  gap: 24px;
+  padding: 24px;
+  justify-content: center;
+}
+
+/* Desktop: 3 cards in a row */
+/* @media (min-width: 1024px) {
+  .plan-center {
+    grid-template-columns: repeat(3, minmax(280px, 1fr));
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+} */
+
+/* Tablet: 2 cards */
+/* @media (min-width: 640px) and (max-width: 1023px) {
+  .plan-center {
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    max-width: 720px;
+    margin: 0 auto;
+  }
+} */
+
+/* Mobile: 1 card stacked */
+/* @media (max-width: 639px) {
+  .plan-center {
+    grid-template-columns: 1fr;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
