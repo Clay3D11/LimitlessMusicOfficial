@@ -567,10 +567,10 @@ nav a:hover {
 
 /* Delays for each video */
 .slideshow li:nth-child(1) video { animation-delay: 0s; }
-.slideshow li:nth-child(2) video { animation-delay: 6s; }
-.slideshow li:nth-child(3) video { animation-delay: 12s; }
-.slideshow li:nth-child(4) video { animation-delay: 18s; }
-.slideshow li:nth-child(5) video { animation-delay: 24s; }
+.slideshow li:nth-child(2) video { animation-delay: 7s; }
+.slideshow li:nth-child(3) video { animation-delay: 14s; }
+.slideshow li:nth-child(4) video { animation-delay: 21s; }
+.slideshow li:nth-child(5) video { animation-delay: 28s; }
 
 
 /* Fade animation (same as images) */
