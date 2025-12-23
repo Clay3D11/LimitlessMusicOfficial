@@ -303,18 +303,18 @@ const music_list = [
         artist : 'Tengo Un Flow',
         music : 'assets/music/UnFlowZaza.mp3'
     },
-    // {
-    //     img : 'assets/img/drake11.png',
-    //     name : 'Family Matter',
-    //     artist : 'Drake',
-    //     music : 'assets/music/Drake-familymatter.mp3'
-    // },
-    // {
-    //     img : 'assets/img/notlikeus.png',
-    //     name : 'Not Like US',
-    //     artist : 'Kendric',
-    //     music : 'assets/music/NotLikeUs.mp3'
-    // },
+    {
+        img : 'assets/img/mickeygifoptimize.gif',
+        name : 'Mickey 24 Hrs',
+        artist : 'Rulay',
+        music : 'assets/music/mickey-rulay.mp3'
+    },
+    {
+        img : 'assets/img/darielgifoptimize.gif',
+        name : 'Dariel',
+        artist : 'Alma Negra',
+        music : 'assets/music/dariel-almanegra.mp3'
+    },
    
 
 
@@ -507,6 +507,9 @@ function setUpdate(){
         total_duration.textContent = durationMinutes + ":" + durationSeconds;
     }
 }
+
+
+
 
 
 
