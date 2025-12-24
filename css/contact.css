@@ -143,18 +143,20 @@ svg text {
 
 .contact-right img {
   width: 500px;
+  
 }
 
 @media (max-width:800px) {
   .contact-inputs {
-    width: 80vw;
+    width: 100vw;
   }
 
-  .contact-right{
+  .toolong{
     display: none;
   }
 
   .contact-container{
+    /* z-index: 1; */
     background-position: center;
     background-repeat: repeat-x;
   }
