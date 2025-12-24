@@ -44,16 +44,16 @@ const music_list = [
     // },
 
     {
-        img : 'assets/img/mickeygifoptimize.gif',
-        name : 'Mickey 24 Hrs',
-        artist : 'Rulay',
-        music : 'assets/music/mickey-rulay.mp3'
-    },
-    {
         img : 'assets/img/mickeyjoel2gifoptimize.gif',
         name : 'Mickey-Joell',
         artist : 'Rulay - 24hrs',
         music : 'assets/music/mickeyjoell-rulay.mp3'
+    },
+    {
+        img : 'assets/img/mickeygifoptimize.gif',
+        name : 'Mickey 24 Hrs',
+        artist : 'Rulay',
+        music : 'assets/music/mickey-rulay.mp3'
     },
     {
         img : 'assets/img/darielgifoptimize.gif',
