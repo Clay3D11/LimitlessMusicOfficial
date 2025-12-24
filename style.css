@@ -102,6 +102,22 @@ body {
 }
 
 
+/* For videos gif in the contact section */
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.media-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+
 
 
 
