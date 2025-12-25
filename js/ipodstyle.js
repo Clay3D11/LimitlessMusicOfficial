@@ -191,7 +191,7 @@ const music_list = [
 
 
     {
-        img : 'assets/img/cirujano1.png',
+        img : 'assets/img/Cirujano1.png',
         name : 'Cirujano Noturno',
         artist : 'Hip Hop',
         music : 'assets/music/cirujanohiphop.mp3'
@@ -199,70 +199,70 @@ const music_list = [
     },
 
     {
-        img : 'assets/img/cirujano1.png',
+        img : 'assets/img/Cirujano1.png',
         name : 'Cirujano Noturno',
         artist : 'En la Esquina',
         music : 'assets/music/cirujanoencualquieresquina.mp3'
         
     },
     {
-        img : 'assets/img/cirujano1.png',
+        img : 'assets/img/Cirujano1.png',
         name : 'Cirujano Noturno',
         artist : 'Rap Por $$$',
         music : 'assets/music/cirujanorappordinero.mp3'
         
     },
     {
-        img : 'assets/img/cirujano1.png',
+        img : 'assets/img/Cirujano1.png',
         name : 'Cirujano Noturno',
         artist : 'Home Run',
         music : 'assets/music/cirujanohomerun.mp3'
         
     },
     {
-        img : 'assets/img/cirujano1.png',
+        img : 'assets/img/Cirujano1.png',
         name : 'Cirujano Noturno',
         artist : 'Plomo Por Pila',
         music : 'assets/music/cirujanoplomoporpila.mp3'
         
     },
     {
-        img : 'assets/img/cirujano1.png',
+        img : 'assets/img/Cirujano1.png',
         name : 'Cirujano Noturno',
         artist : 'Un *** en tu Tinaco',
         music : 'assets/music/cirujanounmuertopicaoentutinaco.mp3'
         
     },
     {
-        img : 'assets/img/cirujano1.png',
+        img : 'assets/img/Cirujano1.png',
         name : 'Cirujano Noturno',
         artist : 'Quieren Problema',
         music : 'assets/music/cirujanosiquierenproblema.mp3'
         
     },
     {
-        img : 'assets/img/cirujano1.png',
+        img : 'assets/img/Cirujano1.png',
         name : 'Cirujano Noturno',
         artist : '#Bars',
         music : 'assets/music/cirujano2.mp3'
         
     },
     {
-        img : 'assets/img/cirujano1.png',
+        img : 'assets/img/Cirujano1.png',
         name : 'Cirujano Noturno',
         artist : 'Eh Eh Eh',
         music : 'assets/music/cirujano4.mp3'
         
     },
     {
-        img : 'assets/img/cirujano1.png',
+        img : 'assets/img/Cirujano1.png',
         name : 'Cirujano Noturno',
         artist : 'Cojelo Eazy',
         music : 'assets/music/cirujano5.mp3'
         
     },
     {
-        img : 'assets/img/cirujano1.png',
+        img : 'assets/img/Cirujano1.png',
         name : 'Cirujano Noturno',
         artist : 'Rap Puro',
         music : 'assets/music/cirujano3.mp3'
