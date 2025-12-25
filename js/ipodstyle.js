@@ -64,12 +64,7 @@ const music_list = [
         music : 'assets/music/dariel-almanegra.mp3'
     },
     
-    {
-        img : 'assets/img/UnFlowZaza.gif',
-        name : 'Fa Melz',
-        artist : 'Tengo Un Flow',
-        music : 'assets/music/UnFlowZaza.mp3'
-    },
+    
 
     
 
@@ -149,6 +144,12 @@ const music_list = [
         artist : 'ASE',
         music : 'assets/music/oneandonly.mp3'
 
+    },
+    {
+        img : 'assets/img/UnFlowZaza.gif',
+        name : 'Fa Melz',
+        artist : 'Tengo Un Flow',
+        music : 'assets/music/UnFlowZaza.mp3'
     },
     
 
