@@ -151,18 +151,57 @@ const music_list = [
 
     },
     
-    {
-        img : 'assets/img/cirujano1.png',
-        name : 'Cirujano Noturno',
-        artist : 'En la Esquina',
-        music : 'assets/music/cirujanoencualquieresquina.mp3'
-        
-    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
         img : 'assets/img/cirujano1.png',
         name : 'Cirujano Noturno',
         artist : 'Hip Hop',
         music : 'assets/music/cirujanohiphop.mp3'
+        
+    },
+    
+    {
+        img : 'assets/img/cirujano1.png',
+        name : 'Cirujano Noturno',
+        artist : 'En la Esquina',
+        music : 'assets/music/cirujanoencualquieresquina.mp3'
         
     },
     {
