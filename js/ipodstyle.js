@@ -200,6 +200,28 @@ const music_list = [
         music : 'assets/music/cirujanosiquierenproblema.mp3'
         
     },
+    {
+        img : 'assets/img/cirujano1.png',
+        name : 'Cirujano Noturno',
+        artist : '#Bars',
+        music : 'assets/music/cirujano2.mp3'
+        
+    },
+    {
+        img : 'assets/img/cirujano1.png',
+        name : 'Cirujano Noturno',
+        artist : 'Eh Eh Eh',
+        music : 'assets/music/cirujano4.mp3'
+        
+    },
+    {
+        img : 'assets/img/cirujano1.png',
+        name : 'Cirujano Noturno',
+        artist : 'Rap Puro',
+        music : 'assets/music/cirujano3.mp3'
+        
+    },
+    
     // {
     //     img : 'assets/img/essence.png',
     //     name : 'Essence',
