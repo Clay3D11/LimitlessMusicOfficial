@@ -49,12 +49,14 @@ const music_list = [
         artist : 'Rulay - 24hrs',
         music : 'assets/music/mickeyjoell-rulay.mp3'
     },
+
     {
         img : 'assets/img/mickeygifoptimize.gif',
         name : 'Mickey 24 Hrs',
         artist : 'Rulay',
         music : 'assets/music/mickey-rulay.mp3'
     },
+
     {
         img : 'assets/img/darielgifoptimize.gif',
         name : 'Dariel',
@@ -69,15 +71,7 @@ const music_list = [
         music : 'assets/music/UnFlowZaza.mp3'
     },
 
-
-
-
-    {
-        img : 'assets/img/Kulosa.png',
-        name : 'Oxlade',
-        artist : 'Kulosa',
-        music : 'assets/music/Kulosa1.mp3'
-    },
+    
 
 
 
@@ -115,59 +109,25 @@ const music_list = [
         music : 'assets/music/Victony.Tempoe-Soweto.mp3'
     },
     {
+        img : 'assets/img/Kulosa.png',
+        name : 'Oxlade',
+        artist : 'Kulosa',
+        music : 'assets/music/Kulosa1.mp3'
+    },
+    {
         img : 'assets/img/biggestfan.png',
         name : 'Biggest Fan',
         artist : 'Vybz Kartel',
         music : 'assets/music/biggestfan.mp3'
     },
-    // {
-    //     img : 'assets/img/calm.png',
-    //     name : 'Calm',
-    //     artist : 'Ream ft Selena',
-    //     music : 'assets/music/calm.mp3'
-        
-    // },
+    
     {
         img : 'assets/img/compro.png',
         name : 'Compromise',
-        artist : 'Fireboy DML',
+        artist : 'Fireboy',
         music : 'assets/music/compromise.mp3'
         
     },
-    // {
-    //     img : 'assets/img/pero.png',
-    //     name : 'Peru',
-    //     artist : 'Pero',
-    //     music : 'assets/music/Peru.mp3'
-        
-    // },
-    {
-        img : 'assets/img/energy.png',
-        name : 'Energy',
-        artist : 'Skepta ft Wizkid',
-        music : 'assets/music/energy.mp3'
-        
-    },
-    // {
-    //     img : 'assets/img/essence.png',
-    //     name : 'Essence',
-    //     artist : 'Essence',
-    //     music : 'assets/music/essence.mp3'
-        
-    // },
-    {
-        img : 'assets/img/Lastlast.png',
-        name : 'Last last',
-        artist : 'Burna Boy',
-        music : 'assets/music/Lastlast.mp3'
-    },
-    // {
-    //     img : 'assets/img/Lastlast.png',
-    //     name : 'For My Hand',
-    //     artist : 'Burna Boy',
-    //     music : 'assets/music/formyhand.mp3'
-
-    // },
     {
         img : 'assets/img/freefromdesire.png',
         name : 'Free From Desire',
@@ -182,13 +142,7 @@ const music_list = [
         music : 'assets/music/freemind.mp3'
 
     },
-    {
-        img : 'assets/img/love.png',
-        name : 'Love nwantiti',
-        artist : 'Ckay',
-        music : 'assets/music/lovenwantiti.mp3'
-
-    },
+    
     {
         img : 'assets/img/oneandonly.png',
         name : 'One and Only',
@@ -196,6 +150,72 @@ const music_list = [
         music : 'assets/music/oneandonly.mp3'
 
     },
+    
+    {
+        img : 'assets/img/cirujano1.png',
+        name : 'Cirujano Noturno',
+        artist : 'En la Esquina',
+        music : 'assets/music/cirujanoencualquieresquina.mp3'
+        
+    },
+    {
+        img : 'assets/img/cirujano1.png',
+        name : 'Cirujano Noturno',
+        artist : 'Hip Hop',
+        music : 'assets/music/cirujanohiphop.mp3'
+        
+    },
+    {
+        img : 'assets/img/cirujano1.png',
+        name : 'Cirujano Noturno',
+        artist : 'Rap Por $$$',
+        music : 'assets/music/cirujanorappordinero.mp3'
+        
+    },
+    {
+        img : 'assets/img/cirujano1.png',
+        name : 'Cirujano Noturno',
+        artist : 'Home Run',
+        music : 'assets/music/cirujanohomerun.mp3'
+        
+    },
+    {
+        img : 'assets/img/cirujano1.png',
+        name : 'Cirujano Noturno',
+        artist : 'Plomo Por Pila',
+        music : 'assets/music/cirujanoplomoporpila.mp3'
+        
+    },
+    {
+        img : 'assets/img/cirujano1.png',
+        name : 'Cirujano Noturno',
+        artist : 'Un *** en tu Tinaco',
+        music : 'assets/music/cirujanounmuertopicaoentutinaco.mp3'
+        
+    },
+    {
+        img : 'assets/img/cirujano1.png',
+        name : 'Cirujano Noturno',
+        artist : 'Quieren Problema',
+        music : 'assets/music/cirujanosiquierenproblema.mp3'
+        
+    },
+    // {
+    //     img : 'assets/img/essence.png',
+    //     name : 'Essence',
+    //     artist : 'Essence',
+    //     music : 'assets/music/essence.mp3'
+        
+    // },
+   
+    // {
+    //     img : 'assets/img/Lastlast.png',
+    //     name : 'For My Hand',
+    //     artist : 'Burna Boy',
+    //     music : 'assets/music/formyhand.mp3'
+
+    // },
+    
     // {
     //     img : 'assets/img/soundgasm.png',
     //     name : 'Soundgasm',
@@ -241,27 +261,7 @@ const music_list = [
     //     music : 'assets/music/dior.mp3'
 
     // },
-    {
-        img : 'assets/img/thug111.png',
-        name : 'Dome',
-        artist : 'Young Thug',
-        music : 'assets/music/dome.mp3'
-
-    },
-    {
-        img : 'assets/img/Thug.png',
-        name : 'Never Had IT',
-        artist : 'Young Thug',
-        music : 'assets/music/Neverhadit.mp3'
-
-    },
-    {
-        img : 'assets/img/GhostKiller.png',
-        name : 'Ghost Killer',
-        artist : '21 Savage',
-        music : 'assets/music/GhostRiderskillers.mp3'
-
-    },
+    
     // {
     //     img : 'assets/img/Gunna2.png',
     //     name : 'Gunna',
