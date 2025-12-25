@@ -196,7 +196,7 @@ const music_list = [
         music : 'assets/music/cirujanohiphop.mp3'
         
     },
-    
+
     {
         img : 'assets/img/cirujano1.png',
         name : 'Cirujano Noturno',
@@ -251,6 +251,13 @@ const music_list = [
         name : 'Cirujano Noturno',
         artist : 'Eh Eh Eh',
         music : 'assets/music/cirujano4.mp3'
+        
+    },
+    {
+        img : 'assets/img/cirujano1.png',
+        name : 'Cirujano Noturno',
+        artist : 'Cojelo Eazy',
+        music : 'assets/music/cirujano5.mp3'
         
     },
     {
