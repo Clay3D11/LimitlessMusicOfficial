@@ -244,28 +244,28 @@ const music_list = [
         img : 'assets/img/Cirujano1.png',
         name : 'Cirujano Noturno',
         artist : '#Bars',
-        music : 'assets/music/cirujano2.mp3'
+        music : 'assets/music/Cirujano2.mp3'
         
     },
     {
         img : 'assets/img/Cirujano1.png',
         name : 'Cirujano Noturno',
         artist : 'Eh Eh Eh',
-        music : 'assets/music/cirujano4.mp3'
+        music : 'assets/music/Cirujano4.mp3'
         
     },
     {
         img : 'assets/img/Cirujano1.png',
         name : 'Cirujano Noturno',
         artist : 'Cojelo Eazy',
-        music : 'assets/music/cirujano5.mp3'
+        music : 'assets/music/Cirujano5.mp3'
         
     },
     {
         img : 'assets/img/Cirujano1.png',
         name : 'Cirujano Noturno',
         artist : 'Rap Puro',
-        music : 'assets/music/cirujano3.mp3'
+        music : 'assets/music/Cirujano3.mp3'
         
     },
     
