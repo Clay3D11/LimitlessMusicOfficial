@@ -43,26 +43,31 @@ const music_list = [
 
     // },
 
-    {
-        img : 'assets/img/mickeyjoel2gifoptimize.gif',
-        name : 'Mickey-Joell',
-        artist : 'Rulay - 24hrs',
-        music : 'assets/music/mickeyjoell-rulay.mp3'
-    },
 
-    {
-        img : 'assets/img/mickeygifoptimize.gif',
-        name : 'Mickey 24 Hrs',
-        artist : 'Rulay',
-        music : 'assets/music/mickey-rulay.mp3'
-    },
 
-    {
-        img : 'assets/img/darielgifoptimize.gif',
-        name : 'Dariel',
-        artist : 'Alma Negra',
-        music : 'assets/music/dariel-almanegra.mp3'
-    },
+
+
+
+    // {
+    //     img : 'assets/img/mickeyjoel2gifoptimize.gif',
+    //     name : 'Mickey-Joell',
+    //     artist : 'Rulay - 24hrs',
+    //     music : 'assets/music/mickeyjoell-rulay.mp3'
+    // },
+
+    // {
+    //     img : 'assets/img/mickeygifoptimize.gif',
+    //     name : 'Mickey 24 Hrs',
+    //     artist : 'Rulay',
+    //     music : 'assets/music/mickey-rulay.mp3'
+    // },
+
+    // {
+    //     img : 'assets/img/darielgifoptimize.gif',
+    //     name : 'Dariel',
+    //     artist : 'Alma Negra',
+    //     music : 'assets/music/dariel-almanegra.mp3'
+    // },
     
     
 
@@ -145,12 +150,12 @@ const music_list = [
         music : 'assets/music/oneandonly.mp3'
 
     },
-    {
-        img : 'assets/img/UnFlowZaza.gif',
-        name : 'Fa Melz',
-        artist : 'Tengo Un Flow',
-        music : 'assets/music/UnFlowZaza.mp3'
-    },
+    // {
+    //     img : 'assets/img/UnFlowZaza.gif',
+    //     name : 'Fa Melz',
+    //     artist : 'Tengo Un Flow',
+    //     music : 'assets/music/UnFlowZaza.mp3'
+    // },
     
 
 
